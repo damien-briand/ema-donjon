@@ -18,25 +18,25 @@ Backend-focused project demonstrating OOP principles, generics, exceptions, refl
 src/main/java/com/rpg/
 ├── Main.java                    # Entry point with CLI
 ├── model/
-│   ├── Creature.java           # Abstract class
+│   ├── Creature.java           # Abstract class (DONE)
 │   ├── Player.java             # Extends Creature
 │   ├── Monster.java            # Extends Creature, implements Lootable
-│   ├── Item.java               # Abstract class
+│   ├── Item.java               # Abstract class (DONE)
 │   ├── Potion.java             # Extends Item
 │   ├── Weapon.java             # Extends Item
 │   ├── Armor.java              # Extends Item
 │   └── Room.java               # Abstract class
 ├── interfaces/
-│   ├── Attackable.java         # Combat interface
-│   ├── Healable.java           # Healing interface
-│   └── Lootable.java           # Loot drops interface
+│   ├── Attackable.java         # Combat interface (DONE)
+│   ├── Healable.java           # Healing interface (DONE)
+│   └── Lootable.java           # Loot drops interface (DONE)
 ├── inventory/
-│   └── Inventory.java          # Generic class <T extends Item>
+│   └── Inventory.java          # Generic class <T extends Item> (DONE)
 ├── exceptions/
-│   ├── InsufficientManaException.java  # Custom exception 
+│   ├── InsufficientManaException.java  # Custom exception (DONE)
 │   ├── InvalidMoveException.java       # Custom exception 
 │   ├── InvalidCommandException.java    # Custom exception 
-│   └── InventoryFullException.java     # Custom exception 
+│   └── InventoryFullException.java     # Custom exception (DONE)
 ├── engine/
 │   ├── GameEngine.java         # Uses reflection 
 │   ├── CombatSystem.java       # Uses functional programming 
