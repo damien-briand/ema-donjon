@@ -22,9 +22,9 @@ src/main/java/com/rpg/
 │   ├── Player.java             # Extends Creature
 │   ├── Monster.java            # Extends Creature, implements Lootable
 │   ├── Item.java               # Abstract class (DONE)
-│   ├── Potion.java             # Extends Item
-│   ├── Weapon.java             # Extends Item
-│   ├── Armor.java              # Extends Item
+│   ├── Potion.java             # Extends Item (DONE)
+│   ├── Weapon.java             # Extends Item (DONE)
+│   ├── Armor.java              # Extends Item (DONE)
 │   └── Room.java               # Abstract class
 ├── interfaces/
 │   ├── Attackable.java         # Combat interface (DONE)
@@ -42,8 +42,8 @@ src/main/java/com/rpg/
 │   ├── CombatSystem.java       # Uses functional programming 
 │   └── SaveManager.java        # Data persistence 
 └── util/
-    ├── JsonLoader.java         # Jackson utilities
-    └── Logger.java             # Error logging to file 
+    ├── JsonLoader.java         # Jackson utilities (DONE)
+    └── Logger.java             # Error logging to file (DONE)
 
 src/main/resources/
 ├── monsters.json               # Monster configurations (persistence)
