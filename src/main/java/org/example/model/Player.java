@@ -1,5 +1,7 @@
 package org.example.model;
 
+import org.example.util.Logger;
+
 public class Player extends Creature {
     private Integer mana;
     private Integer maxMana;
@@ -67,7 +69,7 @@ public class Player extends Creature {
         if (maxMana != null) {
             int increase = Math.max(1, (int) (maxMana * MAX_MANA_INCREASE_PERCENTAGE));
             maxMana += increase;
-            System.out.println("✨ " + name + " maîtrise mieux sa magie! Mana max: " + maxMana + " (+" + increase + ")");
+            Logger.logInfo("✨ " + name + " maîtrise mieux sa magie! Mana max: " + maxMana + " (+" + increase + ")");
         }
     }
 

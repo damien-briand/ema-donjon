@@ -1,5 +1,7 @@
 package org.example.model;
 
+import org.example.util.Logger;
+
 /**
  * Classe représentant une potion de soin.
  * Les potions sont des objets consommables qui restaurent des points de vie.
@@ -34,11 +36,11 @@ public class Potion extends Item {
     @Override
     public void use() {
         if (isConsumed) {
-            System.out.println("❌ Cette potion a déjà été utilisée!");
+            Logger.logInfo("❌ Cette potion a déjà été utilisée!");
             return;
         }
 
-        System.out.println("✓ Utilisation de " + name + " - Restaure " + healAmount + " HP");
+        Logger.logInfo("✓ Utilisation de " + name + " - Restaure " + healAmount + " HP");
         isConsumed = true;
     }
 
@@ -49,18 +51,18 @@ public class Potion extends Item {
      */
     public void useOn(Creature target) {
         if (isConsumed) {
-            System.out.println("❌ Cette potion a déjà été utilisée!");
+            Logger.logInfo("❌ Cette potion a déjà été utilisée!");
             return;
         }
 
         if (target == null || !target.isAlive()) {
-            System.out.println("❌ Cible invalide!");
+            Logger.logInfo("❌ Cible invalide!");
             return;
         }
 
         target.heal(healAmount);
         isConsumed = true;
-        System.out.println("✓ " + name + " utilisée sur " + target.getName());
+        Logger.logInfo("✓ " + name + " utilisée sur " + target.getName());
     }
 
     // Getters et setters pour Jackson

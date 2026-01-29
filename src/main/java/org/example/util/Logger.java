@@ -95,6 +95,8 @@ public class Logger {
                 message
             );
 
+            System.out.println(message);
+
         } catch (IOException ex) {
             System.err.println("Failed to write to log file: " + ex.getMessage());
         }
