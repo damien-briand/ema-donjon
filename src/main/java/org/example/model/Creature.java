@@ -20,14 +20,30 @@ public abstract class Creature implements Attackable, Healable {
     public void attack(Attackable target) {
         int damage = calculateDamage();
         target.takeDamage(damage);
-        System.out.println(name + " attaque pour " + damage + " dégâts!"); //todo : change to a Logger class after
+        System.out.println(name + " attaque pour " + damage + " dégâts!"); //TODO : change to a Logger class after
     }
 
     @Override
     public void takeDamage(int damage) {
-        health = Math.max(0, health - damage);
+        health = Math.max(0, health - damage); // TODO : faire en sorte de mettre une chance de pas mettre de degats en fonctions de l'écart du niveaux (et aussi coup critique)
         System.out.println(name + " reçoit " + damage + " dégâts! HP: " + health);
     }
 
-    protected abstract int calculateDamage();
+    @Override
+    public void heal(int amount){
+        health = Math.min(maxHealth, health + amount);
+        System.out.println(name + " récupère " + amount + " HP! HP : " + health); //TODO : change to a Logger class after
+    }
+
+    @Override
+    public boolean isAlive() {
+        return health > 0;
+    }
+
+    protected abstract int calculateDamage(); // Polymorphisme !
+
+    public String getName() { return name; }
+    public int getHealth() { return health; }
+
+
 }
