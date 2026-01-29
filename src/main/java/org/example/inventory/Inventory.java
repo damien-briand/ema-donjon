@@ -2,6 +2,7 @@ package org.example.inventory;
 
 import org.example.exceptions.InventoryFullException;
 import org.example.model.Item;
+import org.example.util.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +22,7 @@ public class Inventory<T extends Item> {
             throw new InventoryFullException("Inventaire plein! (" + maxSize + ")");
         }
         items.add(item);
-        System.out.println("✓ " + item.getName() + " ajouté à l'inventaire");
+        Logger.logInfo("✓ " + item.getName() + " ajouté à l'inventaire");
     }
 
     public void removeItem(T item) {
@@ -41,9 +42,9 @@ public class Inventory<T extends Item> {
     }
 
     public void display() {
-        System.out.println("\n=== INVENTAIRE ===");
+        Logger.logInfo("\n=== INVENTAIRE ===");
         items.forEach(item ->
-                System.out.println("- " + item.getName() + ": " + item.getDescription())
+                Logger.logInfo("- " + item.getName() + ": " + item.getDescription())
         );
     }
 }

@@ -1,5 +1,7 @@
 package org.example.model;
 
+import org.example.util.Logger;
+
 /**
  * Classe représentant une armure.
  * Les armures réduisent les dégâts reçus lorsqu'elles sont équipées.
@@ -47,12 +49,12 @@ public class Armor extends Item {
      */
     public void equip() {
         if (isEquipped) {
-            System.out.println("🛡️  " + name + " est déjà équipée!");
+            Logger.logInfo("🛡️  " + name + " est déjà équipée!");
             return;
         }
 
         isEquipped = true;
-        System.out.println("🛡️  " + name + " équipée! (+" + defenseBonus + " DEF)");
+        Logger.logInfo("🛡️  " + name + " équipée! (+" + defenseBonus + " DEF)");
     }
 
     /**
@@ -60,12 +62,12 @@ public class Armor extends Item {
      */
     public void unequip() {
         if (!isEquipped) {
-            System.out.println("❌ " + name + " n'est pas équipée!");
+            Logger.logInfo("❌ " + name + " n'est pas équipée!");
             return;
         }
 
         isEquipped = false;
-        System.out.println("🛡️  " + name + " déséquipée.");
+        Logger.logInfo("🛡️  " + name + " déséquipée.");
     }
 
     /**

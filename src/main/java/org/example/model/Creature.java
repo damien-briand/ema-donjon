@@ -4,6 +4,7 @@ import org.example.interfaces.Attackable;
 import org.example.interfaces.Healable;
 import org.example.interfaces.Lootable;
 import org.example.inventory.Inventory;
+import org.example.util.Logger;
 
 import java.util.List;
 
@@ -26,19 +27,19 @@ public abstract class Creature implements Attackable, Healable, Lootable {
     public void attack(Attackable target) {
         int damage = calculateDamage();
         target.takeDamage(damage);
-        System.out.println(name + " attaque pour " + damage + " dégâts!"); //TODO : change to a Logger class after
+        Logger.logInfo(name + " attaque pour " + damage + " dégâts!");
     }
 
     @Override
     public void takeDamage(int damage) {
         health = Math.max(0, health - damage); // TODO : faire en sorte de mettre une chance de pas mettre de degats en fonctions de l'écart du niveaux (et aussi coup critique)
-        System.out.println(name + " reçoit " + damage + " dégâts! HP: " + health);
+        Logger.logInfo(name + " reçoit " + damage + " dégâts! HP: " + health);
     }
 
     @Override
     public void heal(int amount){
         health = Math.min(maxHealth, health + amount);
-        System.out.println(name + " récupère " + amount + " HP! HP : " + health); //TODO : change to a Logger class after
+        Logger.logInfo(name + " récupère " + amount + " HP! HP : " + health);
     }
 
     @Override
@@ -59,7 +60,7 @@ public abstract class Creature implements Attackable, Healable, Lootable {
         try {
             inventory.addItem(item);
         } catch (Exception e) {
-            System.out.println("❌ Impossible d'ajouter l'item: " + e.getMessage());
+            Logger.logError("Impossible d'ajouter l'item: " + e.getMessage(), e);
         }
     }
 
@@ -72,13 +73,13 @@ public abstract class Creature implements Attackable, Healable, Lootable {
     }
 
     public void displayInventory() {
-        System.out.println("\n=== Inventaire de " + name + " ===");
+        Logger.logInfo("\n=== Inventaire de " + name + " ===");
         List<Item> items = inventory.getItems();
         if (items.isEmpty()) {
-            System.out.println("(vide)");
+            Logger.logInfo("(vide)");
         } else {
             items.forEach(item ->
-                    System.out.println("- " + item.getName() + ": " + item.getDescription())
+                    Logger.logInfo("- " + item.getName() + ": " + item.getDescription())
             );
         }
     }

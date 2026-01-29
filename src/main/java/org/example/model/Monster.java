@@ -1,5 +1,7 @@
 package org.example.model;
 
+import org.example.util.Logger;
+
 public class Monster extends Creature {
     private int level;
     private int experienceReward;
@@ -47,7 +49,7 @@ public class Monster extends Creature {
 
         // Message spécial si le monstre meurt
         if (!isAlive()) {
-            System.out.println("💀 " + name + " est vaincu !");
+            Logger.logInfo("💀 " + name + " est vaincu !");
         }
     }
 
@@ -58,7 +60,7 @@ public class Monster extends Creature {
 
         if (Math.random() < dropChance) {
             // TODO: Ajouter des items aléatoires selon le type de monstre dans son inventaire (pour apres getInventory dessus pour recup le loot)
-            System.out.println("💰 " + name + " laisse tomber du butin !");
+            Logger.logInfo("💰 " + name + " laisse tomber du butin !");
         }
     }
 
