@@ -1,4 +1,4 @@
-copilot-instructions.md
+.copilot/copilot-instructions.md
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
