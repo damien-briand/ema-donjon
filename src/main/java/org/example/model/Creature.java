@@ -9,7 +9,7 @@ public abstract class Creature implements Attackable, Healable {
     protected int maxHealth;
     protected int attackPower;
 
-    public Creature(String name, int maxHealth, int attackPower){
+    public Creature(String name, int maxHealth, int attackPower) {
         this.name = name;
         this.maxHealth = maxHealth;
         this.health = maxHealth;
