@@ -1,5 +1,6 @@
 package org.example.inventory;
 
+import org.example.exceptions.InventoryFullException;
 import org.example.model.Item;
 
 import java.util.ArrayList;
@@ -27,10 +28,10 @@ public class Inventory<T extends Item> {
         items.remove(item);
     }
 
-    // Méthode générique avec réflexion ✨
+    // Méthode générique avec réflexion
     public <U extends T> List<U> findItemsByType(Class<U> type) {
         return items.stream()
-                .filter(type::isInstance) // Fonctionnel ✨
+                .filter(type::isInstance)
                 .map(type::cast)
                 .collect(Collectors.toList());
     }
@@ -43,6 +44,6 @@ public class Inventory<T extends Item> {
         System.out.println("\n=== INVENTAIRE ===");
         items.forEach(item ->
                 System.out.println("- " + item.getName() + ": " + item.getDescription())
-        ); // Fonctionnel ✨
+        );
     }
 }
