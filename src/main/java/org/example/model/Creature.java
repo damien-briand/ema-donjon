@@ -86,5 +86,7 @@ public abstract class Creature implements Attackable, Healable, Lootable {
     public String getName() { return name; }
     public int getHealth() { return health; }
 
+    public int getMaxHealth() { return maxHealth; }
 
+    public int getAttackPower() { return attackPower; }
 }

@@ -19,13 +19,13 @@ src/main/java/com/rpg/
 ├── Main.java                    # Entry point with CLI
 ├── model/
 │   ├── Creature.java           # Abstract class (DONE)
-│   ├── Player.java             # Extends Creature
-│   ├── Monster.java            # Extends Creature, implements Lootable
+│   ├── Player.java             # Extends Creature (DONE)
+│   ├── Monster.java            # Extends Creature, implements Lootable 
 │   ├── Item.java               # Abstract class (DONE)
 │   ├── Potion.java             # Extends Item (DONE)
 │   ├── Weapon.java             # Extends Item (DONE)
 │   ├── Armor.java              # Extends Item (DONE)
-│   └── Room.java               # Abstract class
+│   └── Room.java               # Abstract class (DONE)
 ├── interfaces/
 │   ├── Attackable.java         # Combat interface (DONE)
 │   ├── Healable.java           # Healing interface (DONE)
