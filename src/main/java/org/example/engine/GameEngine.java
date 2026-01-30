@@ -270,7 +270,7 @@ public class GameEngine {
             InvocationTargetException, InstantiationException, IllegalAccessException {
 
         // Charger la classe dynamiquement avec réflexion ✅
-        String className = "org.example.model." + monsterType;
+        String className = "org.example.model.monsters." + monsterType;
         Class<?> monsterClass = Class.forName(className);
 
         // Vérifier que c'est bien une sous-classe de Monster

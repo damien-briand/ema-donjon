@@ -1,0 +1,49 @@
+{
+  "alive" : true,
+  "attackPower" : 10,
+  "health" : 67,
+  "inventory" : {
+    "items" : [ {
+      "consumed" : false,
+      "description" : "Restaure 30 HP",
+      "healAmount" : 30,
+      "name" : "Potion de Soin",
+      "usable" : true
+    }, {
+      "consumed" : false,
+      "description" : "Restaure 30 HP",
+      "healAmount" : 30,
+      "name" : "Potion de Soin",
+      "usable" : true
+    }, {
+      "consumed" : false,
+      "description" : "Restaure 20 HP",
+      "healAmount" : 20,
+      "name" : "Petite Potion",
+      "usable" : true
+    } ]
+  },
+  "loot" : [ {
+    "consumed" : false,
+    "description" : "Restaure 30 HP",
+    "healAmount" : 30,
+    "name" : "Potion de Soin",
+    "usable" : true
+  }, {
+    "consumed" : false,
+    "description" : "Restaure 30 HP",
+    "healAmount" : 30,
+    "name" : "Potion de Soin",
+    "usable" : true
+  }, {
+    "consumed" : false,
+    "description" : "Restaure 20 HP",
+    "healAmount" : 20,
+    "name" : "Petite Potion",
+    "usable" : true
+  } ],
+  "mana" : 60,
+  "maxHealth" : 80,
+  "maxMana" : 100,
+  "name" : "caca"
+}

@@ -1,0 +1,294 @@
+[2026-01-29 17:06:40] INFO: === Application started ===
+[2026-01-29 17:06:54] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-29 17:06:54] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-29 17:06:54] INFO: New player created: Le D
+[2026-01-29 17:06:54] ERROR: Failed to populate room with Goblin - org.example.model.Goblin
+java.lang.ClassNotFoundException: org.example.model.Goblin
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:212)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-29 17:06:54] ERROR: Failed to populate room with Skeleton - org.example.model.Skeleton
+java.lang.ClassNotFoundException: org.example.model.Skeleton
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:213)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-29 17:06:54] ERROR: Failed to populate room with Dragon - org.example.model.Dragon
+java.lang.ClassNotFoundException: org.example.model.Dragon
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:214)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-29 17:06:54] INFO: Dungeon initialized with 5 rooms
+[2026-01-29 17:08:36] INFO: Le D récupère 40 HP! HP : 120
+[2026-01-29 17:09:24] INFO: ✓ Épée Enchantée ajouté à l'inventaire
+[2026-01-29 17:09:24] INFO: ✓ Armure de Plaques ajouté à l'inventaire
+[2026-01-29 17:09:24] INFO: ✓ Potion Majeure ajouté à l'inventaire
+[2026-01-29 17:09:29] INFO: 
+=== INVENTAIRE ===
+[2026-01-29 17:09:29] INFO: - Potion de Soin: Restaure 30 HP
+[2026-01-29 17:09:29] INFO: - Potion de Soin: Restaure 30 HP
+[2026-01-29 17:09:29] INFO: - Épée Enchantée: Une lame magique puissante
+[2026-01-29 17:09:29] INFO: - Armure de Plaques: Une armure lourde et résistante
+[2026-01-29 17:09:29] INFO: - Potion Majeure: Restaure 100 HP
+[2026-01-29 17:10:00] INFO: 🛡️  Armure de Plaques équipée! (+20 DEF)
+[2026-01-29 17:10:57] INFO: Object saved to: saves/player_save.json
+[2026-01-29 17:10:57] INFO: Game saved successfully to: saves/player_save.json
+[2026-01-29 17:10:57] INFO: Game engine shut down
+[2026-01-29 17:10:57] INFO: === Application ended ===
+[2026-01-29 17:11:05] INFO: === Application started ===
+[2026-01-29 17:11:07] ERROR: Error during player initialization - Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+	at tools.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:70)
+	at tools.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1950)
+	at tools.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:448)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1480)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:53)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:157)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:88)
+	at org.example.engine.GameEngine.start(GameEngine.java:48)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-29 17:11:07] INFO: === Application ended ===
+[2026-01-30 14:13:39] INFO: === Application started ===
+[2026-01-30 14:14:05] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 14:14:05] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 14:14:05] INFO: New player created: Dam
+[2026-01-30 14:14:05] ERROR: Failed to populate room with Goblin - org.example.model.Goblin
+java.lang.ClassNotFoundException: org.example.model.Goblin
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:212)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 14:14:05] ERROR: Failed to populate room with Skeleton - org.example.model.Skeleton
+java.lang.ClassNotFoundException: org.example.model.Skeleton
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:213)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 14:14:05] ERROR: Failed to populate room with Dragon - org.example.model.Dragon
+java.lang.ClassNotFoundException: org.example.model.Dragon
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:214)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 14:14:05] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 14:29:39] INFO: === Application started ===
+[2026-01-30 14:29:48] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 14:29:48] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 14:29:48] INFO: New player created: Clem
+[2026-01-30 14:29:48] ERROR: Failed to populate room with Goblin - org.example.model.Goblin
+java.lang.ClassNotFoundException: org.example.model.Goblin
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:212)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 14:29:48] ERROR: Failed to populate room with Skeleton - org.example.model.Skeleton
+java.lang.ClassNotFoundException: org.example.model.Skeleton
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:213)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 14:29:48] ERROR: Failed to populate room with Dragon - org.example.model.Dragon
+java.lang.ClassNotFoundException: org.example.model.Dragon
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:214)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 14:29:48] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 14:37:03] INFO: === Application started ===
+[2026-01-30 14:37:20] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 14:37:20] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 14:37:20] INFO: New player created: A
+[2026-01-30 14:37:20] ERROR: Failed to populate room with Goblin - org.example.model.Goblin
+java.lang.ClassNotFoundException: org.example.model.Goblin
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:212)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 14:37:20] ERROR: Failed to populate room with Skeleton - org.example.model.Skeleton
+java.lang.ClassNotFoundException: org.example.model.Skeleton
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:213)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 14:37:20] ERROR: Failed to populate room with Dragon - org.example.model.Dragon
+java.lang.ClassNotFoundException: org.example.model.Dragon
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:274)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:246)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:214)
+	at org.example.engine.GameEngine.start(GameEngine.java:53)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 14:37:20] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 14:38:52] INFO: Game engine shut down
+[2026-01-30 14:38:52] INFO: === Application ended ===
+[2026-01-30 14:39:04] INFO: === Application started ===
+[2026-01-30 14:39:08] ERROR: Error during player initialization - Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+	at tools.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:70)
+	at tools.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1950)
+	at tools.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:448)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1480)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:53)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:157)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:88)
+	at org.example.engine.GameEngine.start(GameEngine.java:48)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 14:39:08] INFO: === Application ended ===
+[2026-01-30 14:40:07] INFO: === Application started ===
+[2026-01-30 14:40:22] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 14:40:22] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 14:40:22] INFO: New player created: caca
+[2026-01-30 14:40:22] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 14:40:22] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 14:40:22] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 14:40:22] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 14:40:22] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 14:40:22] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 14:40:22] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 14:40:22] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 14:40:52] INFO: jean-pierre reçoit 9 dégâts! HP: 21
+[2026-01-30 14:40:52] INFO: caca attaque pour 9 dégâts!
+[2026-01-30 14:40:52] INFO: caca reçoit 7 dégâts! HP: 73
+[2026-01-30 14:40:52] INFO: jean-pierre attaque pour 7 dégâts!
+[2026-01-30 14:41:16] INFO: jean-pierre reçoit 15 dégâts! HP: 6
+[2026-01-30 14:41:16] INFO: caca reçoit 6 dégâts! HP: 67
+[2026-01-30 14:41:16] INFO: jean-pierre attaque pour 6 dégâts!
+[2026-01-30 14:41:28] INFO: jean-pierre reçoit 15 dégâts! HP: 0
+[2026-01-30 14:41:28] INFO: 💀 jean-pierre est vaincu !
+[2026-01-30 14:41:28] INFO: caca defeated jean-pierre in 3 turns
+[2026-01-30 14:41:42] INFO: 
+=== INVENTAIRE ===
+[2026-01-30 14:41:42] INFO: - Potion de Soin: Restaure 30 HP
+[2026-01-30 14:41:42] INFO: - Potion de Soin: Restaure 30 HP
+[2026-01-30 14:42:03] INFO: ✓ Petite Potion ajouté à l'inventaire
+[2026-01-30 14:42:09] INFO: Object saved to: saves/player_save.json
+[2026-01-30 14:42:09] INFO: Game saved successfully to: saves/player_save.json
+[2026-01-30 14:42:09] INFO: Game engine shut down
+[2026-01-30 14:42:09] INFO: === Application ended ===
+[2026-01-30 14:42:16] INFO: === Application started ===
+[2026-01-30 14:42:18] ERROR: Error during player initialization - Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+	at tools.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:70)
+	at tools.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1950)
+	at tools.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:448)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1480)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:53)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:157)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:88)
+	at org.example.engine.GameEngine.start(GameEngine.java:48)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 14:42:18] INFO: === Application ended ===
