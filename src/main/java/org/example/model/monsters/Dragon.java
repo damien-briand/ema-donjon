@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Dragon extends Monster {
     public Dragon() {
-        super("jean-cule", 200, 10, 3, "Dragon");
+        super("jean-cule", 120, 8, 3, "Dragon");
     }
 
     @Override

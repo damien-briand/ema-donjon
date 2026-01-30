@@ -77,6 +77,9 @@ public abstract class Room {
             System.out.println("✓ Cette salle a déjà été nettoyée.");
         }
 
+        // Afficher l'ASCII art de la salle
+        displayRoomAsciiArt();
+
         // Afficher les créatures
         if (!creatures.isEmpty()) {
             System.out.println("\n⚔️  Créatures présentes:");
@@ -111,6 +114,43 @@ public abstract class Room {
             System.out.println("  Aucune sortie (salle finale?)");
         } else {
             exits.forEach(exit -> System.out.println("  - " + exit));
+        }
+    }
+
+    /**
+     * Affiche un ASCII art représentant la salle actuelle avec ses portes.
+     * Les salles visitées sont en vert, les non visitées en blanc.
+     */
+    public void displayRoomAsciiArt() {
+        // Couleurs ANSI
+        String GREEN = "\u001B[32m";
+        String RESET = "\u001B[0m";
+        String YELLOW = "\u001B[33m";
+
+        String color = isVisited ? GREEN : RESET;
+        String currentMarker = YELLOW + "●" + RESET; // Marqueur pour la salle actuelle
+
+        System.out.println("\n📍 Position actuelle:");
+
+        // Ligne du haut (porte nord)
+        if (northRoom != null) {
+            System.out.println("   " + color + "|" + RESET);
+        } else {
+            System.out.println("    ");
+        }
+
+        // Ligne du milieu (salle + portes est/ouest)
+        String westDoor = westRoom != null ? color + "-" + RESET : " ";
+        String eastDoor = eastRoom != null ? color + "-" + RESET : " ";
+        String room = color + "|" + currentMarker + "|" + RESET;
+
+        System.out.println(westDoor + room + eastDoor);
+
+        // Ligne du bas (porte sud)
+        if (southRoom != null) {
+            System.out.println("   " + color + "|" + RESET);
+        } else {
+            System.out.println("    ");
         }
     }
 

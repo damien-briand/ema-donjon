@@ -292,3 +292,97 @@ tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance
 	at org.example.App.main(App.java:16)
 ----------------------------------------
 [2026-01-30 14:42:18] INFO: === Application ended ===
+[2026-01-30 15:12:33] INFO: === Application started ===
+[2026-01-30 15:12:40] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 15:12:40] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 15:12:40] INFO: New player created: d
+[2026-01-30 15:12:40] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 15:12:40] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 15:12:40] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 15:12:40] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 15:12:40] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 15:12:40] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 15:12:40] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 15:12:40] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 15:13:05] INFO: jean-pierre reçoit 15 dégâts! HP: 15
+[2026-01-30 15:13:05] INFO: d attaque pour 15 dégâts!
+[2026-01-30 15:13:05] INFO: d reçoit 7 dégâts! HP: 113
+[2026-01-30 15:13:05] INFO: jean-pierre attaque pour 7 dégâts!
+[2026-01-30 15:13:06] INFO: jean-pierre reçoit 13 dégâts! HP: 2
+[2026-01-30 15:13:06] INFO: d attaque pour 13 dégâts!
+[2026-01-30 15:13:07] INFO: d reçoit 7 dégâts! HP: 106
+[2026-01-30 15:13:07] INFO: jean-pierre attaque pour 7 dégâts!
+[2026-01-30 15:13:09] INFO: jean-pierre reçoit 15 dégâts! HP: 0
+[2026-01-30 15:13:09] INFO: 💀 jean-pierre est vaincu !
+[2026-01-30 15:13:09] INFO: d attaque pour 15 dégâts!
+[2026-01-30 15:13:09] INFO: d defeated jean-pierre in 3 turns
+[2026-01-30 15:14:04] INFO: jean-calcium reçoit 14 dégâts! HP: 16
+[2026-01-30 15:14:04] INFO: d attaque pour 14 dégâts!
+[2026-01-30 15:14:04] INFO: d reçoit 6 dégâts! HP: 100
+[2026-01-30 15:14:04] INFO: jean-calcium attaque pour 6 dégâts!
+[2026-01-30 15:14:05] INFO: jean-calcium reçoit 15 dégâts! HP: 1
+[2026-01-30 15:14:05] INFO: d attaque pour 15 dégâts!
+[2026-01-30 15:14:06] INFO: d reçoit 6 dégâts! HP: 94
+[2026-01-30 15:14:06] INFO: jean-calcium attaque pour 6 dégâts!
+[2026-01-30 15:14:08] INFO: jean-calcium reçoit 15 dégâts! HP: 0
+[2026-01-30 15:14:08] INFO: 💀 jean-calcium est vaincu !
+[2026-01-30 15:14:08] INFO: d attaque pour 15 dégâts!
+[2026-01-30 15:14:08] INFO: d defeated jean-calcium in 3 turns
+[2026-01-30 15:14:22] INFO: jean-calcium reçoit 15 dégâts! HP: 15
+[2026-01-30 15:14:22] INFO: d attaque pour 15 dégâts!
+[2026-01-30 15:14:22] INFO: d reçoit 7 dégâts! HP: 87
+[2026-01-30 15:14:22] INFO: jean-calcium attaque pour 7 dégâts!
+[2026-01-30 15:14:23] INFO: jean-calcium reçoit 16 dégâts! HP: 0
+[2026-01-30 15:14:23] INFO: 💀 jean-calcium est vaincu !
+[2026-01-30 15:14:23] INFO: d attaque pour 16 dégâts!
+[2026-01-30 15:14:23] INFO: d defeated jean-calcium in 2 turns
+[2026-01-30 15:15:29] INFO: 
+=== INVENTAIRE ===
+[2026-01-30 15:15:29] INFO: - Potion de Soin: Restaure 30 HP
+[2026-01-30 15:15:29] INFO: - Potion de Soin: Restaure 30 HP
+[2026-01-30 15:15:37] INFO: d récupère 40 HP! HP : 120
+[2026-01-30 15:16:10] INFO: d reçoit 15 dégâts! HP: 105
+[2026-01-30 15:16:10] INFO: jean-cule attaque pour 15 dégâts!
+[2026-01-30 15:16:12] INFO: jean-cule reçoit 15 dégâts! HP: 185
+[2026-01-30 15:16:12] INFO: d attaque pour 15 dégâts!
+[2026-01-30 15:16:13] INFO: d reçoit 17 dégâts! HP: 88
+[2026-01-30 15:16:13] INFO: jean-cule attaque pour 17 dégâts!
+[2026-01-30 15:16:20] INFO: jean-cule reçoit 16 dégâts! HP: 169
+[2026-01-30 15:16:20] INFO: d attaque pour 16 dégâts!
+[2026-01-30 15:16:21] INFO: d reçoit 17 dégâts! HP: 71
+[2026-01-30 15:16:21] INFO: jean-cule attaque pour 17 dégâts!
+[2026-01-30 15:16:24] INFO: d reçoit 17 dégâts! HP: 54
+[2026-01-30 15:16:24] INFO: jean-cule attaque pour 17 dégâts!
+[2026-01-30 15:16:37] INFO: jean-cule reçoit 14 dégâts! HP: 155
+[2026-01-30 15:16:37] INFO: d attaque pour 14 dégâts!
+[2026-01-30 15:16:38] INFO: d reçoit 14 dégâts! HP: 40
+[2026-01-30 15:16:38] INFO: jean-cule attaque pour 14 dégâts!
+[2026-01-30 15:16:41] INFO: d fled from jean-cule
+[2026-01-30 15:17:07] INFO: 
+=== INVENTAIRE ===
+[2026-01-30 15:17:07] INFO: - Potion de Soin: Restaure 30 HP
+[2026-01-30 15:17:07] INFO: - Potion de Soin: Restaure 30 HP
+[2026-01-30 15:17:19] INFO: d récupère 30 HP! HP : 70
+[2026-01-30 15:17:19] INFO: ✓ Potion de Soin utilisée sur d
+[2026-01-30 15:17:34] INFO: jean-cule reçoit 13 dégâts! HP: 142
+[2026-01-30 15:17:34] INFO: d attaque pour 13 dégâts!
+[2026-01-30 15:17:35] INFO: d reçoit 17 dégâts! HP: 53
+[2026-01-30 15:17:35] INFO: jean-cule attaque pour 17 dégâts!
+[2026-01-30 15:17:36] INFO: jean-cule reçoit 15 dégâts! HP: 127
+[2026-01-30 15:17:36] INFO: d attaque pour 15 dégâts!
+[2026-01-30 15:17:36] INFO: d reçoit 15 dégâts! HP: 38
+[2026-01-30 15:17:36] INFO: jean-cule attaque pour 15 dégâts!
+[2026-01-30 15:17:37] INFO: jean-cule reçoit 14 dégâts! HP: 113
+[2026-01-30 15:17:37] INFO: d attaque pour 14 dégâts!
+[2026-01-30 15:17:38] INFO: d reçoit 17 dégâts! HP: 21
+[2026-01-30 15:17:38] INFO: jean-cule attaque pour 17 dégâts!
+[2026-01-30 15:17:39] INFO: jean-cule reçoit 15 dégâts! HP: 98
+[2026-01-30 15:17:39] INFO: d attaque pour 15 dégâts!
+[2026-01-30 15:17:40] INFO: d reçoit 15 dégâts! HP: 6
+[2026-01-30 15:17:40] INFO: jean-cule attaque pour 15 dégâts!
+[2026-01-30 15:17:41] INFO: d reçoit 14 dégâts! HP: 0
+[2026-01-30 15:17:41] INFO: jean-cule attaque pour 14 dégâts!
+[2026-01-30 15:17:41] INFO: d was defeated by jean-cule
+[2026-01-30 15:17:41] INFO: Game over for player: d
+[2026-01-30 15:17:41] INFO: Game engine shut down
+[2026-01-30 15:17:41] INFO: === Application ended ===

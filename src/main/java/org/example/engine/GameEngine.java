@@ -2,6 +2,7 @@ package org.example.engine;
 
 import org.example.exceptions.InventoryFullException;
 import org.example.model.*;
+import org.example.util.DungeonMap;
 import org.example.util.JsonLoader;
 import org.example.util.Logger;
 
@@ -339,6 +340,7 @@ public class GameEngine {
         System.out.println("  utiliser <item> - Utiliser un objet");
         System.out.println("  ramasser        - Ramasser les objets au sol");
         System.out.println("  repos           - Se reposer (si disponible)");
+        System.out.println("  carte (m)       - Afficher la carte du donjon");
         System.out.println("  sauvegarder (s) - Sauvegarder la partie");
         System.out.println("  quitter (q)     - Quitter le jeu");
     }
@@ -421,6 +423,12 @@ public class GameEngine {
                 case "repos":
                 case "rest":
                     rest();
+                    break;
+
+                case "carte":
+                case "map":
+                case "m":
+                    showMap();
                     break;
 
                 case "sauvegarder":
@@ -618,6 +626,13 @@ public class GameEngine {
         } else {
             System.out.println("❌ Vous ne pouvez pas vous reposer ici.");
         }
+    }
+
+    /**
+     * Affiche la carte du donjon.
+     */
+    private void showMap() {
+        DungeonMap.displayMap(dungeon.values(), currentRoom);
     }
 
     /**
