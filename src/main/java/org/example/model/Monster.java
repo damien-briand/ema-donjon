@@ -3,9 +3,9 @@ package org.example.model;
 import org.example.util.Logger;
 
 public class Monster extends Creature {
-    private int level;
-    private int experienceReward;
-    private String type; // Type de monstre (Goblin, Dragon, etc.)
+    protected int level;
+    protected int experienceReward;
+    protected String type; // Type de monstre (Goblin, Dragon, etc.)
 
     // Constructeur complet
     public Monster(String name, int maxHealth, int attackPower, int level, String type) {
