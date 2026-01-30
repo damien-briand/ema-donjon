@@ -177,30 +177,30 @@ public class GameEngine {
 
         // Créer les salles
         CombatRoom entrance = new CombatRoom(
-            "Entrée du Donjon",
-            "Une porte massive s'ouvre sur un couloir sombre et humide."
+                "Entrée du Donjon",
+                "Une porte massive s'ouvre sur un couloir sombre et humide."
         );
 
         CombatRoom hallway = new CombatRoom(
-            "Couloir des Ombres",
-            "Des torches vacillantes éclairent faiblement les murs de pierre."
+                "Couloir des Ombres",
+                "Des torches vacillantes éclairent faiblement les murs de pierre."
         );
 
         RestRoom restArea = new RestRoom(
-            "Salle de Repos",
-            "Une petite alcôve avec un feu de camp abandonné.",
-            40, 30
+                "Salle de Repos",
+                "Une petite alcôve avec un feu de camp abandonné.",
+                40, 30
         );
 
         TreasureRoom treasury = new TreasureRoom(
-            "Salle au Trésor",
-            "Des coffres remplis de richesses scintillent dans la pénombre.",
-            true, 15 // piégée avec 15 dégâts
+                "Salle au Trésor",
+                "Des coffres remplis de richesses scintillent dans la pénombre.",
+                true, 15 // piégée avec 15 dégâts
         );
 
         CombatRoom bossRoom = new CombatRoom(
-            "Salle du Boss",
-            "Une vaste salle circulaire. Au centre, une créature imposante vous attend..."
+                "Salle du Boss",
+                "Une vaste salle circulaire. Au centre, une créature imposante vous attend..."
         );
 
         // Connecter les salles
@@ -260,11 +260,11 @@ public class GameEngine {
      *
      * @param monsterType le type de monstre à créer
      * @return le monstre créé
-     * @throws ClassNotFoundException si la classe n'existe pas
-     * @throws NoSuchMethodException si le constructeur n'existe pas
+     * @throws ClassNotFoundException    si la classe n'existe pas
+     * @throws NoSuchMethodException     si le constructeur n'existe pas
      * @throws InvocationTargetException si l'invocation échoue
-     * @throws InstantiationException si l'instanciation échoue
-     * @throws IllegalAccessException si l'accès est interdit
+     * @throws InstantiationException    si l'instanciation échoue
+     * @throws IllegalAccessException    si l'accès est interdit
      */
     private Monster createMonsterUsingReflection(String monsterType)
             throws ClassNotFoundException, NoSuchMethodException,
@@ -337,6 +337,7 @@ public class GameEngine {
         System.out.println("  aller <dir>     - Se déplacer (nord/sud/est/ouest)");
         System.out.println("  attaquer (a)    - Attaquer un ennemi");
         System.out.println("  inventaire (i)  - Voir l'inventaire");
+        System.out.println("  drop <item>     - Jeter un objet au sol");
         System.out.println("  utiliser <item> - Utiliser un objet");
         System.out.println("  ramasser        - Ramasser les objets au sol");
         System.out.println("  repos           - Se reposer (si disponible)");
@@ -403,6 +404,16 @@ public class GameEngine {
                 case "i":
                 case "inv":
                     showInventory();
+                    break;
+
+                case "jeter":
+                case "drop":
+                case "d":
+                    if (argument.isEmpty()) {
+                        System.out.println("❌ Spécifiez l'objet à jeter");
+                    } else {
+                        dropItem(argument);
+                    }
                     break;
 
                 case "utiliser":
@@ -491,45 +502,105 @@ public class GameEngine {
             return;
         }
 
-        // Obtenir le premier ennemi vivant
-        Optional<Creature> enemyOpt = currentRoom.getCreatures().stream()
-            .filter(Creature::isAlive)
-            .findFirst();
+        // Récupérer TOUS les ennemis vivants
+        List<Creature> enemies = currentRoom.getCreatures().stream()
+                .filter(Creature::isAlive)
+                .toList();
 
-        if (enemyOpt.isPresent()) {
-            Creature enemy = enemyOpt.get();
-            System.out.println("\n⚔️  Combat contre " + enemy.getName() + "!");
+        if (enemies.isEmpty()) {
+            System.out.println("❌ Il n'y a pas d'ennemis à combattre ici.");
+            return;
+        }
 
-            boolean playerWon = combatSystem.startCombat(player, enemy, scanner);
+        System.out.println("\n⚔️  Combat contre " + enemies.size() + " ennemi(s)!");
+        enemies.forEach(enemy ->
+                System.out.println("   - " + enemy.getName() + " (HP: " + enemy.getHealth() + ")")
+        );
 
-            if (playerWon) {
-                System.out.println("\n✓ Victoire! " + enemy.getName() + " a été vaincu!");
+        boolean playerWon = combatSystem.startCombat(player, enemies, scanner);
 
-                // Loot si c'est un monstre
-                if (enemy instanceof Monster) {
-                    Monster monster = (Monster) enemy;
-                    List<Item> loot = monster.getLoot();
-                    if (!loot.isEmpty()) {
-                        System.out.println("\n💰 Butin obtenu:");
-                        loot.forEach(item -> {
-                            currentRoom.addItem(item);
-                            System.out.println("   + " + item.getName());
-                        });
-                    }
-                }
+        if (playerWon) {
+            System.out.println("\n✓ Victoire! Tous les ennemis ont été vaincus!");
 
-                currentRoom.checkIfCleared();
-            } else {
-                // Le joueur est mort, géré dans gameLoop
-            }
+            // Loot de tous les monstres
+            enemies.stream()
+                    .filter(enemy -> enemy instanceof Monster)
+                    .map(enemy -> (Monster) enemy)
+                    .forEach(monster -> {
+                        List<Item> loot = monster.getLoot();
+                        if (!loot.isEmpty()) {
+                            System.out.println("\n💰 Butin de " + monster.getName() + ":");
+                            loot.forEach(item -> {
+                                currentRoom.addItem(item);
+                                System.out.println("   + " + item.getName());
+                            });
+                        }
+                    });
+
+            currentRoom.checkIfCleared();
         }
     }
+
+    /**
+     * Jette un objet de l'inventaire dans la salle actuelle.
+     *
+     * @param itemName le nom ou numéro de l'objet à jeter
+     */
+    private void dropItem(String itemName) {
+        List<Item> items = player.getInventory().getItems();
+
+        if (items.isEmpty()) {
+            System.out.println("❌ Votre inventaire est vide.");
+            return;
+        }
+
+        Item itemToDrop = null;
+
+        // Essayer de parser comme un numéro
+        try {
+            int index = Integer.parseInt(itemName) - 1;
+            itemToDrop = player.getInventory().getItemByIndex(index);
+
+            if (itemToDrop == null) {
+                System.out.println("❌ Numéro d'objet invalide.");
+                return;
+            }
+        } catch (NumberFormatException e) {
+            // Sinon chercher par nom
+            Optional<Item> itemOpt = items.stream()
+                    .filter(item -> item.getName().toLowerCase().contains(itemName.toLowerCase()))
+                    .findFirst();
+
+            if (itemOpt.isPresent()) {
+                itemToDrop = itemOpt.get();
+            } else {
+                System.out.println("❌ Objet non trouvé: " + itemName);
+                return;
+            }
+        }
+
+        // Demander confirmation
+        System.out.print("❓ Voulez-vous vraiment jeter " + itemToDrop.getName() + "? (o/n): ");
+        String confirmation = scanner.nextLine().trim().toLowerCase();
+
+        if ("o".equals(confirmation) || "oui".equals(confirmation) || "y".equals(confirmation) || "yes".equals(confirmation)) {
+            // Utiliser removeItemFromInventory() de Creature
+            player.removeItemFromInventory(itemToDrop);
+            currentRoom.addItem(itemToDrop);
+            System.out.println("✓ " + itemToDrop.getName() + " jeté au sol dans " + currentRoom.getName());
+            Logger.logInfo(player.getName() + " dropped " + itemToDrop.getName() + " in " + currentRoom.getName());
+        } else {
+            System.out.println("❌ Action annulée.");
+        }
+    }
+
+
 
     /**
      * Affiche l'inventaire.
      */
     private void showInventory() {
-        player.getInventory().display();
+        player.displayInventory();
     }
 
     /**
@@ -541,8 +612,8 @@ public class GameEngine {
         List<Item> items = player.getInventory().getItems();
 
         Optional<Item> itemOpt = items.stream()
-            .filter(item -> item.getName().toLowerCase().contains(itemName.toLowerCase()))
-            .findFirst();
+                .filter(item -> item.getName().toLowerCase().contains(itemName.toLowerCase()))
+                .findFirst();
 
         if (itemOpt.isPresent()) {
             Item item = itemOpt.get();

@@ -47,4 +47,25 @@ public class Inventory<T extends Item> {
                 Logger.logInfo("- " + item.getName() + ": " + item.getDescription())
         );
     }
+
+    public boolean dropItem(T item) {
+        if (items.remove(item)) {
+            Logger.logInfo("✓ " + item.getName() + " retiré de l'inventaire");
+            return true;
+        }
+        Logger.logWarning("❌ " + item.getName() + " non trouvé dans l'inventaire");
+        return false;
+    }
+
+    public T getItemByIndex(int index) {
+        if (index >= 0 && index < items.size()) {
+            return items.get(index);
+        }
+        return null;
+    }
+
+    public int size() {
+        return items.size();
+    }
+
 }

@@ -7,6 +7,7 @@ public class Player extends Creature {
     private Integer maxMana;
     private final boolean hasMana;
     private int manaUsageCount;
+    private int level;
     private static final int USES_FOR_MAX_MANA_INCREASE = 50; // Très lent: tous les 50 usages
     private static final double MAX_MANA_INCREASE_PERCENTAGE = 0.02; // Augmentation de 2% du mana max actuel
 
@@ -16,6 +17,7 @@ public class Player extends Creature {
         this.mana = hasMana ? 100 : null;
         this.maxMana = hasMana ? 100 : null;
         this.manaUsageCount = 0;
+        this.level = 1;
     }
 
     public Player(String name, int health, int attackPower, boolean hasMana, int initialMaxMana) {
@@ -24,6 +26,7 @@ public class Player extends Creature {
         this.mana = hasMana ? initialMaxMana : null;
         this.maxMana = hasMana ? initialMaxMana : null;
         this.manaUsageCount = 0;
+        this.level = 1;
     }
 
     public boolean hasMana() {
@@ -48,6 +51,14 @@ public class Player extends Creature {
         if (hasMana && amount > 0 && maxMana != null) {
             this.mana = Math.min(this.mana + amount, maxMana);
         }
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = Math.max(1, level);
     }
 
     public boolean useMana(int amount) {
@@ -84,12 +95,13 @@ public class Player extends Creature {
 
     @Override
     protected int calculateDamage() {
-        // Dégâts de base = attackPower
-        // TODO: Ajouter bonus de mana plus tard avec les armes de type mage
+        // Dégâts de base = attackPower * multiplicateur de niveau
+        double levelMultiplier = 1.0 + (level - 1) * 0.1; // +10% par niveau
+        double baseDamage = attackPower * levelMultiplier;
 
         // Variation aléatoire de ±10% pour plus de dynamisme
         double variation = 0.9 + (Math.random() * 0.2); // Entre 0.9 et 1.1
-        int finalDamage = (int) (attackPower * variation);
+        int finalDamage = (int) (baseDamage * variation);
 
         return Math.max(1, finalDamage); // Minimum 1 dégât
     }

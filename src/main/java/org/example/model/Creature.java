@@ -73,14 +73,17 @@ public abstract class Creature implements Attackable, Healable, Lootable {
     }
 
     public void displayInventory() {
-        Logger.logInfo("\n=== Inventaire de " + name + " ===");
+        System.out.println("\n📦 Inventaire (" + inventory.size() + "/" + 20 + "):");
+
         List<Item> items = inventory.getItems();
         if (items.isEmpty()) {
-            Logger.logInfo("(vide)");
-        } else {
-            items.forEach(item ->
-                    Logger.logInfo("- " + item.getName() + ": " + item.getDescription())
-            );
+            System.out.println("   (vide)");
+            return;
+        }
+
+        for (int i = 0; i < items.size(); i++) {
+            Item item = items.get(i);
+            System.out.println("   " + (i + 1) + ". " + item.getName() + " - " + item.getDescription());
         }
     }
 
