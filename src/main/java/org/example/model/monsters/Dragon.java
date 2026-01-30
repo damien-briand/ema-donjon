@@ -30,6 +30,7 @@ public class Dragon extends Monster {
     @Override
     public void generateRandomLoot() {
         // Dragon = boss légendaire, donc 80% de chance global de drop
+        setExperienceReward(50 * level);
         double globalDropChance = 0.80;
 
         if (Math.random() < globalDropChance) {

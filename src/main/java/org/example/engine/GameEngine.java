@@ -9,6 +9,7 @@ import org.example.util.Logger;
 import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.nio.file.Path;
 import java.util.*;
 
 /**
@@ -25,9 +26,9 @@ public class GameEngine {
     private boolean isRunning;
 
     // Constantes pour les chemins de fichiers
-    private static final String MONSTERS_JSON = "monsters.json";
-    private static final String ITEMS_JSON = "items.json";
-    private static final String SAVE_PATH = "saves/player_save.json";
+    private static final Path MONSTERS_JSON = Path.of("monsters.json");
+    private static final Path ITEMS_JSON = Path.of("items.json");
+    private static final Path SAVE_PATH = Path.of("saves", "player_save.json");
 
     /**
      * Constructeur du GameEngine.
@@ -148,7 +149,7 @@ public class GameEngine {
      */
     private boolean loadPlayer() {
         try {
-            if (!JsonLoader.fileExists(SAVE_PATH)) {
+            if (!JsonLoader.fileExists(SAVE_PATH.toString())) {
                 System.out.println("❌ Aucune sauvegarde trouvée.");
                 System.out.println("   Création d'une nouvelle partie...");
                 createNewPlayer();
@@ -168,6 +169,7 @@ public class GameEngine {
             return true;
         }
     }
+
 
     /**
      * Initialise le donjon avec les salles et les connexions.
@@ -321,12 +323,13 @@ public class GameEngine {
      * Affiche le statut du joueur.
      */
     private void displayPlayerStatus() {
-        System.out.println("📊 " + player.getName());
-        System.out.println("   ❤️  HP: " + player.getHealth() + "/" + player.getMaxHealth());
+        System.out.println("📊 " + player.getName() + " (Niveau " + player.getLevel() + ")");
+        System.out.println(" ❤️ HP: " + player.getHealth() + "/" + player.getMaxHealth());
         if (player.hasMana()) {
-            System.out.println("   ✨ Mana: " + player.getMana() + "/" + player.getMaxMana());
-        }
-        System.out.println("   ⚔️  ATK: " + player.getAttackPower());
+            System.out.println(" ✨ Mana: " + player.getMana() + "/" + player.getMaxMana());
+        } System.out.println(" ⚔️ ATK: " + player.getAttackPower());
+        System.out.println(" ⭐ Level : " + player.getLevel() + ",  XP: " + player.getExperience() + "/" + player.getExperienceToNextLevel());
+        System.out.printf(" DEF : " + player.getDefense());
     }
 
     /**
@@ -522,11 +525,17 @@ public class GameEngine {
         if (playerWon) {
             System.out.println("\n✓ Victoire! Tous les ennemis ont été vaincus!");
 
-            // Loot de tous les monstres
+            // Générer et collecter le loot de tous les monstres
             enemies.stream()
                     .filter(enemy -> enemy instanceof Monster)
                     .map(enemy -> (Monster) enemy)
                     .forEach(monster -> {
+                        // Générer le loot (déjà fait dans takeDamage, mais on peut appeler explicitement)
+                        if (monster.getInventory().getItems().isEmpty()) {
+                            monster.generateRandomLoot();
+                        }
+
+                        // Récupérer le loot
                         List<Item> loot = monster.getLoot();
                         if (!loot.isEmpty()) {
                             System.out.println("\n💰 Butin de " + monster.getName() + ":");
@@ -534,12 +543,15 @@ public class GameEngine {
                                 currentRoom.addItem(item);
                                 System.out.println("   + " + item.getName());
                             });
+                        } else {
+                            System.out.println("\n😢 " + monster.getName() + " n'a rien laissé tomber");
                         }
                     });
 
             currentRoom.checkIfCleared();
         }
     }
+
 
     /**
      * Jette un objet de l'inventaire dans la salle actuelle.
@@ -628,16 +640,30 @@ public class GameEngine {
                 }
             } else if (item instanceof Weapon) {
                 Weapon weapon = (Weapon) item;
-                weapon.use();
+                equipWeapon(weapon);
             } else if (item instanceof Armor) {
                 Armor armor = (Armor) item;
-                armor.use();
+                equipArmor(armor);
             } else {
                 item.use();
             }
         } else {
             System.out.println("❌ Objet non trouvé: " + itemName);
         }
+    }
+
+    private void equipWeapon(Weapon weapon) {
+        weapon.use();
+        int attackBonus = weapon.getActiveDamageBonus();
+        player.setAttackPower(player.getAttackPower() + attackBonus);
+        System.out.println("   Attaque totale: " + player.getAttackPower());
+    }
+
+    private void equipArmor(Armor armor) {
+        armor.use();
+        int defenseBonus = armor.getActiveDefenseBonus();
+        player.setDefense(player.getDefense() + defenseBonus);
+        System.out.println("   Défense totale: " + player.getDefense());
     }
 
     /**

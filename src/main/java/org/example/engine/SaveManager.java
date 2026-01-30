@@ -5,6 +5,8 @@ import org.example.util.JsonLoader;
 import org.example.util.Logger;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 /**
  * Gestionnaire de sauvegarde et de chargement des parties.
@@ -19,13 +21,13 @@ public class SaveManager {
      * @param filePath le chemin du fichier de sauvegarde
      * @throws IOException si une erreur d'écriture se produit
      */
-    public static void saveGame(Player player, String filePath) throws IOException {
+    public static void saveGame(Player player, Path filePath) throws IOException {
         if (player == null) {
             throw new IllegalArgumentException("Le joueur ne peut pas être null");
         }
 
         try {
-            JsonLoader.saveObject(player, filePath);
+            JsonLoader.saveObject(player, filePath.toString());
             Logger.logInfo("Game saved successfully to: " + filePath);
         } catch (IOException e) {
             Logger.logError("Failed to save game to: " + filePath, e);
@@ -40,17 +42,17 @@ public class SaveManager {
      * @return le joueur chargé
      * @throws IOException si une erreur de lecture se produit
      */
-    public static Player loadGame(String filePath) throws IOException {
-        if (filePath == null || filePath.isEmpty()) {
-            throw new IllegalArgumentException("Le chemin du fichier ne peut pas être vide");
+    public static Player loadGame(Path filePath) throws IOException {
+        if (filePath == null) {
+            throw new IllegalArgumentException("Le chemin du fichier ne peut pas être null");
         }
 
-        if (!JsonLoader.fileExists(filePath)) {
+        if (!Files.exists(filePath)) {
             throw new IOException("Le fichier de sauvegarde n'existe pas: " + filePath);
         }
 
         try {
-            Player player = JsonLoader.loadObject(filePath, Player.class);
+            Player player = JsonLoader.loadObject(filePath.toString(), Player.class);
             Logger.logInfo("Game loaded successfully from: " + filePath);
             return player;
         } catch (IOException e) {
@@ -65,8 +67,8 @@ public class SaveManager {
      * @param filePath le chemin du fichier de sauvegarde
      * @return true si la sauvegarde existe
      */
-    public static boolean saveExists(String filePath) {
-        return JsonLoader.fileExists(filePath);
+    public static boolean saveExists(Path filePath) {
+        return Files.exists(filePath);
     }
 
     /**
@@ -76,7 +78,7 @@ public class SaveManager {
      * @throws IOException si une erreur d'écriture se produit
      */
     public static void autoSave(Player player) throws IOException {
-        String autoSavePath = "saves/autosave.json";
+        Path autoSavePath = Path.of("saves", "autosave.json");
         saveGame(player, autoSavePath);
         Logger.logInfo("Auto-save completed");
     }
@@ -88,7 +90,7 @@ public class SaveManager {
      * @throws IOException si une erreur de lecture se produit
      */
     public static Player loadAutoSave() throws IOException {
-        String autoSavePath = "saves/autosave.json";
+        Path autoSavePath = Path.of("saves", "autosave.json");
         return loadGame(autoSavePath);
     }
 }

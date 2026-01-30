@@ -30,6 +30,7 @@ public class Goblin extends Monster {
     @Override
     public void generateRandomLoot() {
         // Goblin = monstre intermédiaire, 60% de chance global de drop
+        setExperienceReward(25*level);
         double globalDropChance = 0.60;
 
         if (Math.random() < globalDropChance) {

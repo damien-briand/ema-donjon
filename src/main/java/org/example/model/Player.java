@@ -7,26 +7,29 @@ public class Player extends Creature {
     private Integer maxMana;
     private final boolean hasMana;
     private int manaUsageCount;
-    private int level;
+    private int experience;
+    private int experienceToNextLevel;
     private static final int USES_FOR_MAX_MANA_INCREASE = 50; // Très lent: tous les 50 usages
     private static final double MAX_MANA_INCREASE_PERCENTAGE = 0.02; // Augmentation de 2% du mana max actuel
 
-    public Player(String name, int health, int attackPower, boolean hasMana) {
-        super(name, health, attackPower);
+    public Player(String name, int health, int attackPower, boolean hasMana) { // GUERRIER
+        super(name, health, attackPower, 1 , 10);
         this.hasMana = hasMana;
         this.mana = hasMana ? 100 : null;
         this.maxMana = hasMana ? 100 : null;
         this.manaUsageCount = 0;
-        this.level = 1;
+        this.experience = 0;
+        this.experienceToNextLevel = 25;
     }
 
-    public Player(String name, int health, int attackPower, boolean hasMana, int initialMaxMana) {
-        super(name, health, attackPower);
+    public Player(String name, int health, int attackPower, boolean hasMana, int initialMaxMana) { // MAGE
+        super(name, health, attackPower, 1, 0);
         this.hasMana = hasMana;
         this.mana = hasMana ? initialMaxMana : null;
         this.maxMana = hasMana ? initialMaxMana : null;
         this.manaUsageCount = 0;
-        this.level = 1;
+        this.experience = 0;
+        this.experienceToNextLevel = 25;
     }
 
     public boolean hasMana() {
@@ -74,6 +77,64 @@ public class Player extends Creature {
             return true;
         }
         return false;
+    }
+
+    public int getExperience() {
+        return experience;
+    }
+
+    public void setExperience(int experience) {
+        this.experience = experience;
+    }
+
+    public int getExperienceToNextLevel() {
+        return experienceToNextLevel;
+    }
+
+    public void setExperienceToNextLevel(int experienceToNextLevel) {
+        this.experienceToNextLevel = experienceToNextLevel;
+    }
+
+    public void gainExperience(int xp) {
+        if (xp <= 0) {
+            return;
+        }
+
+        experience += xp;
+        Logger.logInfo(name + " gagne " + xp + " XP (" + experience + "/" + experienceToNextLevel + ")");
+
+        // Vérifier si le joueur monte de niveau
+        while (experience >= experienceToNextLevel) {
+            levelUp();
+        }
+    }
+
+    private void levelUp() {
+        level++;
+        experience -= experienceToNextLevel;
+
+        // Augmentation des stats
+        int healthIncrease = 10 + (level * 2); // Augmente avec le niveau
+        int attackIncrease = 3 + level; // Augmente avec le niveau
+
+        maxHealth += healthIncrease;
+        health = maxHealth; // Restaure la vie complète
+        attackPower += attackIncrease;
+
+        // Augmentation du mana si applicable
+        if (hasMana && maxMana != null) {
+            int manaIncrease = 10 + (level * 3);
+            maxMana += manaIncrease;
+            mana = maxMana; // Restaure le mana complet
+            Logger.logInfo("🎉 " + name + " monte au niveau " + level + "! PV: +" + healthIncrease +
+                    ", ATK: +" + attackIncrease + ", Mana: +" + manaIncrease);
+        } else {
+            Logger.logInfo("🎉 " + name + " monte au niveau " + level + "! PV: +" + healthIncrease +
+                    ", ATK: +" + attackIncrease);
+        }
+
+        // Calcul de l'XP nécessaire pour le prochain niveau (progression exponentielle)
+        experienceToNextLevel = (int) (experienceToNextLevel * 1.5);
     }
 
     private void increaseMaxMana() {

@@ -27,6 +27,7 @@ public class Skeleton extends Monster {
 
     @Override
     public void generateRandomLoot() {
+        setExperienceReward(10*level);
         // Skeleton = monstre basique, 45% de chance global de drop
         double globalDropChance = 0.45;
 

@@ -13,26 +13,65 @@ public abstract class Creature implements Attackable, Healable, Lootable {
     protected int health;
     protected int maxHealth;
     protected int attackPower;
+    protected int level;
+    protected int defense;
     protected Inventory<Item> inventory; // Inventaire de la créature
 
-    public Creature(String name, int maxHealth, int attackPower) {
+    public Creature(String name, int maxHealth, int attackPower, int level, int defense) {
         this.name = name;
         this.maxHealth = maxHealth;
         this.health = maxHealth;
         this.attackPower = attackPower;
+        this.level = level;
+        this.defense = defense;
         this.inventory = new Inventory<>(20); // Inventaire avec capacité de 20 items par défaut
     }
 
     @Override
     public void attack(Attackable target) {
         int damage = calculateDamage();
+
+        // Coup critique : 10% de chance de faire x2 dégâts
+        boolean isCritical = Math.random() < 0.10;
+        if (isCritical) {
+            damage *= 2;
+            Logger.logInfo("💥 COUP CRITIQUE! " + name + " attaque pour " + damage + " dégâts!");
+        } else {
+            Logger.logInfo(name + " attaque pour " + damage + " dégâts!");
+        }
+
+        // Esquive basée sur la différence de niveau (cible plus forte = plus de chance d'esquiver)
+        if (target instanceof Creature targetCreature) {
+            int levelDiff = targetCreature.getLevel() - this.level;
+
+            if (levelDiff > 0) {
+                double dodgeChance = Math.min(0.30, levelDiff * 0.05); // Max 30%, +5% par niveau de différence
+                if (Math.random() < dodgeChance) {
+                    Logger.logInfo("💨 " + targetCreature.getName() + " esquive l'attaque!");
+                    return;
+                }
+            }
+
+            // Réduction des dégâts par la défense de la cible
+            int defense = targetCreature.getDefense();
+            if (defense > 0) {
+                double damageReduction = 100.0 / (100.0 + defense);
+                int reducedDamage = (int) (damage * damageReduction);
+                reducedDamage = Math.max(1, reducedDamage); // Minimum 1 dégât
+
+                int blocked = damage - reducedDamage;
+                Logger.logInfo("🛡️ La défense de " + targetCreature.getName() + " bloque " + blocked + " dégâts!");
+                damage = reducedDamage;
+            }
+        }
+
         target.takeDamage(damage);
-        Logger.logInfo(name + " attaque pour " + damage + " dégâts!");
     }
+
 
     @Override
     public void takeDamage(int damage) {
-        health = Math.max(0, health - damage); // TODO : faire en sorte de mettre une chance de pas mettre de degats en fonctions de l'écart du niveaux (et aussi coup critique)
+        health = Math.max(0, health - damage);
         Logger.logInfo(name + " reçoit " + damage + " dégâts! HP: " + health);
     }
 
@@ -83,7 +122,21 @@ public abstract class Creature implements Attackable, Healable, Lootable {
 
         for (int i = 0; i < items.size(); i++) {
             Item item = items.get(i);
-            System.out.println("   " + (i + 1) + ". " + item.getName() + " - " + item.getDescription());
+            StringBuilder itemInfo = new StringBuilder("   " + (i + 1) + ". " + item.getName() + " - " + item.getDescription());
+
+            if (item instanceof Weapon weapon) {
+                itemInfo.append(" [ATK: +").append(weapon.getDamageBonus()).append("]");
+                if (weapon.isEquipped()) {
+                    itemInfo.append(" ⚔️ ÉQUIPÉ");
+                }
+            } else if (item instanceof Armor armor) {
+                itemInfo.append(" [DEF: +").append(armor.getDefenseBonus()).append("]");
+                if (armor.isEquipped()) {
+                    itemInfo.append(" 🛡️ ÉQUIPÉ");
+                }
+            }
+
+            System.out.println(itemInfo);
         }
     }
 
@@ -93,4 +146,23 @@ public abstract class Creature implements Attackable, Healable, Lootable {
     public int getMaxHealth() { return maxHealth; }
 
     public int getAttackPower() { return attackPower; }
+
+    public void setAttackPower(int attackPower) {this.attackPower=attackPower;};
+
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
+    public int getDefense() {
+        return defense;
+    }
+
+    public void setDefense(int defense) {
+        this.defense = defense;
+    }
 }

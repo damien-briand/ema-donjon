@@ -17,7 +17,7 @@ public class Weapon extends Item {
         this.isEquipped = false;
     }
 
-    /**
+    /**utiliser
      * Constructeur avec paramètres.
      *
      * @param name        nom de l'arme
