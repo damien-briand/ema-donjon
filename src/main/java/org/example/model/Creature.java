@@ -26,7 +26,17 @@ public abstract class Creature implements Attackable, Healable, Lootable {
         this.attackPower = attackPower;
         this.level = level;
         this.defense = defense;
-        this.inventory = new Inventory<>(20); // Inventaire avec capacité de 20 items par défaut
+        this.inventory = new Inventory<Item>(20); // Inventaire avec capacité de 20 items par défaut
+    }
+
+    public Creature(String name, int maxHealth, int attackPower, int level, int defense, int inventorySize) {
+        this.name = name;
+        this.maxHealth = maxHealth;
+        this.health = maxHealth;
+        this.attackPower = attackPower;
+        this.level = level;
+        this.defense = defense;
+        this.inventory = new Inventory<Item>(inventorySize); // Inventaire avec capacité de 20 items par défaut
     }
 
     @Override

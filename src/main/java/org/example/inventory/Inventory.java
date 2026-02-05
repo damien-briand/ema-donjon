@@ -14,7 +14,7 @@ public record Inventory<T extends Item>(@JsonProperty("items") List<T> items,
                                         @JsonProperty("maxCapacity") int maxSize) {
     @JsonCreator
     public Inventory(@JsonProperty("items") List<T> items,
-                     @JsonProperty("maxSize") int maxSize) {
+                     @JsonProperty("maxCapacity") int maxSize) {
         this.items = (items != null) ? items : new ArrayList<>();
         this.maxSize = maxSize;
     }

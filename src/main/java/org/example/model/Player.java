@@ -13,6 +13,7 @@ public class Player extends Creature {
     private int experienceToNextLevel;
     private static final int USES_FOR_MAX_MANA_INCREASE = 50; // Très lent: tous les 50 usages
     private static final double MAX_MANA_INCREASE_PERCENTAGE = 0.02; // Augmentation de 2% du mana max actuel
+    private int inventorySize;
 
     @JsonCreator
     public Player(@JsonProperty("name") String name,
@@ -26,8 +27,9 @@ public class Player extends Creature {
                   @JsonProperty("hasMana") boolean hasMana,
                   @JsonProperty("experience") int experience,
                   @JsonProperty("experienceToNextLevel") int experienceToNextLevel,
-                  @JsonProperty("manaUsageCount") int manaUsageCount) {
-        super(name, health, attackPower, defense, level);
+                  @JsonProperty("manaUsageCount") int manaUsageCount,
+                  @JsonProperty("inventorySize") int inventorySize) {
+        super(name, health, attackPower, defense, level, inventorySize);
         this.maxHealth = maxHealth;
         this.mana = mana;
         this.maxMana = maxMana;
@@ -46,6 +48,7 @@ public class Player extends Creature {
         this.manaUsageCount = 0;
         this.experience = 0;
         this.experienceToNextLevel = 25;
+        this.inventorySize=20;
     }
 
     public Player(String name, int health, int attackPower, boolean hasMana, int initialMaxMana) { // MAGE
@@ -56,6 +59,7 @@ public class Player extends Creature {
         this.manaUsageCount = 0;
         this.experience = 0;
         this.experienceToNextLevel = 25;
+        this.inventorySize=20;
     }
 
     public boolean hasMana() {
@@ -211,5 +215,13 @@ public class Player extends Creature {
 
     public void setManaUsageCount(int manaUsageCount) {
         this.manaUsageCount = manaUsageCount;
+    }
+
+    public int getInventorySize() {
+        return inventorySize;
+    }
+
+    public void setInventorySize(int inventorySize) {
+        this.inventorySize = inventorySize;
     }
 }

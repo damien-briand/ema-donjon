@@ -345,7 +345,7 @@ public class GameEngine {
         System.out.println("  ramasser        - Ramasser les objets au sol");
         System.out.println("  repos           - Se reposer (si disponible)");
         System.out.println("  carte (m)       - Afficher la carte du donjon");
-        System.out.println("  sauvegarder (s) - Sauvegarder la partie");
+        System.out.println("  sauvegarder (save) - Sauvegarder la partie");
         System.out.println("  quitter (q)     - Quitter le jeu");
     }
 

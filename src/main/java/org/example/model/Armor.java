@@ -14,7 +14,6 @@ public class Armor extends Item {
     // Constructeur sans-arg requis pour Jackson
     public Armor() {
         super();
-        this.isEquipped = false;
     }
 
     /**

@@ -439,7 +439,7 @@ public class CombatSystem {
         } else if (percent > 30) {
             bar.append(" 💛");
         } else {
-            bar.append(" ❤️");
+            bar.append("❤️️");
         }
 
         return bar.toString();
