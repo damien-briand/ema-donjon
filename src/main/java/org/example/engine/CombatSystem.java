@@ -1,6 +1,5 @@
 package org.example.engine;
 
-import org.example.exceptions.InsufficientManaException;
 import org.example.model.*;
 import org.example.util.Logger;
 
@@ -137,7 +136,37 @@ public class CombatSystem {
                     }
                     break;
 
-                // ... reste du code inchangé
+                case "objet":
+                case "o":
+                case "item":
+                    validAction = useItemInCombat(player, scanner);
+                    break;
+
+                case "defendre":
+                case "d":
+                case "defend":
+                    performDefend(player);
+                    validAction = true;
+                    break;
+
+                case "fuir":
+                case "f":
+                case "flee":
+                    if (attemptFlee(player, enemies)) {
+                        return false; // Fuite réussie
+                    }
+                    validAction = true; // Fuite échouée compte comme une action
+                    break;
+
+                case "statut":
+                case "s":
+                case "status":
+                    displayCombatStatus(player, enemies);
+                    break;
+
+                default:
+                    System.out.println("❌ Action invalide. Tapez 'aide' pour voir les actions disponibles.");
+                    break;
             }
         }
 
@@ -237,7 +266,7 @@ public class CombatSystem {
      * @return true si un objet a été utilisé
      */
     private boolean useItemInCombat(Player player, Scanner scanner) {
-        List<Item> items = player.getInventory().getItems();
+        List<Item> items = player.getInventory().items();
 
         if (items.isEmpty()) {
             System.out.println("❌ Vous n'avez aucun objet!");
@@ -316,15 +345,20 @@ public class CombatSystem {
      * Tente de fuir le combat.
      *
      * @param player le joueur
-     * @param enemy  l'ennemi
+     * @param enemies la listes des ennemies
      * @return true si la fuite a réussi
      */
-    private boolean attemptFlee(Player player, Creature enemy) {
+    private boolean attemptFlee(Player player, List<Creature> enemies) {
         // Chance de fuite: 50% de base
         double fleeChance = 0.5;
 
-        // Réduire la chance si l'ennemi est plus fort
-        if (enemy.getHealth() > player.getHealth()) {
+        // Réduire la chance si les ennemis sont plus forts
+        int totalEnemyHealth = enemies.stream()
+                .filter(Creature::isAlive)
+                .mapToInt(Creature::getHealth)
+                .sum();
+
+        if (totalEnemyHealth > player.getHealth()) {
             fleeChance -= 0.2;
         }
 
@@ -332,40 +366,21 @@ public class CombatSystem {
 
         if (success) {
             System.out.println("\n💨 " + player.getName() + " réussit à fuir le combat!");
-            Logger.logInfo(player.getName() + " fled from " + enemy.getName());
+            String enemyNames = enemies.stream()
+                    .filter(Creature::isAlive)
+                    .map(Creature::getName)
+                    .reduce((a, b) -> a + ", " + b)
+                    .orElse("les ennemis");
+            Logger.logInfo(player.getName() + " fled from " + enemyNames);
+
             return true;
-        } else {
-            System.out.println("\n❌ " + player.getName() + " n'a pas réussi à fuir!");
-            System.out.println("   L'ennemi vous rattrape!");
-            return false;
-        }
-    }
-
-    /**
-     * Gère le tour de l'ennemi.
-     *
-     * @param player le joueur
-     * @param enemy  l'ennemi
-     */
-    private void enemyTurn(Player player, Creature enemy) {
-        System.out.println("\n👹 Tour de " + enemy.getName());
-
-        // Délai pour rendre le combat plus dramatique
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
-
-        // L'ennemi attaque toujours pour l'instant
-        // On pourrait ajouter de l'IA plus complexe ici
-        performAttack(enemy, player);
+        } else return false;
     }
 
     /**
      * Affiche le statut du combat.
      *
-     * @param player le joueur
+     * @param player  le joueur
      * @param enemies la liste des ennemis
      */
     private void displayCombatStatus(Player player, List<Creature> enemies) {
@@ -456,7 +471,7 @@ public class CombatSystem {
     /**
      * Affiche un message de victoire.
      *
-     * @param player le joueur
+     * @param player  le joueur
      * @param enemies la liste des ennemis
      */
     private void displayVictory(Player player, List<Creature> enemies) {
@@ -477,6 +492,8 @@ public class CombatSystem {
                 .mapToInt(enemy -> ((Monster) enemy).getExperienceReward())
                 .sum();
 
+        player.gainExperience(totalXP);
+
         if (totalXP > 0) {
             System.out.println("  💰 Récompenses totales: " + totalXP + " XP");
         }
@@ -487,7 +504,7 @@ public class CombatSystem {
     /**
      * Affiche un message de défaite.
      *
-     * @param player le joueur
+     * @param player  le joueur
      * @param enemies la liste des ennemis
      */
     private void displayDefeat(Player player, List<Creature> enemies) {
@@ -496,7 +513,7 @@ public class CombatSystem {
         System.out.println("╚════════════════════════════════════════╝");
 
 
-                String enemyNames = enemies.stream()
+        String enemyNames = enemies.stream()
                 .map(Creature::getName)
                 .reduce((a, b) -> a + ", " + b)
                 .orElse("les ennemis");

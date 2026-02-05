@@ -3,29 +3,27 @@ package org.example.model;
 import org.example.util.Logger;
 
 public class Monster extends Creature {
-    protected int level;
     protected int experienceReward;
+    private boolean lootGenerated = false;
     protected String type; // Type de monstre (Goblin, Dragon, etc.)
 
     // Constructeur complet
     public Monster(String name, int maxHealth, int attackPower, int level, String type) {
-        super(name, maxHealth, attackPower);
-        this.level = level;
+        super(name, maxHealth, attackPower, level, 0);
         this.type = type;
         this.experienceReward = level * 10; // XP = niveau * 10
     }
 
     // Constructeur avec expérience personnalisée
     public Monster(String name, int maxHealth, int attackPower, int level, String type, int experienceReward) {
-        super(name, maxHealth, attackPower);
-        this.level = level;
+        super(name, maxHealth, attackPower, level, 0);
         this.type = type;
         this.experienceReward = experienceReward;
     }
 
     // Constructeur pour Jackson (no-arg constructor)
     public Monster() {
-        super("Unknown", 10, 1);
+        super("Unknown", 10, 1, 1,0);
         this.level = 1;
         this.type = "Unknown";
         this.experienceReward = 10;
@@ -48,13 +46,15 @@ public class Monster extends Creature {
         super.takeDamage(damage);
 
         // Message spécial si le monstre meurt
-        if (!isAlive()) {
-            Logger.logInfo("💀 " + name + " est vaincu !");
+        if (!isAlive() && !lootGenerated) {
+            generateRandomLoot();
+            lootGenerated = true;
         }
     }
 
     // Méthode pour générer du loot aléatoire basé sur le niveau
     public void generateRandomLoot() {
+        setExperienceReward(level);
         // Probabilité de drop augmente avec le niveau
         double dropChance = Math.min(0.5 + (level * 0.05), 0.95); // Max 95%
 
@@ -62,15 +62,6 @@ public class Monster extends Creature {
             // TODO: Ajouter des items aléatoires selon le type de monstre dans son inventaire (pour apres getInventory dessus pour recup le loot)
             Logger.logInfo("💰 " + name + " laisse tomber du butin !");
         }
-    }
-
-    // Getters et Setters (nécessaires pour Jackson)
-    public int getLevel() {
-        return level;
-    }
-
-    public void setLevel(int level) {
-        this.level = level;
     }
 
     public int getExperienceReward() {
