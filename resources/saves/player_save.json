@@ -1,14 +1,14 @@
 {
   "alive" : true,
   "attackPower" : 15,
-  "health" : 9,
+  "health" : 38,
   "inventory" : {
     "items" : [ {
-      "consumed" : true,
+      "consumed" : false,
       "description" : "Restaure 30 HP",
       "healAmount" : 30,
       "name" : "Potion de Soin",
-      "usable" : false
+      "usable" : true
     }, {
       "consumed" : false,
       "description" : "Restaure 30 HP",
@@ -17,12 +17,13 @@
       "usable" : true
     } ]
   },
+  "level" : 1,
   "loot" : [ {
-    "consumed" : true,
+    "consumed" : false,
     "description" : "Restaure 30 HP",
     "healAmount" : 30,
     "name" : "Potion de Soin",
-    "usable" : false
+    "usable" : true
   }, {
     "consumed" : false,
     "description" : "Restaure 30 HP",
@@ -33,5 +34,5 @@
   "mana" : null,
   "maxHealth" : 120,
   "maxMana" : null,
-  "name" : "1"
+  "name" : "a"
 }

@@ -25,9 +25,9 @@ public class GameEngine {
     private boolean isRunning;
 
     // Constantes pour les chemins de fichiers
-    private static final String MONSTERS_JSON = "monsters.json";
-    private static final String ITEMS_JSON = "items.json";
-    private static final String SAVE_PATH = "saves/player_save.json";
+    private static final String MONSTERS_JSON = "resources/monsters.json";
+    private static final String ITEMS_JSON = "resources/items.json";
+    private static final String SAVE_PATH = "resources/saves/player_save.json";
 
     /**
      * Constructeur du GameEngine.
