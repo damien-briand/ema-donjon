@@ -386,6 +386,1622 @@ tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance
 [2026-01-30 15:17:41] INFO: Game over for player: d
 [2026-01-30 15:17:41] INFO: Game engine shut down
 [2026-01-30 15:17:41] INFO: === Application ended ===
+[2026-01-30 15:36:55] INFO: === Application started ===
+[2026-01-30 15:37:09] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 15:37:09] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 15:37:09] INFO: New player created: larue
+[2026-01-30 15:37:15] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 15:37:15] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 15:37:15] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 15:37:15] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 15:37:15] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 15:37:15] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 15:37:15] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 15:37:15] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 15:38:27] INFO: Gobelin reçoit 13 dégâts! HP: 62
+[2026-01-30 15:38:27] INFO: larue attaque pour 13 dégâts!
+[2026-01-30 15:38:28] INFO: larue reçoit 17 dégâts! HP: 103
+[2026-01-30 15:38:28] INFO: Gobelin attaque pour 17 dégâts!
+[2026-01-30 15:38:51] INFO: Gobelin reçoit 15 dégâts! HP: 47
+[2026-01-30 15:38:51] INFO: larue attaque pour 15 dégâts!
+[2026-01-30 15:38:51] INFO: larue reçoit 15 dégâts! HP: 88
+[2026-01-30 15:38:51] INFO: Gobelin attaque pour 15 dégâts!
+[2026-01-30 15:39:04] INFO: Gobelin reçoit 14 dégâts! HP: 33
+[2026-01-30 15:39:04] INFO: larue attaque pour 14 dégâts!
+[2026-01-30 15:39:05] INFO: larue reçoit 14 dégâts! HP: 74
+[2026-01-30 15:39:05] INFO: Gobelin attaque pour 14 dégâts!
+[2026-01-30 15:39:06] INFO: Gobelin reçoit 14 dégâts! HP: 19
+[2026-01-30 15:39:06] INFO: larue attaque pour 14 dégâts!
+[2026-01-30 15:39:06] INFO: larue reçoit 18 dégâts! HP: 56
+[2026-01-30 15:39:06] INFO: Gobelin attaque pour 18 dégâts!
+[2026-01-30 15:39:09] INFO: Gobelin reçoit 13 dégâts! HP: 6
+[2026-01-30 15:39:09] INFO: larue attaque pour 13 dégâts!
+[2026-01-30 15:39:09] INFO: larue reçoit 15 dégâts! HP: 41
+[2026-01-30 15:39:09] INFO: Gobelin attaque pour 15 dégâts!
+[2026-01-30 15:39:11] INFO: Gobelin reçoit 13 dégâts! HP: 0
+[2026-01-30 15:39:11] INFO: 💀 Gobelin est vaincu !
+[2026-01-30 15:39:11] INFO: larue attaque pour 13 dégâts!
+[2026-01-30 15:39:11] INFO: larue defeated 1 enemies in 6 turns
+[2026-01-30 15:43:08] INFO: === Application started ===
+[2026-01-30 15:43:19] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 15:43:19] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 15:43:19] INFO: New player created: LaRue La vrai
+[2026-01-30 15:43:19] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 15:43:19] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 15:43:19] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 15:43:19] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 15:43:19] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 15:43:19] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 15:43:19] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 15:43:19] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 15:44:21] INFO: Gobelin reçoit 15 dégâts! HP: 60
+[2026-01-30 15:44:21] INFO: LaRue La vrai attaque pour 15 dégâts!
+[2026-01-30 15:44:21] INFO: LaRue La vrai reçoit 18 dégâts! HP: 102
+[2026-01-30 15:44:21] INFO: Gobelin attaque pour 18 dégâts!
+[2026-01-30 15:44:48] INFO: Gobelin reçoit 14 dégâts! HP: 46
+[2026-01-30 15:44:48] INFO: LaRue La vrai attaque pour 14 dégâts!
+[2026-01-30 15:44:49] INFO: LaRue La vrai reçoit 18 dégâts! HP: 84
+[2026-01-30 15:44:49] INFO: Gobelin attaque pour 18 dégâts!
+[2026-01-30 15:44:49] INFO: Gobelin reçoit 16 dégâts! HP: 30
+[2026-01-30 15:44:49] INFO: LaRue La vrai attaque pour 16 dégâts!
+[2026-01-30 15:44:49] INFO: LaRue La vrai reçoit 17 dégâts! HP: 67
+[2026-01-30 15:44:49] INFO: Gobelin attaque pour 17 dégâts!
+[2026-01-30 15:44:50] INFO: Gobelin reçoit 15 dégâts! HP: 15
+[2026-01-30 15:44:50] INFO: LaRue La vrai attaque pour 15 dégâts!
+[2026-01-30 15:44:51] INFO: LaRue La vrai reçoit 17 dégâts! HP: 50
+[2026-01-30 15:44:51] INFO: Gobelin attaque pour 17 dégâts!
+[2026-01-30 15:44:51] INFO: Gobelin reçoit 14 dégâts! HP: 1
+[2026-01-30 15:44:51] INFO: LaRue La vrai attaque pour 14 dégâts!
+[2026-01-30 15:44:52] INFO: LaRue La vrai reçoit 14 dégâts! HP: 36
+[2026-01-30 15:44:52] INFO: Gobelin attaque pour 14 dégâts!
+[2026-01-30 15:44:53] INFO: Gobelin reçoit 15 dégâts! HP: 0
+[2026-01-30 15:44:53] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-01-30 15:44:54] INFO: ✓ Potion de Vie Moyenne ajouté à l'inventaire
+[2026-01-30 15:44:54] INFO: ✨ Potion de Vie Moyenne ajouté (chance: 40.0%)
+[2026-01-30 15:44:54] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-01-30 15:44:54] INFO: ✨ Potion de Vie ajouté (chance: 36.0%)
+[2026-01-30 15:44:54] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-01-30 15:44:54] INFO: ✨ Cuir de Gobelin ajouté (chance: 30.0%)
+[2026-01-30 15:44:54] INFO: ✓ Hache de Guerre ajouté à l'inventaire
+[2026-01-30 15:44:54] INFO: ✨ Hache de Guerre ajouté (chance: 10.0%)
+[2026-01-30 15:44:54] INFO: 📦 Limite d'items atteinte pour Gobelin
+[2026-01-30 15:44:54] INFO: LaRue La vrai attaque pour 15 dégâts!
+[2026-01-30 15:44:54] INFO: LaRue La vrai defeated 1 enemies in 6 turns
+[2026-01-30 15:44:54] INFO: 🎁 Butin récupéré de Gobelin: 4 item(s)
+[2026-01-30 15:44:54] INFO:   - Potion de Vie Moyenne
+[2026-01-30 15:44:54] INFO:   - Potion de Vie
+[2026-01-30 15:44:54] INFO:   - Cuir de Gobelin
+[2026-01-30 15:44:54] INFO:   - Hache de Guerre
+[2026-01-30 15:45:55] INFO: ✓ Potion de Vie Moyenne ajouté à l'inventaire
+[2026-01-30 15:45:55] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-01-30 15:45:55] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-01-30 15:45:55] INFO: ✓ Hache de Guerre ajouté à l'inventaire
+[2026-01-30 15:46:58] INFO: ⚔️  Hache de Guerre équipée! (+18 ATK)
+[2026-01-30 15:47:10] INFO: LaRue La vrai récupère 35 HP! HP : 71
+[2026-01-30 15:47:10] INFO: ✓ Potion de Vie Moyenne utilisée sur LaRue La vrai
+[2026-01-30 16:04:11] INFO: === Application started ===
+[2026-01-30 16:04:20] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:04:20] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:04:20] INFO: New player created: LArue LAvrai
+[2026-01-30 16:04:20] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 16:04:20] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 16:04:20] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:04:20] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:04:20] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 16:04:20] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 16:04:20] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 16:04:20] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 16:04:48] INFO: LArue LAvrai reçoit 13 dégâts! HP: 107
+[2026-01-30 16:04:48] INFO: Gobelin attaque pour 13 dégâts!
+[2026-01-30 16:05:05] INFO: Gobelin reçoit 14 dégâts! HP: 61
+[2026-01-30 16:05:05] INFO: LArue LAvrai attaque pour 14 dégâts!
+[2026-01-30 16:05:06] INFO: LArue LAvrai reçoit 13 dégâts! HP: 94
+[2026-01-30 16:05:06] INFO: Gobelin attaque pour 13 dégâts!
+[2026-01-30 16:05:07] INFO: Gobelin reçoit 13 dégâts! HP: 48
+[2026-01-30 16:05:07] INFO: LArue LAvrai attaque pour 13 dégâts!
+[2026-01-30 16:05:07] INFO: LArue LAvrai reçoit 18 dégâts! HP: 76
+[2026-01-30 16:05:07] INFO: Gobelin attaque pour 18 dégâts!
+[2026-01-30 16:05:08] INFO: Gobelin reçoit 16 dégâts! HP: 32
+[2026-01-30 16:05:08] INFO: LArue LAvrai attaque pour 16 dégâts!
+[2026-01-30 16:05:09] INFO: LArue LAvrai reçoit 16 dégâts! HP: 60
+[2026-01-30 16:05:09] INFO: Gobelin attaque pour 16 dégâts!
+[2026-01-30 16:05:09] INFO: Gobelin reçoit 16 dégâts! HP: 16
+[2026-01-30 16:05:09] INFO: LArue LAvrai attaque pour 16 dégâts!
+[2026-01-30 16:05:10] INFO: LArue LAvrai reçoit 17 dégâts! HP: 43
+[2026-01-30 16:05:10] INFO: Gobelin attaque pour 17 dégâts!
+[2026-01-30 16:05:10] INFO: Gobelin reçoit 13 dégâts! HP: 3
+[2026-01-30 16:05:10] INFO: LArue LAvrai attaque pour 13 dégâts!
+[2026-01-30 16:05:11] INFO: LArue LAvrai reçoit 14 dégâts! HP: 29
+[2026-01-30 16:05:11] INFO: Gobelin attaque pour 14 dégâts!
+[2026-01-30 16:05:13] INFO: Gobelin reçoit 13 dégâts! HP: 0
+[2026-01-30 16:05:13] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-01-30 16:05:13] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-01-30 16:05:13] INFO: ✨ Potion de Vie ajouté (chance: 45.0%)
+[2026-01-30 16:05:13] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-01-30 16:05:13] INFO: ✨ Cuir de Gobelin ajouté (chance: 40.0%)
+[2026-01-30 16:05:13] INFO: LArue LAvrai attaque pour 13 dégâts!
+[2026-01-30 16:05:13] INFO: LArue LAvrai gagne 50 XP (50/25)
+[2026-01-30 16:05:13] INFO: 🎉 LArue LAvrai monte au niveau 2! PV: +14, ATK: +5
+[2026-01-30 16:05:13] INFO: LArue LAvrai defeated 1 enemies in 7 turns
+[2026-01-30 16:05:13] INFO: 🎁 Butin récupéré de Gobelin: 2 item(s)
+[2026-01-30 16:05:13] INFO:   - Potion de Vie
+[2026-01-30 16:05:13] INFO:   - Cuir de Gobelin
+[2026-01-30 16:05:58] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-01-30 16:05:58] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-01-30 16:06:09] INFO: LArue LAvrai récupère 30 HP! HP : 134
+[2026-01-30 16:06:09] INFO: ✓ Potion de Soin utilisée sur LArue LAvrai
+[2026-01-30 16:06:51] INFO: Squelette reçoit 21 dégâts! HP: 29
+[2026-01-30 16:06:51] INFO: LArue LAvrai attaque pour 21 dégâts!
+[2026-01-30 16:06:51] INFO: LArue LAvrai reçoit 10 dégâts! HP: 124
+[2026-01-30 16:06:51] INFO: Squelette attaque pour 10 dégâts!
+[2026-01-30 16:06:52] INFO: LArue LAvrai reçoit 10 dégâts! HP: 114
+[2026-01-30 16:06:52] INFO: Squelette attaque pour 10 dégâts!
+[2026-01-30 16:06:59] INFO: Squelette reçoit 22 dégâts! HP: 7
+[2026-01-30 16:06:59] INFO: LArue LAvrai attaque pour 22 dégâts!
+[2026-01-30 16:06:59] INFO: LArue LAvrai reçoit 10 dégâts! HP: 104
+[2026-01-30 16:06:59] INFO: Squelette attaque pour 10 dégâts!
+[2026-01-30 16:07:00] INFO: LArue LAvrai reçoit 9 dégâts! HP: 95
+[2026-01-30 16:07:00] INFO: Squelette attaque pour 9 dégâts!
+[2026-01-30 16:07:03] INFO: Squelette reçoit 19 dégâts! HP: 0
+[2026-01-30 16:07:03] INFO: 💰 Squelette laisse tomber du butin !
+[2026-01-30 16:07:03] INFO: ✓ Poussière d'Os ajouté à l'inventaire
+[2026-01-30 16:07:03] INFO: ✨ Poussière d'Os ajouté (chance: 45.0%)
+[2026-01-30 16:07:03] INFO: LArue LAvrai attaque pour 19 dégâts!
+[2026-01-30 16:07:03] INFO: LArue LAvrai reçoit 8 dégâts! HP: 87
+[2026-01-30 16:07:03] INFO: Squelette attaque pour 8 dégâts!
+[2026-01-30 16:07:11] INFO: Squelette reçoit 20 dégâts! HP: 30
+[2026-01-30 16:07:11] INFO: LArue LAvrai attaque pour 20 dégâts!
+[2026-01-30 16:07:12] INFO: LArue LAvrai reçoit 8 dégâts! HP: 79
+[2026-01-30 16:07:12] INFO: Squelette attaque pour 8 dégâts!
+[2026-01-30 16:07:15] INFO: Squelette reçoit 23 dégâts! HP: 7
+[2026-01-30 16:07:15] INFO: LArue LAvrai attaque pour 23 dégâts!
+[2026-01-30 16:07:15] INFO: LArue LAvrai reçoit 8 dégâts! HP: 71
+[2026-01-30 16:07:15] INFO: Squelette attaque pour 8 dégâts!
+[2026-01-30 16:07:16] INFO: Squelette reçoit 20 dégâts! HP: 0
+[2026-01-30 16:07:16] INFO: 😢 Squelette ne laisse aucun butin cette fois...
+[2026-01-30 16:07:16] INFO: LArue LAvrai attaque pour 20 dégâts!
+[2026-01-30 16:07:16] INFO: LArue LAvrai gagne 20 XP (45/37)
+[2026-01-30 16:07:16] INFO: 🎉 LArue LAvrai monte au niveau 3! PV: +16, ATK: +6
+[2026-01-30 16:07:16] INFO: LArue LAvrai defeated 2 enemies in 6 turns
+[2026-01-30 16:07:16] INFO: 🎁 Butin récupéré de Squelette: 1 item(s)
+[2026-01-30 16:07:16] INFO:   - Poussière d'Os
+[2026-01-30 16:07:16] INFO: 😢 Squelette ne laisse aucun butin cette fois...
+[2026-01-30 16:07:27] INFO: ✓ Poussière d'Os ajouté à l'inventaire
+[2026-01-30 16:08:10] INFO: ✓ Épée Enchantée ajouté à l'inventaire
+[2026-01-30 16:08:10] INFO: ✓ Armure de Plaques ajouté à l'inventaire
+[2026-01-30 16:08:10] INFO: ✓ Potion Majeure ajouté à l'inventaire
+[2026-01-30 16:08:25] INFO: ⚔️  Épée Enchantée équipée! (+25 ATK)
+[2026-01-30 16:08:49] INFO: 🛡️  Armure de Plaques équipée! (+20 DEF)
+[2026-01-30 16:09:19] INFO: Dragon Ancien reçoit 30 dégâts! HP: 170
+[2026-01-30 16:09:19] INFO: LArue LAvrai attaque pour 30 dégâts!
+[2026-01-30 16:09:19] INFO: LArue LAvrai reçoit 32 dégâts! HP: 118
+[2026-01-30 16:09:19] INFO: Dragon Ancien attaque pour 32 dégâts!
+[2026-01-30 16:09:24] INFO: Dragon Ancien reçoit 29 dégâts! HP: 141
+[2026-01-30 16:09:24] INFO: LArue LAvrai attaque pour 29 dégâts!
+[2026-01-30 16:09:24] INFO: LArue LAvrai reçoit 31 dégâts! HP: 87
+[2026-01-30 16:09:24] INFO: Dragon Ancien attaque pour 31 dégâts!
+[2026-01-30 16:09:26] INFO: Dragon Ancien reçoit 28 dégâts! HP: 113
+[2026-01-30 16:09:26] INFO: LArue LAvrai attaque pour 28 dégâts!
+[2026-01-30 16:09:27] INFO: LArue LAvrai reçoit 31 dégâts! HP: 56
+[2026-01-30 16:09:27] INFO: Dragon Ancien attaque pour 31 dégâts!
+[2026-01-30 16:09:29] INFO: Dragon Ancien reçoit 31 dégâts! HP: 82
+[2026-01-30 16:09:29] INFO: LArue LAvrai attaque pour 31 dégâts!
+[2026-01-30 16:09:29] INFO: LArue LAvrai reçoit 29 dégâts! HP: 27
+[2026-01-30 16:09:29] INFO: Dragon Ancien attaque pour 29 dégâts!
+[2026-01-30 16:09:36] INFO: LArue LAvrai récupère 100 HP! HP : 127
+[2026-01-30 16:09:36] INFO: ✓ Potion Majeure utilisée sur LArue LAvrai
+[2026-01-30 16:09:37] INFO: LArue LAvrai reçoit 30 dégâts! HP: 97
+[2026-01-30 16:09:37] INFO: Dragon Ancien attaque pour 30 dégâts!
+[2026-01-30 16:09:39] INFO: Dragon Ancien reçoit 34 dégâts! HP: 48
+[2026-01-30 16:09:39] INFO: LArue LAvrai attaque pour 34 dégâts!
+[2026-01-30 16:09:40] INFO: LArue LAvrai reçoit 29 dégâts! HP: 68
+[2026-01-30 16:09:40] INFO: Dragon Ancien attaque pour 29 dégâts!
+[2026-01-30 16:09:41] INFO: Dragon Ancien reçoit 31 dégâts! HP: 17
+[2026-01-30 16:09:41] INFO: LArue LAvrai attaque pour 31 dégâts!
+[2026-01-30 16:09:41] INFO: LArue LAvrai reçoit 31 dégâts! HP: 37
+[2026-01-30 16:09:41] INFO: Dragon Ancien attaque pour 31 dégâts!
+[2026-01-30 16:09:43] INFO: Dragon Ancien reçoit 28 dégâts! HP: 0
+[2026-01-30 16:09:43] INFO: 💰 Dragon Ancien laisse tomber du butin légendaire !
+[2026-01-30 16:09:43] INFO: ✓ Écailles de Dragon ajouté à l'inventaire
+[2026-01-30 16:09:43] INFO: ✨ Écailles de Dragon ajouté (chance: 50.0%)
+[2026-01-30 16:09:43] INFO: ✓ Croc de Dragon ajouté à l'inventaire
+[2026-01-30 16:09:43] INFO: ✨ Croc de Dragon ajouté (chance: 51.0%)
+[2026-01-30 16:09:43] INFO: ✓ Griffe Draconique ajouté à l'inventaire
+[2026-01-30 16:09:43] INFO: ✨ Griffe Draconique ajouté (chance: 31.5%)
+[2026-01-30 16:09:43] INFO: LArue LAvrai attaque pour 28 dégâts!
+[2026-01-30 16:09:43] INFO: LArue LAvrai gagne 150 XP (158/55)
+[2026-01-30 16:09:43] INFO: 🎉 LArue LAvrai monte au niveau 4! PV: +18, ATK: +7
+[2026-01-30 16:09:43] INFO: 🎉 LArue LAvrai monte au niveau 5! PV: +20, ATK: +8
+[2026-01-30 16:09:43] INFO: LArue LAvrai defeated 1 enemies in 8 turns
+[2026-01-30 16:09:43] INFO: 🎁 Butin récupéré de Dragon Ancien: 3 item(s)
+[2026-01-30 16:09:43] INFO:   - Écailles de Dragon
+[2026-01-30 16:09:43] INFO:   - Croc de Dragon
+[2026-01-30 16:09:43] INFO:   - Griffe Draconique
+[2026-01-30 16:09:59] INFO: ✓ Écailles de Dragon ajouté à l'inventaire
+[2026-01-30 16:09:59] INFO: ✓ Croc de Dragon ajouté à l'inventaire
+[2026-01-30 16:09:59] INFO: ✓ Griffe Draconique ajouté à l'inventaire
+[2026-01-30 16:14:45] INFO: ⚔️  Griffe Draconique équipée! (+32 ATK)
+[2026-01-30 16:15:05] INFO: ⚔️  Croc de Dragon équipée! (+35 ATK)
+[2026-01-30 16:15:39] INFO: 🛡️  Écailles de Dragon équipée! (+40 DEF)
+[2026-01-30 16:32:20] INFO: === Application started ===
+[2026-01-30 16:32:26] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:32:26] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:32:26] INFO: New player created: dada
+[2026-01-30 16:32:26] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 16:32:26] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 16:32:26] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:32:26] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:32:26] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 16:32:26] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 16:32:26] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 16:32:26] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 16:32:37] INFO: 💥 COUP CRITIQUE! dada attaque pour 24 dégâts!
+[2026-01-30 16:32:37] INFO: Gobelin reçoit 24 dégâts! HP: 51
+[2026-01-30 16:32:37] INFO: Gobelin attaque pour 14 dégâts!
+[2026-01-30 16:32:37] INFO: 🛡️ La défense de dada bloque 2 dégâts!
+[2026-01-30 16:32:37] INFO: dada reçoit 12 dégâts! HP: 108
+[2026-01-30 16:32:43] INFO: dada attaque pour 14 dégâts!
+[2026-01-30 16:32:43] INFO: Gobelin reçoit 14 dégâts! HP: 37
+[2026-01-30 16:32:44] INFO: Gobelin attaque pour 15 dégâts!
+[2026-01-30 16:32:44] INFO: 🛡️ La défense de dada bloque 2 dégâts!
+[2026-01-30 16:32:44] INFO: dada reçoit 13 dégâts! HP: 95
+[2026-01-30 16:32:46] INFO: dada attaque pour 14 dégâts!
+[2026-01-30 16:32:46] INFO: Gobelin reçoit 14 dégâts! HP: 23
+[2026-01-30 16:32:47] INFO: Gobelin attaque pour 14 dégâts!
+[2026-01-30 16:32:47] INFO: 🛡️ La défense de dada bloque 2 dégâts!
+[2026-01-30 16:32:47] INFO: dada reçoit 12 dégâts! HP: 83
+[2026-01-30 16:32:53] INFO: dada attaque pour 12 dégâts!
+[2026-01-30 16:32:53] INFO: Gobelin reçoit 12 dégâts! HP: 11
+[2026-01-30 16:32:54] INFO: Gobelin attaque pour 15 dégâts!
+[2026-01-30 16:32:54] INFO: 🛡️ La défense de dada bloque 2 dégâts!
+[2026-01-30 16:32:54] INFO: dada reçoit 13 dégâts! HP: 70
+[2026-01-30 16:32:59] INFO: dada attaque pour 13 dégâts!
+[2026-01-30 16:32:59] INFO: Gobelin reçoit 13 dégâts! HP: 0
+[2026-01-30 16:32:59] INFO: 😢 Gobelin ne laisse aucun butin cette fois...
+[2026-01-30 16:32:59] INFO: dada gagne 50 XP (50/25)
+[2026-01-30 16:32:59] INFO: 🎉 dada monte au niveau 1! PV: +12, ATK: +4
+[2026-01-30 16:32:59] INFO: dada defeated 1 enemies in 5 turns
+[2026-01-30 16:32:59] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-01-30 16:32:59] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-01-30 16:32:59] INFO: ✨ Massue Cloutée ajouté (chance: 45.0%)
+[2026-01-30 16:32:59] INFO: 🎁 Butin récupéré de Gobelin: 1 item(s)
+[2026-01-30 16:32:59] INFO:   - Massue Cloutée
+[2026-01-30 16:33:06] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-01-30 16:33:16] INFO: ⚔️  Massue Cloutée équipée! (+12 ATK)
+[2026-01-30 16:33:16] INFO: dada equipped weapon: Massue Cloutée (+0 ATK)
+[2026-01-30 16:35:15] INFO: === Application started ===
+[2026-01-30 16:35:21] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:35:21] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:35:21] INFO: New player created: loco
+[2026-01-30 16:35:21] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 16:35:21] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 16:35:21] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:35:21] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:35:21] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 16:35:21] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 16:35:21] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 16:35:21] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 16:35:24] INFO: loco attaque pour 14 dégâts!
+[2026-01-30 16:35:24] INFO: Gobelin reçoit 14 dégâts! HP: 61
+[2026-01-30 16:35:24] INFO: Gobelin attaque pour 16 dégâts!
+[2026-01-30 16:35:24] INFO: 🛡️ La défense de loco bloque 2 dégâts!
+[2026-01-30 16:35:24] INFO: loco reçoit 14 dégâts! HP: 106
+[2026-01-30 16:35:25] INFO: loco attaque pour 12 dégâts!
+[2026-01-30 16:35:25] INFO: Gobelin reçoit 12 dégâts! HP: 49
+[2026-01-30 16:35:26] INFO: Gobelin attaque pour 16 dégâts!
+[2026-01-30 16:35:26] INFO: 🛡️ La défense de loco bloque 2 dégâts!
+[2026-01-30 16:35:26] INFO: loco reçoit 14 dégâts! HP: 92
+[2026-01-30 16:35:27] INFO: loco attaque pour 12 dégâts!
+[2026-01-30 16:35:27] INFO: Gobelin reçoit 12 dégâts! HP: 37
+[2026-01-30 16:35:27] INFO: 💥 COUP CRITIQUE! Gobelin attaque pour 30 dégâts!
+[2026-01-30 16:35:27] INFO: 🛡️ La défense de loco bloque 3 dégâts!
+[2026-01-30 16:35:27] INFO: loco reçoit 27 dégâts! HP: 65
+[2026-01-30 16:35:35] INFO: loco attaque pour 12 dégâts!
+[2026-01-30 16:35:35] INFO: Gobelin reçoit 12 dégâts! HP: 25
+[2026-01-30 16:35:36] INFO: Gobelin attaque pour 16 dégâts!
+[2026-01-30 16:35:36] INFO: 🛡️ La défense de loco bloque 2 dégâts!
+[2026-01-30 16:35:36] INFO: loco reçoit 14 dégâts! HP: 51
+[2026-01-30 16:35:38] INFO: loco attaque pour 12 dégâts!
+[2026-01-30 16:35:38] INFO: Gobelin reçoit 12 dégâts! HP: 13
+[2026-01-30 16:35:38] INFO: Gobelin attaque pour 17 dégâts!
+[2026-01-30 16:35:38] INFO: 🛡️ La défense de loco bloque 2 dégâts!
+[2026-01-30 16:35:38] INFO: loco reçoit 15 dégâts! HP: 36
+[2026-01-30 16:35:40] INFO: loco attaque pour 14 dégâts!
+[2026-01-30 16:35:40] INFO: Gobelin reçoit 14 dégâts! HP: 0
+[2026-01-30 16:35:40] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-01-30 16:35:40] INFO: ✓ Gants Volés ajouté à l'inventaire
+[2026-01-30 16:35:40] INFO: ✨ Gants Volés ajouté (chance: 35.0%)
+[2026-01-30 16:35:40] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-01-30 16:35:40] INFO: ✨ Massue Cloutée ajouté (chance: 36.0%)
+[2026-01-30 16:35:40] INFO: ✓ Dague Empoisonnée ajouté à l'inventaire
+[2026-01-30 16:35:40] INFO: ✨ Dague Empoisonnée ajouté (chance: 30.0%)
+[2026-01-30 16:35:40] INFO: loco gagne 50 XP (50/25)
+[2026-01-30 16:35:40] INFO: 🎉 loco monte au niveau 1! PV: +12, ATK: +4
+[2026-01-30 16:35:40] INFO: loco defeated 1 enemies in 6 turns
+[2026-01-30 16:35:40] INFO: 🎁 Butin récupéré de Gobelin: 3 item(s)
+[2026-01-30 16:35:40] INFO:   - Gants Volés
+[2026-01-30 16:35:40] INFO:   - Massue Cloutée
+[2026-01-30 16:35:40] INFO:   - Dague Empoisonnée
+[2026-01-30 16:35:46] INFO: ✓ Gants Volés ajouté à l'inventaire
+[2026-01-30 16:35:46] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-01-30 16:35:46] INFO: ✓ Dague Empoisonnée ajouté à l'inventaire
+[2026-01-30 16:35:58] INFO: 🛡️  Gants Volés équipée! (+8 DEF)
+[2026-01-30 16:35:58] INFO: loco equipped armor: Gants Volés (+8 DEF)
+[2026-01-30 16:36:28] INFO: ⚔️  Massue Cloutée équipée! (+12 ATK)
+[2026-01-30 16:36:28] INFO: loco equipped weapon: Massue Cloutée (+12 ATK)
+[2026-01-30 16:36:41] INFO: ⚔️  Dague Empoisonnée équipée! (+15 ATK)
+[2026-01-30 16:36:41] INFO: loco equipped weapon: Dague Empoisonnée (+15 ATK)
+[2026-01-30 16:36:48] INFO: 🛡️  Gants Volés déséquipée.
+[2026-01-30 16:36:48] INFO: loco equipped armor: Gants Volés (+0 DEF)
+[2026-01-30 16:36:57] INFO: 🛡️  Gants Volés équipée! (+8 DEF)
+[2026-01-30 16:36:57] INFO: loco equipped armor: Gants Volés (+8 DEF)
+[2026-01-30 16:40:00] INFO: === Application started ===
+[2026-01-30 16:40:05] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:40:05] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:40:05] INFO: New player created: 1
+[2026-01-30 16:40:05] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 16:40:05] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 16:40:05] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:40:05] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:40:05] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 16:40:05] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 16:40:05] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 16:40:05] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 16:40:25] INFO: 1 attaque pour 14 dégâts!
+[2026-01-30 16:40:25] INFO: Gobelin reçoit 14 dégâts! HP: 61
+[2026-01-30 16:40:26] INFO: Gobelin attaque pour 14 dégâts!
+[2026-01-30 16:40:26] INFO: 🛡️ La défense de 1 bloque 2 dégâts!
+[2026-01-30 16:40:26] INFO: 1 reçoit 12 dégâts! HP: 108
+[2026-01-30 16:40:27] INFO: 1 attaque pour 15 dégâts!
+[2026-01-30 16:40:27] INFO: Gobelin reçoit 15 dégâts! HP: 46
+[2026-01-30 16:40:28] INFO: Gobelin attaque pour 14 dégâts!
+[2026-01-30 16:40:28] INFO: 🛡️ La défense de 1 bloque 2 dégâts!
+[2026-01-30 16:40:28] INFO: 1 reçoit 12 dégâts! HP: 96
+[2026-01-30 16:40:43] INFO: === Application started ===
+[2026-01-30 16:41:01] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:41:01] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:41:01] INFO: New player created: ip a
+[2026-01-30 16:41:01] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 16:41:01] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 16:41:01] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:41:01] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:41:01] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 16:41:01] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 16:41:01] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 16:41:01] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 16:41:08] INFO: === Application started ===
+[2026-01-30 16:41:19] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:41:19] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:41:19] INFO: New player created: goo goo gaa gaa
+[2026-01-30 16:41:19] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 16:41:19] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 16:41:19] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:41:19] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:41:19] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 16:41:19] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 16:41:19] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 16:41:19] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 16:41:23] INFO: goo goo gaa gaa attaque pour 16 dégâts!
+[2026-01-30 16:41:23] INFO: Gobelin reçoit 16 dégâts! HP: 59
+[2026-01-30 16:41:24] INFO: Gobelin attaque pour 14 dégâts!
+[2026-01-30 16:41:24] INFO: 🛡️ La défense de goo goo gaa gaa bloque 2 dégâts!
+[2026-01-30 16:41:24] INFO: goo goo gaa gaa reçoit 12 dégâts! HP: 108
+[2026-01-30 16:41:28] INFO: goo goo gaa gaa attaque pour 14 dégâts!
+[2026-01-30 16:41:28] INFO: Gobelin reçoit 14 dégâts! HP: 45
+[2026-01-30 16:41:28] INFO: Gobelin attaque pour 17 dégâts!
+[2026-01-30 16:41:28] INFO: 🛡️ La défense de goo goo gaa gaa bloque 2 dégâts!
+[2026-01-30 16:41:28] INFO: goo goo gaa gaa reçoit 15 dégâts! HP: 93
+[2026-01-30 16:41:30] INFO: goo goo gaa gaa attaque pour 15 dégâts!
+[2026-01-30 16:41:30] INFO: Gobelin reçoit 15 dégâts! HP: 30
+[2026-01-30 16:41:30] INFO: Gobelin attaque pour 15 dégâts!
+[2026-01-30 16:41:30] INFO: 🛡️ La défense de goo goo gaa gaa bloque 2 dégâts!
+[2026-01-30 16:41:30] INFO: goo goo gaa gaa reçoit 13 dégâts! HP: 80
+[2026-01-30 16:41:31] INFO: goo goo gaa gaa attaque pour 15 dégâts!
+[2026-01-30 16:41:31] INFO: Gobelin reçoit 15 dégâts! HP: 15
+[2026-01-30 16:41:32] INFO: Gobelin attaque pour 14 dégâts!
+[2026-01-30 16:41:32] INFO: 🛡️ La défense de goo goo gaa gaa bloque 2 dégâts!
+[2026-01-30 16:41:32] INFO: goo goo gaa gaa reçoit 12 dégâts! HP: 68
+[2026-01-30 16:41:34] INFO: 💥 COUP CRITIQUE! goo goo gaa gaa attaque pour 26 dégâts!
+[2026-01-30 16:41:34] INFO: 💨 Gobelin esquive l'attaque!
+[2026-01-30 16:41:34] INFO: Gobelin attaque pour 14 dégâts!
+[2026-01-30 16:41:34] INFO: 🛡️ La défense de goo goo gaa gaa bloque 2 dégâts!
+[2026-01-30 16:41:34] INFO: goo goo gaa gaa reçoit 12 dégâts! HP: 56
+[2026-01-30 16:41:37] INFO: goo goo gaa gaa attaque pour 14 dégâts!
+[2026-01-30 16:41:37] INFO: Gobelin reçoit 14 dégâts! HP: 1
+[2026-01-30 16:41:37] INFO: Gobelin attaque pour 16 dégâts!
+[2026-01-30 16:41:37] INFO: 🛡️ La défense de goo goo gaa gaa bloque 2 dégâts!
+[2026-01-30 16:41:37] INFO: goo goo gaa gaa reçoit 14 dégâts! HP: 42
+[2026-01-30 16:41:38] INFO: goo goo gaa gaa attaque pour 15 dégâts!
+[2026-01-30 16:41:38] INFO: Gobelin reçoit 15 dégâts! HP: 0
+[2026-01-30 16:41:38] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-01-30 16:41:38] INFO: ✓ Gants Volés ajouté à l'inventaire
+[2026-01-30 16:41:38] INFO: ✨ Gants Volés ajouté (chance: 35.0%)
+[2026-01-30 16:41:38] INFO: ✓ Veste en Cuir Renforcé ajouté à l'inventaire
+[2026-01-30 16:41:38] INFO: ✨ Veste en Cuir Renforcé ajouté (chance: 32.0%)
+[2026-01-30 16:41:38] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-01-30 16:41:38] INFO: ✨ Cuir de Gobelin ajouté (chance: 30.0%)
+[2026-01-30 16:41:38] INFO: goo goo gaa gaa gagne 50 XP (50/25)
+[2026-01-30 16:41:38] INFO: 🎉 goo goo gaa gaa monte au niveau 2! PV: +14, ATK: +5
+[2026-01-30 16:41:38] INFO: goo goo gaa gaa defeated 1 enemies in 7 turns
+[2026-01-30 16:41:38] INFO: 🎁 Butin récupéré de Gobelin: 3 item(s)
+[2026-01-30 16:41:38] INFO:   - Gants Volés
+[2026-01-30 16:41:38] INFO:   - Veste en Cuir Renforcé
+[2026-01-30 16:41:38] INFO:   - Cuir de Gobelin
+[2026-01-30 16:41:54] INFO: ✓ Gants Volés ajouté à l'inventaire
+[2026-01-30 16:41:54] INFO: ✓ Veste en Cuir Renforcé ajouté à l'inventaire
+[2026-01-30 16:41:54] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-01-30 16:42:09] INFO: 🛡️  Veste en Cuir Renforcé équipée! (+12 DEF)
+[2026-01-30 16:42:17] INFO: 🛡️  Gants Volés équipée! (+8 DEF)
+[2026-01-30 16:43:01] INFO: goo goo gaa gaa attaque pour 20 dégâts!
+[2026-01-30 16:43:01] INFO: Squelette reçoit 20 dégâts! HP: 30
+[2026-01-30 16:43:02] INFO: 💥 COUP CRITIQUE! Squelette attaque pour 20 dégâts!
+[2026-01-30 16:43:02] INFO: 🛡️ La défense de goo goo gaa gaa bloque 5 dégâts!
+[2026-01-30 16:43:02] INFO: goo goo gaa gaa reçoit 15 dégâts! HP: 119
+[2026-01-30 16:43:02] INFO: Squelette attaque pour 10 dégâts!
+[2026-01-30 16:43:02] INFO: 🛡️ La défense de goo goo gaa gaa bloque 3 dégâts!
+[2026-01-30 16:43:02] INFO: goo goo gaa gaa reçoit 7 dégâts! HP: 112
+[2026-01-30 16:43:13] INFO: goo goo gaa gaa attaque pour 22 dégâts!
+[2026-01-30 16:43:13] INFO: Squelette reçoit 22 dégâts! HP: 8
+[2026-01-30 16:43:13] INFO: Squelette attaque pour 10 dégâts!
+[2026-01-30 16:43:13] INFO: 🛡️ La défense de goo goo gaa gaa bloque 3 dégâts!
+[2026-01-30 16:43:13] INFO: goo goo gaa gaa reçoit 7 dégâts! HP: 105
+[2026-01-30 16:43:14] INFO: Squelette attaque pour 10 dégâts!
+[2026-01-30 16:43:14] INFO: 🛡️ La défense de goo goo gaa gaa bloque 3 dégâts!
+[2026-01-30 16:43:14] INFO: goo goo gaa gaa reçoit 7 dégâts! HP: 98
+[2026-01-30 16:43:21] INFO: goo goo gaa gaa attaque pour 20 dégâts!
+[2026-01-30 16:43:21] INFO: Squelette reçoit 20 dégâts! HP: 0
+[2026-01-30 16:43:21] INFO: 😢 Squelette ne laisse aucun butin cette fois...
+[2026-01-30 16:43:22] INFO: Squelette attaque pour 9 dégâts!
+[2026-01-30 16:43:22] INFO: 🛡️ La défense de goo goo gaa gaa bloque 3 dégâts!
+[2026-01-30 16:43:22] INFO: goo goo gaa gaa reçoit 6 dégâts! HP: 92
+[2026-01-30 16:43:27] INFO: goo goo gaa gaa attaque pour 21 dégâts!
+[2026-01-30 16:43:27] INFO: Squelette reçoit 21 dégâts! HP: 29
+[2026-01-30 16:43:27] INFO: Squelette attaque pour 9 dégâts!
+[2026-01-30 16:43:27] INFO: 🛡️ La défense de goo goo gaa gaa bloque 3 dégâts!
+[2026-01-30 16:43:27] INFO: goo goo gaa gaa reçoit 6 dégâts! HP: 86
+[2026-01-30 16:43:28] INFO: goo goo gaa gaa attaque pour 20 dégâts!
+[2026-01-30 16:43:28] INFO: Squelette reçoit 20 dégâts! HP: 9
+[2026-01-30 16:43:29] INFO: Squelette attaque pour 11 dégâts!
+[2026-01-30 16:43:29] INFO: 🛡️ La défense de goo goo gaa gaa bloque 3 dégâts!
+[2026-01-30 16:43:29] INFO: goo goo gaa gaa reçoit 8 dégâts! HP: 78
+[2026-01-30 16:43:29] INFO: goo goo gaa gaa attaque pour 20 dégâts!
+[2026-01-30 16:43:29] INFO: Squelette reçoit 20 dégâts! HP: 0
+[2026-01-30 16:43:29] INFO: 😢 Squelette ne laisse aucun butin cette fois...
+[2026-01-30 16:43:29] INFO: goo goo gaa gaa gagne 20 XP (45/37)
+[2026-01-30 16:43:29] INFO: 🎉 goo goo gaa gaa monte au niveau 3! PV: +16, ATK: +6
+[2026-01-30 16:43:29] INFO: goo goo gaa gaa defeated 2 enemies in 6 turns
+[2026-01-30 16:43:29] INFO: 😢 Squelette ne laisse aucun butin cette fois...
+[2026-01-30 16:43:29] INFO: 💰 Squelette laisse tomber du butin !
+[2026-01-30 16:43:29] INFO: ✓ Poussière d'Os ajouté à l'inventaire
+[2026-01-30 16:43:29] INFO: ✨ Poussière d'Os ajouté (chance: 45.0%)
+[2026-01-30 16:43:29] INFO: ✓ Bouclier Ébréché ajouté à l'inventaire
+[2026-01-30 16:43:29] INFO: ✨ Bouclier Ébréché ajouté (chance: 18.8%)
+[2026-01-30 16:43:29] INFO: ✓ Petite Potion de Vie ajouté à l'inventaire
+[2026-01-30 16:43:29] INFO: ✨ Petite Potion de Vie ajouté (chance: 25.0%)
+[2026-01-30 16:43:29] INFO: 📦 Limite d'items atteinte pour Squelette
+[2026-01-30 16:43:29] INFO: 🎁 Butin récupéré de Squelette: 3 item(s)
+[2026-01-30 16:43:29] INFO:   - Poussière d'Os
+[2026-01-30 16:43:29] INFO:   - Bouclier Ébréché
+[2026-01-30 16:43:29] INFO:   - Petite Potion de Vie
+[2026-01-30 16:43:40] INFO: ✓ Poussière d'Os ajouté à l'inventaire
+[2026-01-30 16:43:40] INFO: ✓ Bouclier Ébréché ajouté à l'inventaire
+[2026-01-30 16:43:40] INFO: ✓ Petite Potion de Vie ajouté à l'inventaire
+[2026-01-30 16:43:51] INFO: 🛡️  Bouclier Ébréché équipée! (+4 DEF)
+[2026-01-30 16:44:04] INFO: ✓ Épée Enchantée ajouté à l'inventaire
+[2026-01-30 16:44:04] INFO: ✓ Armure de Plaques ajouté à l'inventaire
+[2026-01-30 16:44:04] INFO: ✓ Potion Majeure ajouté à l'inventaire
+[2026-01-30 16:44:14] INFO: ⚔️  Épée Enchantée équipée! (+25 ATK)
+[2026-01-30 16:44:27] INFO: 🛡️  Armure de Plaques équipée! (+20 DEF)
+[2026-01-30 16:44:50] INFO: goo goo gaa gaa récupère 40 HP! HP : 150
+[2026-01-30 16:45:04] INFO: goo goo gaa gaa attaque pour 57 dégâts!
+[2026-01-30 16:45:04] INFO: Dragon Ancien reçoit 57 dégâts! HP: 143
+[2026-01-30 16:45:05] INFO: Dragon Ancien attaque pour 26 dégâts!
+[2026-01-30 16:45:05] INFO: 🛡️ La défense de goo goo gaa gaa bloque 10 dégâts!
+[2026-01-30 16:45:05] INFO: goo goo gaa gaa reçoit 16 dégâts! HP: 134
+[2026-01-30 16:45:11] INFO: goo goo gaa gaa attaque pour 62 dégâts!
+[2026-01-30 16:45:11] INFO: Dragon Ancien reçoit 62 dégâts! HP: 81
+[2026-01-30 16:45:11] INFO: Dragon Ancien attaque pour 29 dégâts!
+[2026-01-30 16:45:11] INFO: 🛡️ La défense de goo goo gaa gaa bloque 11 dégâts!
+[2026-01-30 16:45:11] INFO: goo goo gaa gaa reçoit 18 dégâts! HP: 116
+[2026-01-30 16:45:14] INFO: goo goo gaa gaa attaque pour 55 dégâts!
+[2026-01-30 16:45:14] INFO: Dragon Ancien reçoit 55 dégâts! HP: 26
+[2026-01-30 16:45:15] INFO: Dragon Ancien attaque pour 32 dégâts!
+[2026-01-30 16:45:15] INFO: 🛡️ La défense de goo goo gaa gaa bloque 12 dégâts!
+[2026-01-30 16:45:15] INFO: goo goo gaa gaa reçoit 20 dégâts! HP: 96
+[2026-01-30 16:45:15] INFO: goo goo gaa gaa attaque pour 66 dégâts!
+[2026-01-30 16:45:15] INFO: Dragon Ancien reçoit 66 dégâts! HP: 0
+[2026-01-30 16:45:15] INFO: 😢 Dragon Ancien ne laisse aucun butin cette fois...
+[2026-01-30 16:45:15] INFO: goo goo gaa gaa gagne 150 XP (158/55)
+[2026-01-30 16:45:15] INFO: 🎉 goo goo gaa gaa monte au niveau 4! PV: +18, ATK: +7
+[2026-01-30 16:45:15] INFO: 🎉 goo goo gaa gaa monte au niveau 5! PV: +20, ATK: +8
+[2026-01-30 16:45:15] INFO: goo goo gaa gaa defeated 1 enemies in 4 turns
+[2026-01-30 16:45:15] INFO: 💰 Dragon Ancien laisse tomber du butin légendaire !
+[2026-01-30 16:45:15] INFO: ✓ Élixir du Dragon ajouté à l'inventaire
+[2026-01-30 16:45:15] INFO: ✨ Élixir du Dragon ajouté (chance: 40.0%)
+[2026-01-30 16:45:15] INFO: ✓ Croc de Dragon ajouté à l'inventaire
+[2026-01-30 16:45:15] INFO: ✨ Croc de Dragon ajouté (chance: 51.0%)
+[2026-01-30 16:45:15] INFO: ✓ Cristal de Flamme ajouté à l'inventaire
+[2026-01-30 16:45:15] INFO: ✨ Cristal de Flamme ajouté (chance: 17.5%)
+[2026-01-30 16:45:15] INFO: ✓ Griffe Draconique ajouté à l'inventaire
+[2026-01-30 16:45:15] INFO: ✨ Griffe Draconique ajouté (chance: 24.8%)
+[2026-01-30 16:45:15] INFO: 🎁 Butin récupéré de Dragon Ancien: 4 item(s)
+[2026-01-30 16:45:15] INFO:   - Élixir du Dragon
+[2026-01-30 16:45:15] INFO:   - Croc de Dragon
+[2026-01-30 16:45:15] INFO:   - Cristal de Flamme
+[2026-01-30 16:45:15] INFO:   - Griffe Draconique
+[2026-01-30 16:45:35] INFO: ✓ Élixir du Dragon ajouté à l'inventaire
+[2026-01-30 16:45:35] INFO: ✓ Croc de Dragon ajouté à l'inventaire
+[2026-01-30 16:45:35] INFO: ✓ Cristal de Flamme ajouté à l'inventaire
+[2026-01-30 16:45:35] INFO: ✓ Griffe Draconique ajouté à l'inventaire
+[2026-01-30 16:45:42] INFO: ⚔️  Croc de Dragon équipée! (+35 ATK)
+[2026-01-30 16:45:50] INFO: ⚔️  Griffe Draconique équipée! (+32 ATK)
+[2026-01-30 16:46:11] INFO: Game engine shut down
+[2026-01-30 16:46:11] INFO: === Application ended ===
+[2026-01-30 16:46:30] INFO: === Application started ===
+[2026-01-30 16:46:37] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:46:37] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:46:37] INFO: New player created: Aventurier
+[2026-01-30 16:46:37] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 16:46:37] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 16:46:37] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:46:37] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:46:37] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 16:46:37] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 16:46:37] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 16:46:37] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 16:46:43] INFO: === Application started ===
+[2026-01-30 16:46:44] ERROR: Error during player initialization - Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+	at tools.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:70)
+	at tools.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1950)
+	at tools.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:448)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1480)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:53)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:158)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:89)
+	at org.example.engine.GameEngine.start(GameEngine.java:49)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 16:46:44] INFO: === Application ended ===
+[2026-01-30 16:46:56] INFO: === Application started ===
+[2026-01-30 16:53:29] INFO: === Application started ===
+[2026-01-30 16:54:01] ERROR: Error during player initialization - Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+	at tools.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:70)
+	at tools.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1950)
+	at tools.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:448)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1480)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 16:54:01] INFO: === Application ended ===
+[2026-01-30 16:54:02] INFO: === Application started ===
+[2026-01-30 16:54:52] ERROR: Error during player initialization - Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+	at tools.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:70)
+	at tools.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1950)
+	at tools.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:448)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1480)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 16:54:52] INFO: === Application ended ===
+[2026-01-30 16:55:10] INFO: === Application started ===
+[2026-01-30 16:55:31] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:55:31] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 16:55:31] INFO: New player created: caca
+[2026-01-30 16:55:31] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 16:55:31] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 16:55:31] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:55:31] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 16:55:31] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 16:55:31] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 16:55:31] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 16:55:31] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 16:55:40] INFO: Object saved to: saves/player_save.json
+[2026-01-30 16:55:41] INFO: Game saved successfully to: saves/player_save.json
+[2026-01-30 16:55:52] INFO: Game engine shut down
+[2026-01-30 16:55:52] INFO: === Application ended ===
+[2026-01-30 16:56:01] INFO: === Application started ===
+[2026-01-30 16:56:11] ERROR: Error during player initialization - Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+	at tools.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:70)
+	at tools.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1950)
+	at tools.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:448)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1480)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 16:56:11] INFO: === Application ended ===
+[2026-01-30 16:56:11] INFO: === Application started ===
+[2026-01-30 16:56:59] ERROR: Error during player initialization - Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.example.model.Player` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #4]
+	at tools.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:70)
+	at tools.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1950)
+	at tools.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:448)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1480)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 16:56:59] INFO: === Application ended ===
+[2026-01-30 17:03:23] INFO: === Application started ===
+[2026-01-30 17:03:32] INFO: === Application started ===
+[2026-01-30 17:03:52] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 17:03:52] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-01-30 17:03:52] INFO: New player created: tchoupi
+[2026-01-30 17:03:52] DEBUG: Monster created via reflection: Goblin
+[2026-01-30 17:03:52] INFO: Room populated with 1 Goblin(s)
+[2026-01-30 17:03:52] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 17:03:52] DEBUG: Monster created via reflection: Skeleton
+[2026-01-30 17:03:52] INFO: Room populated with 2 Skeleton(s)
+[2026-01-30 17:03:52] DEBUG: Monster created via reflection: Dragon
+[2026-01-30 17:03:52] INFO: Room populated with 1 Dragon(s)
+[2026-01-30 17:03:52] INFO: Dungeon initialized with 5 rooms
+[2026-01-30 17:04:02] INFO: Object saved to: saves/player_save.json
+[2026-01-30 17:04:02] INFO: Game saved successfully to: saves/player_save.json
+[2026-01-30 17:04:09] INFO: Game engine shut down
+[2026-01-30 17:04:09] INFO: === Application ended ===
+[2026-01-30 17:05:09] INFO: === Application started ===
+[2026-01-30 17:05:51] ERROR: Error during player initialization - Cannot construct instance of `org.example.inventory.Inventory` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #292] (through reference chain: org.example.model.Player["inventory"])
+tools.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.example.inventory.Inventory` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #292] (through reference chain: org.example.model.Player["inventory"])
+	at tools.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:67)
+	at tools.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1806)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1484)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:120)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._vanillaDeserializeWithUnknown(BeanDeserializer.java:437)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:294)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:624)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 17:05:51] INFO: === Application ended ===
+[2026-01-30 17:05:52] INFO: === Application started ===
+[2026-01-30 17:06:58] ERROR: Error during player initialization - Cannot construct instance of `org.example.inventory.Inventory` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #292] (through reference chain: org.example.model.Player["inventory"])
+tools.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.example.inventory.Inventory` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #292] (through reference chain: org.example.model.Player["inventory"])
+	at tools.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:67)
+	at tools.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1806)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1484)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:120)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._vanillaDeserializeWithUnknown(BeanDeserializer.java:437)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:294)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:624)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 17:06:58] INFO: === Application ended ===
+[2026-01-30 17:06:59] INFO: === Application started ===
+[2026-01-30 17:10:05] ERROR: Error during player initialization - Cannot construct instance of `org.example.inventory.Inventory` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #292] (through reference chain: org.example.model.Player["inventory"])
+tools.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `org.example.inventory.Inventory` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #292] (through reference chain: org.example.model.Player["inventory"])
+	at tools.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:67)
+	at tools.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1806)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1484)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:120)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._vanillaDeserializeWithUnknown(BeanDeserializer.java:437)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:294)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:624)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-30 17:10:05] INFO: === Application ended ===
+[2026-01-30 17:10:09] INFO: === Application started ===
+[2026-01-31 15:08:39] ERROR: Error during player initialization - Conflicting/ambiguous property name definitions (implicit name 'maxSize'): found multiple explicit names: [maxCapacity, maxSize], but also implicit accessor: [method org.example.inventory.Inventory#maxSize()][visible=true,ignore=false,explicitName=false]
+java.lang.IllegalStateException: Conflicting/ambiguous property name definitions (implicit name 'maxSize'): found multiple explicit names: [maxCapacity, maxSize], but also implicit accessor: [method org.example.inventory.Inventory#maxSize()][visible=true,ignore=false,explicitName=false]
+	at tools.jackson.databind.introspect.POJOPropertyBuilder._explode(POJOPropertyBuilder.java:1317)
+	at tools.jackson.databind.introspect.POJOPropertyBuilder.explode(POJOPropertyBuilder.java:1296)
+	at tools.jackson.databind.introspect.POJOPropertiesCollector._renameProperties(POJOPropertiesCollector.java:1545)
+	at tools.jackson.databind.introspect.POJOPropertiesCollector.collectAll(POJOPropertiesCollector.java:410)
+	at tools.jackson.databind.introspect.POJOPropertiesCollector.getPotentialCreators(POJOPropertiesCollector.java:202)
+	at tools.jackson.databind.introspect.BasicBeanDescription.getPotentialCreators(BasicBeanDescription.java:336)
+	at tools.jackson.databind.deser.BasicDeserializerFactory._constructDefaultValueInstantiator(BasicDeserializerFactory.java:203)
+	at tools.jackson.databind.deser.BasicDeserializerFactory.findValueInstantiator(BasicDeserializerFactory.java:171)
+	at tools.jackson.databind.deser.BeanDeserializerFactory.buildBeanDeserializer(BeanDeserializerFactory.java:258)
+	at tools.jackson.databind.deser.BeanDeserializerFactory.createBeanDeserializer(BeanDeserializerFactory.java:151)
+	at tools.jackson.databind.deser.DeserializerCache._createDeserializer2(DeserializerCache.java:414)
+	at tools.jackson.databind.deser.DeserializerCache._createDeserializer(DeserializerCache.java:361)
+	at tools.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:265)
+	at tools.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at tools.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:158)
+	at tools.jackson.databind.DeserializationContext.findNonContextualValueDeserializer(DeserializationContext.java:729)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.resolve(BeanDeserializerBase.java:521)
+	at tools.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:294)
+	at tools.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at tools.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:158)
+	at tools.jackson.databind.DeserializationContext.findRootValueDeserializer(DeserializationContext.java:738)
+	at tools.jackson.databind.ObjectMapper._findRootDeserializer(ObjectMapper.java:2794)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2612)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-01-31 15:08:39] INFO: === Application ended ===
+[2026-02-05 13:47:23] INFO: === Application started ===
+[2026-02-05 13:47:28] ERROR: Error during player initialization - Conflicting/ambiguous property name definitions (implicit name 'maxSize'): found multiple explicit names: [maxCapacity, maxSize], but also implicit accessor: [method org.example.inventory.Inventory#maxSize()][visible=true,ignore=false,explicitName=false]
+java.lang.IllegalStateException: Conflicting/ambiguous property name definitions (implicit name 'maxSize'): found multiple explicit names: [maxCapacity, maxSize], but also implicit accessor: [method org.example.inventory.Inventory#maxSize()][visible=true,ignore=false,explicitName=false]
+	at tools.jackson.databind.introspect.POJOPropertyBuilder._explode(POJOPropertyBuilder.java:1317)
+	at tools.jackson.databind.introspect.POJOPropertyBuilder.explode(POJOPropertyBuilder.java:1296)
+	at tools.jackson.databind.introspect.POJOPropertiesCollector._renameProperties(POJOPropertiesCollector.java:1545)
+	at tools.jackson.databind.introspect.POJOPropertiesCollector.collectAll(POJOPropertiesCollector.java:410)
+	at tools.jackson.databind.introspect.POJOPropertiesCollector.getPotentialCreators(POJOPropertiesCollector.java:202)
+	at tools.jackson.databind.introspect.BasicBeanDescription.getPotentialCreators(BasicBeanDescription.java:336)
+	at tools.jackson.databind.deser.BasicDeserializerFactory._constructDefaultValueInstantiator(BasicDeserializerFactory.java:203)
+	at tools.jackson.databind.deser.BasicDeserializerFactory.findValueInstantiator(BasicDeserializerFactory.java:171)
+	at tools.jackson.databind.deser.BeanDeserializerFactory.buildBeanDeserializer(BeanDeserializerFactory.java:258)
+	at tools.jackson.databind.deser.BeanDeserializerFactory.createBeanDeserializer(BeanDeserializerFactory.java:151)
+	at tools.jackson.databind.deser.DeserializerCache._createDeserializer2(DeserializerCache.java:414)
+	at tools.jackson.databind.deser.DeserializerCache._createDeserializer(DeserializerCache.java:361)
+	at tools.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:265)
+	at tools.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at tools.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:158)
+	at tools.jackson.databind.DeserializationContext.findNonContextualValueDeserializer(DeserializationContext.java:729)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.resolve(BeanDeserializerBase.java:521)
+	at tools.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:294)
+	at tools.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at tools.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:158)
+	at tools.jackson.databind.DeserializationContext.findRootValueDeserializer(DeserializationContext.java:738)
+	at tools.jackson.databind.ObjectMapper._findRootDeserializer(ObjectMapper.java:2794)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2612)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-02-05 13:47:28] INFO: === Application ended ===
+[2026-02-05 13:54:02] INFO: === Application started ===
+[2026-02-05 13:54:29] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 13:54:29] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 13:54:29] INFO: New player created: googoogaga
+[2026-02-05 13:54:29] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 13:54:29] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 13:54:29] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 13:54:29] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 13:54:29] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 13:54:29] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 13:54:29] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 13:54:29] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 13:54:40] INFO: 💥 COUP CRITIQUE! googoogaga attaque pour 28 dégâts!
+[2026-02-05 13:54:40] INFO: Gobelin reçoit 28 dégâts! HP: 47
+[2026-02-05 13:54:40] INFO: Gobelin attaque pour 14 dégâts!
+[2026-02-05 13:54:40] INFO: 🛡️ La défense de googoogaga bloque 2 dégâts!
+[2026-02-05 13:54:40] INFO: googoogaga reçoit 12 dégâts! HP: 108
+[2026-02-05 13:54:48] INFO: googoogaga attaque pour 14 dégâts!
+[2026-02-05 13:54:48] INFO: Gobelin reçoit 14 dégâts! HP: 33
+[2026-02-05 13:54:48] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 13:54:48] INFO: 🛡️ La défense de googoogaga bloque 2 dégâts!
+[2026-02-05 13:54:48] INFO: googoogaga reçoit 13 dégâts! HP: 95
+[2026-02-05 13:54:49] INFO: googoogaga attaque pour 16 dégâts!
+[2026-02-05 13:54:49] INFO: Gobelin reçoit 16 dégâts! HP: 17
+[2026-02-05 13:54:50] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 13:54:50] INFO: 🛡️ La défense de googoogaga bloque 2 dégâts!
+[2026-02-05 13:54:50] INFO: googoogaga reçoit 13 dégâts! HP: 82
+[2026-02-05 13:54:51] INFO: googoogaga attaque pour 15 dégâts!
+[2026-02-05 13:54:51] INFO: Gobelin reçoit 15 dégâts! HP: 2
+[2026-02-05 13:54:51] INFO: 💥 COUP CRITIQUE! Gobelin attaque pour 32 dégâts!
+[2026-02-05 13:54:51] INFO: 🛡️ La défense de googoogaga bloque 3 dégâts!
+[2026-02-05 13:54:51] INFO: googoogaga reçoit 29 dégâts! HP: 53
+[2026-02-05 13:54:53] INFO: googoogaga attaque pour 13 dégâts!
+[2026-02-05 13:54:53] INFO: Gobelin reçoit 13 dégâts! HP: 0
+[2026-02-05 13:54:53] INFO: 😢 Gobelin ne laisse aucun butin cette fois...
+[2026-02-05 13:54:53] INFO: googoogaga gagne 50 XP (50/25)
+[2026-02-05 13:54:53] INFO: 🎉 googoogaga monte au niveau 2! PV: +14, ATK: +5
+[2026-02-05 13:54:53] INFO: googoogaga defeated 1 enemies in 5 turns
+[2026-02-05 13:54:53] INFO: 😢 Gobelin ne laisse aucun butin cette fois...
+[2026-02-05 13:55:18] INFO: Object saved to: saves/player_save.json
+[2026-02-05 13:55:18] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 13:55:50] INFO: === Application started ===
+[2026-02-05 13:55:51] INFO: === Application started ===
+[2026-02-05 13:55:56] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 13:55:56] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 13:55:56] INFO: New player created: czzefzaf
+[2026-02-05 13:55:56] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 13:55:56] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 13:55:56] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 13:55:56] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 13:55:56] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 13:55:56] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 13:55:56] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 13:55:56] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 13:55:58] INFO: czzefzaf attaque pour 15 dégâts!
+[2026-02-05 13:55:58] INFO: Gobelin reçoit 15 dégâts! HP: 60
+[2026-02-05 13:55:58] INFO: Gobelin attaque pour 16 dégâts!
+[2026-02-05 13:55:58] INFO: 🛡️ La défense de czzefzaf bloque 2 dégâts!
+[2026-02-05 13:55:58] INFO: czzefzaf reçoit 14 dégâts! HP: 106
+[2026-02-05 13:55:59] INFO: czzefzaf attaque pour 15 dégâts!
+[2026-02-05 13:55:59] INFO: Gobelin reçoit 15 dégâts! HP: 45
+[2026-02-05 13:56:00] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 13:56:00] INFO: 🛡️ La défense de czzefzaf bloque 2 dégâts!
+[2026-02-05 13:56:00] INFO: czzefzaf reçoit 13 dégâts! HP: 93
+[2026-02-05 13:56:02] INFO: czzefzaf attaque pour 15 dégâts!
+[2026-02-05 13:56:02] INFO: Gobelin reçoit 15 dégâts! HP: 30
+[2026-02-05 13:56:03] INFO: Gobelin attaque pour 14 dégâts!
+[2026-02-05 13:56:03] INFO: 🛡️ La défense de czzefzaf bloque 2 dégâts!
+[2026-02-05 13:56:03] INFO: czzefzaf reçoit 12 dégâts! HP: 81
+[2026-02-05 13:56:04] INFO: czzefzaf attaque pour 16 dégâts!
+[2026-02-05 13:56:04] INFO: Gobelin reçoit 16 dégâts! HP: 14
+[2026-02-05 13:56:04] INFO: Gobelin attaque pour 16 dégâts!
+[2026-02-05 13:56:04] INFO: 🛡️ La défense de czzefzaf bloque 2 dégâts!
+[2026-02-05 13:56:04] INFO: czzefzaf reçoit 14 dégâts! HP: 67
+[2026-02-05 13:56:05] INFO: czzefzaf attaque pour 16 dégâts!
+[2026-02-05 13:56:05] INFO: Gobelin reçoit 16 dégâts! HP: 0
+[2026-02-05 13:56:05] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-02-05 13:56:05] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 13:56:05] INFO: ✨ Cuir de Gobelin ajouté (chance: 50.0%)
+[2026-02-05 13:56:05] INFO: ✓ Dent de Gobelin ajouté à l'inventaire
+[2026-02-05 13:56:05] INFO: ✨ Dent de Gobelin ajouté (chance: 24.0%)
+[2026-02-05 13:56:05] INFO: czzefzaf gagne 50 XP (50/25)
+[2026-02-05 13:56:05] INFO: 🎉 czzefzaf monte au niveau 2! PV: +14, ATK: +5
+[2026-02-05 13:56:05] INFO: czzefzaf defeated 1 enemies in 5 turns
+[2026-02-05 13:56:05] INFO: 🎁 Butin récupéré de Gobelin: 2 item(s)
+[2026-02-05 13:56:05] INFO:   - Cuir de Gobelin
+[2026-02-05 13:56:05] INFO:   - Dent de Gobelin
+[2026-02-05 13:56:12] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 13:56:12] INFO: ✓ Dent de Gobelin ajouté à l'inventaire
+[2026-02-05 13:56:43] INFO: Object saved to: saves/player_save.json
+[2026-02-05 13:56:49] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 14:00:06] INFO: === Application started ===
+[2026-02-05 14:00:14] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 14:00:14] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 14:00:14] INFO: New player created: gggoooggagaz
+[2026-02-05 14:00:14] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 14:00:14] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 14:00:14] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:00:14] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:00:14] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 14:00:14] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 14:00:14] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 14:00:14] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 14:00:16] INFO: gggoooggagaz attaque pour 15 dégâts!
+[2026-02-05 14:00:16] INFO: Gobelin reçoit 15 dégâts! HP: 60
+[2026-02-05 14:00:17] INFO: Gobelin attaque pour 17 dégâts!
+[2026-02-05 14:00:17] INFO: 🛡️ La défense de gggoooggagaz bloque 2 dégâts!
+[2026-02-05 14:00:17] INFO: gggoooggagaz reçoit 15 dégâts! HP: 105
+[2026-02-05 14:00:17] INFO: gggoooggagaz attaque pour 15 dégâts!
+[2026-02-05 14:00:17] INFO: Gobelin reçoit 15 dégâts! HP: 45
+[2026-02-05 14:00:17] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 14:00:17] INFO: 🛡️ La défense de gggoooggagaz bloque 2 dégâts!
+[2026-02-05 14:00:17] INFO: gggoooggagaz reçoit 13 dégâts! HP: 92
+[2026-02-05 14:00:18] INFO: gggoooggagaz attaque pour 13 dégâts!
+[2026-02-05 14:00:18] INFO: Gobelin reçoit 13 dégâts! HP: 32
+[2026-02-05 14:00:18] INFO: Gobelin attaque pour 14 dégâts!
+[2026-02-05 14:00:18] INFO: 🛡️ La défense de gggoooggagaz bloque 2 dégâts!
+[2026-02-05 14:00:18] INFO: gggoooggagaz reçoit 12 dégâts! HP: 80
+[2026-02-05 14:00:19] INFO: gggoooggagaz attaque pour 14 dégâts!
+[2026-02-05 14:00:19] INFO: Gobelin reçoit 14 dégâts! HP: 18
+[2026-02-05 14:00:19] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 14:00:19] INFO: 🛡️ La défense de gggoooggagaz bloque 2 dégâts!
+[2026-02-05 14:00:19] INFO: gggoooggagaz reçoit 13 dégâts! HP: 67
+[2026-02-05 14:00:20] INFO: 💥 COUP CRITIQUE! gggoooggagaz attaque pour 32 dégâts!
+[2026-02-05 14:00:20] INFO: Gobelin reçoit 32 dégâts! HP: 0
+[2026-02-05 14:00:20] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-02-05 14:00:20] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 14:00:20] INFO: ✨ Cuir de Gobelin ajouté (chance: 50.0%)
+[2026-02-05 14:00:20] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-02-05 14:00:20] INFO: ✨ Massue Cloutée ajouté (chance: 36.0%)
+[2026-02-05 14:00:20] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-02-05 14:00:20] INFO: ✨ Potion de Vie ajouté (chance: 27.0%)
+[2026-02-05 14:00:20] INFO: gggoooggagaz gagne 50 XP (50/25)
+[2026-02-05 14:00:20] INFO: 🎉 gggoooggagaz monte au niveau 2! PV: +14, ATK: +5
+[2026-02-05 14:00:20] INFO: gggoooggagaz defeated 1 enemies in 5 turns
+[2026-02-05 14:00:20] INFO: 🎁 Butin récupéré de Gobelin: 3 item(s)
+[2026-02-05 14:00:20] INFO:   - Cuir de Gobelin
+[2026-02-05 14:00:20] INFO:   - Massue Cloutée
+[2026-02-05 14:00:20] INFO:   - Potion de Vie
+[2026-02-05 14:00:31] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 14:00:31] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-02-05 14:00:31] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-02-05 14:00:39] INFO: ⚔️  Massue Cloutée équipée! (+12 ATK)
+[2026-02-05 14:04:09] INFO: === Application started ===
+[2026-02-05 14:04:14] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 14:04:14] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 14:04:14] INFO: New player created: googaga
+[2026-02-05 14:04:14] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 14:04:14] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 14:04:14] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:04:14] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:04:14] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 14:04:14] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 14:04:14] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 14:04:14] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 14:04:15] INFO: googaga attaque pour 15 dégâts!
+[2026-02-05 14:04:15] INFO: Gobelin reçoit 15 dégâts! HP: 60
+[2026-02-05 14:04:16] INFO: Gobelin attaque pour 13 dégâts!
+[2026-02-05 14:04:16] INFO: 🛡️ La défense de googaga bloque 2 dégâts!
+[2026-02-05 14:04:16] INFO: googaga reçoit 11 dégâts! HP: 109
+[2026-02-05 14:04:16] INFO: googaga attaque pour 14 dégâts!
+[2026-02-05 14:04:16] INFO: Gobelin reçoit 14 dégâts! HP: 46
+[2026-02-05 14:04:17] INFO: Gobelin attaque pour 14 dégâts!
+[2026-02-05 14:04:17] INFO: 🛡️ La défense de googaga bloque 2 dégâts!
+[2026-02-05 14:04:17] INFO: googaga reçoit 12 dégâts! HP: 97
+[2026-02-05 14:04:17] INFO: googaga attaque pour 16 dégâts!
+[2026-02-05 14:04:17] INFO: Gobelin reçoit 16 dégâts! HP: 30
+[2026-02-05 14:04:17] INFO: Gobelin attaque pour 16 dégâts!
+[2026-02-05 14:04:17] INFO: 🛡️ La défense de googaga bloque 2 dégâts!
+[2026-02-05 14:04:17] INFO: googaga reçoit 14 dégâts! HP: 83
+[2026-02-05 14:04:18] INFO: googaga attaque pour 14 dégâts!
+[2026-02-05 14:04:18] INFO: Gobelin reçoit 14 dégâts! HP: 16
+[2026-02-05 14:04:18] INFO: Gobelin attaque pour 14 dégâts!
+[2026-02-05 14:04:18] INFO: 🛡️ La défense de googaga bloque 2 dégâts!
+[2026-02-05 14:04:18] INFO: googaga reçoit 12 dégâts! HP: 71
+[2026-02-05 14:04:19] INFO: googaga attaque pour 13 dégâts!
+[2026-02-05 14:04:19] INFO: Gobelin reçoit 13 dégâts! HP: 3
+[2026-02-05 14:04:20] INFO: Gobelin attaque pour 14 dégâts!
+[2026-02-05 14:04:20] INFO: 🛡️ La défense de googaga bloque 2 dégâts!
+[2026-02-05 14:04:20] INFO: googaga reçoit 12 dégâts! HP: 59
+[2026-02-05 14:04:21] INFO: googaga attaque pour 13 dégâts!
+[2026-02-05 14:04:21] INFO: 💨 Gobelin esquive l'attaque!
+[2026-02-05 14:04:21] INFO: 💥 COUP CRITIQUE! Gobelin attaque pour 30 dégâts!
+[2026-02-05 14:04:21] INFO: 🛡️ La défense de googaga bloque 3 dégâts!
+[2026-02-05 14:04:21] INFO: googaga reçoit 27 dégâts! HP: 32
+[2026-02-05 14:04:27] INFO: googaga attaque pour 16 dégâts!
+[2026-02-05 14:04:27] INFO: Gobelin reçoit 16 dégâts! HP: 0
+[2026-02-05 14:04:27] INFO: 😢 Gobelin ne laisse aucun butin cette fois...
+[2026-02-05 14:04:27] INFO: googaga gagne 50 XP (50/25)
+[2026-02-05 14:04:27] INFO: 🎉 googaga monte au niveau 2! PV: +14, ATK: +5
+[2026-02-05 14:04:27] INFO: googaga defeated 1 enemies in 7 turns
+[2026-02-05 14:04:27] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-02-05 14:04:27] INFO: ✓ Dague Empoisonnée ajouté à l'inventaire
+[2026-02-05 14:04:27] INFO: ✨ Dague Empoisonnée ajouté (chance: 50.0%)
+[2026-02-05 14:04:27] INFO: ✓ Dent de Gobelin ajouté à l'inventaire
+[2026-02-05 14:04:27] INFO: ✨ Dent de Gobelin ajouté (chance: 24.0%)
+[2026-02-05 14:04:27] INFO: 🎁 Butin récupéré de Gobelin: 2 item(s)
+[2026-02-05 14:04:27] INFO:   - Dague Empoisonnée
+[2026-02-05 14:04:27] INFO:   - Dent de Gobelin
+[2026-02-05 14:04:31] INFO: ✓ Dague Empoisonnée ajouté à l'inventaire
+[2026-02-05 14:04:31] INFO: ✓ Dent de Gobelin ajouté à l'inventaire
+[2026-02-05 14:04:46] INFO: ⚔️  Dague Empoisonnée équipée! (+15 ATK)
+[2026-02-05 14:05:55] INFO: Object saved to: saves/player_save.json
+[2026-02-05 14:05:57] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 14:06:20] INFO: Object saved to: saves/player_save.json
+[2026-02-05 14:06:20] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 14:06:20] INFO: Game engine shut down
+[2026-02-05 14:06:20] INFO: === Application ended ===
+[2026-02-05 14:06:25] INFO: === Application started ===
+[2026-02-05 14:06:40] ERROR: Error during player initialization - Cannot construct instance of `org.example.model.Item` (no Creators, like default constructor, exist): abstract types either need to be mapped to concrete types, have custom deserializer, or contain additional type information
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #329] (through reference chain: org.example.model.Player["inventory"]->org.example.inventory.Inventory["items"]->java.util.ArrayList[0])
+tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.example.model.Item` (no Creators, like default constructor, exist): abstract types either need to be mapped to concrete types, have custom deserializer, or contain additional type information
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #329] (through reference chain: org.example.model.Player["inventory"]->org.example.inventory.Inventory["items"]->java.util.ArrayList[0])
+	at tools.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:70)
+	at tools.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1950)
+	at tools.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:448)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1480)
+	at tools.jackson.databind.deser.AbstractDeserializer.deserialize(AbstractDeserializer.java:254)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeNoNullChecks(CollectionDeserializer.java:493)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:348)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:238)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:29)
+	at tools.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:561)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:752)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:598)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:120)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._vanillaDeserializeWithUnknown(BeanDeserializer.java:437)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:294)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:624)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-02-05 14:06:40] INFO: === Application ended ===
+[2026-02-05 14:08:01] INFO: === Application started ===
+[2026-02-05 14:08:11] ERROR: Error during player initialization - Could not resolve subtype of [simple type, class org.example.model.Item]: missing type id property 'type' (for POJO property 'items')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #481] (through reference chain: org.example.model.Player["inventory"]->org.example.inventory.Inventory["items"]->java.util.ArrayList[0])
+tools.jackson.databind.exc.InvalidTypeIdException: Could not resolve subtype of [simple type, class org.example.model.Item]: missing type id property 'type' (for POJO property 'items')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #481] (through reference chain: org.example.model.Player["inventory"]->org.example.inventory.Inventory["items"]->java.util.ArrayList[0])
+	at tools.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:41)
+	at tools.jackson.databind.DeserializationContext.missingTypeIdException(DeserializationContext.java:2105)
+	at tools.jackson.databind.DeserializationContext.handleMissingTypeId(DeserializationContext.java:1690)
+	at tools.jackson.databind.jsontype.impl.TypeDeserializerBase._handleMissingTypeId(TypeDeserializerBase.java:285)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedUsingDefaultImpl(AsPropertyTypeDeserializer.java:173)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:112)
+	at tools.jackson.databind.deser.AbstractDeserializer.deserializeWithType(AbstractDeserializer.java:243)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeNoNullChecks(CollectionDeserializer.java:495)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:348)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:238)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:29)
+	at tools.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:561)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:752)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:598)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:120)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._vanillaDeserializeWithUnknown(BeanDeserializer.java:437)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:294)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:624)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-02-05 14:08:11] INFO: === Application ended ===
+[2026-02-05 14:12:38] INFO: === Application started ===
+[2026-02-05 14:12:47] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 14:12:47] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 14:12:47] INFO: New player created: caca
+[2026-02-05 14:12:47] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 14:12:47] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 14:12:47] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:12:47] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:12:47] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 14:12:47] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 14:12:47] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 14:12:47] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 14:12:52] INFO: 💥 COUP CRITIQUE! caca attaque pour 28 dégâts!
+[2026-02-05 14:12:52] INFO: Gobelin reçoit 28 dégâts! HP: 47
+[2026-02-05 14:12:52] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 14:12:52] INFO: 🛡️ La défense de caca bloque 2 dégâts!
+[2026-02-05 14:12:52] INFO: caca reçoit 13 dégâts! HP: 107
+[2026-02-05 14:12:57] INFO: caca attaque pour 13 dégâts!
+[2026-02-05 14:12:57] INFO: Gobelin reçoit 13 dégâts! HP: 34
+[2026-02-05 14:12:58] INFO: Gobelin attaque pour 17 dégâts!
+[2026-02-05 14:12:58] INFO: 🛡️ La défense de caca bloque 2 dégâts!
+[2026-02-05 14:12:58] INFO: caca reçoit 15 dégâts! HP: 92
+[2026-02-05 14:12:58] INFO: caca attaque pour 16 dégâts!
+[2026-02-05 14:12:58] INFO: Gobelin reçoit 16 dégâts! HP: 18
+[2026-02-05 14:12:59] INFO: Gobelin attaque pour 14 dégâts!
+[2026-02-05 14:12:59] INFO: 🛡️ La défense de caca bloque 2 dégâts!
+[2026-02-05 14:12:59] INFO: caca reçoit 12 dégâts! HP: 80
+[2026-02-05 14:13:00] INFO: caca attaque pour 14 dégâts!
+[2026-02-05 14:13:00] INFO: Gobelin reçoit 14 dégâts! HP: 4
+[2026-02-05 14:13:00] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 14:13:00] INFO: 🛡️ La défense de caca bloque 2 dégâts!
+[2026-02-05 14:13:00] INFO: caca reçoit 13 dégâts! HP: 67
+[2026-02-05 14:13:01] INFO: 💥 COUP CRITIQUE! caca attaque pour 30 dégâts!
+[2026-02-05 14:13:01] INFO: Gobelin reçoit 30 dégâts! HP: 0
+[2026-02-05 14:13:01] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-02-05 14:13:01] INFO: ✓ Hache de Guerre ajouté à l'inventaire
+[2026-02-05 14:13:01] INFO: ✨ Hache de Guerre ajouté (chance: 25.0%)
+[2026-02-05 14:13:01] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-02-05 14:13:01] INFO: ✨ Massue Cloutée ajouté (chance: 36.0%)
+[2026-02-05 14:13:01] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-02-05 14:13:01] INFO: ✨ Potion de Vie ajouté (chance: 27.0%)
+[2026-02-05 14:13:01] INFO: caca gagne 50 XP (50/25)
+[2026-02-05 14:13:01] INFO: 🎉 caca monte au niveau 2! PV: +14, ATK: +5
+[2026-02-05 14:13:01] INFO: caca defeated 1 enemies in 5 turns
+[2026-02-05 14:13:01] INFO: 🎁 Butin récupéré de Gobelin: 3 item(s)
+[2026-02-05 14:13:01] INFO:   - Hache de Guerre
+[2026-02-05 14:13:01] INFO:   - Massue Cloutée
+[2026-02-05 14:13:01] INFO:   - Potion de Vie
+[2026-02-05 14:13:07] INFO: ✓ Hache de Guerre ajouté à l'inventaire
+[2026-02-05 14:13:07] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-02-05 14:13:07] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-02-05 14:13:13] INFO: ⚔️  Hache de Guerre équipée! (+18 ATK)
+[2026-02-05 14:13:20] INFO: ⚔️  Massue Cloutée équipée! (+12 ATK)
+[2026-02-05 14:16:04] INFO: === Application started ===
+[2026-02-05 14:16:09] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 14:16:09] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 14:16:09] INFO: New player created: gogogozeogz
+[2026-02-05 14:16:09] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 14:16:09] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 14:16:09] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:16:09] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:16:09] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 14:16:09] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 14:16:09] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 14:16:09] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 14:16:11] INFO: gogogozeogz attaque pour 14 dégâts!
+[2026-02-05 14:16:11] INFO: Gobelin reçoit 14 dégâts! HP: 61
+[2026-02-05 14:16:12] INFO: Gobelin attaque pour 17 dégâts!
+[2026-02-05 14:16:12] INFO: 🛡️ La défense de gogogozeogz bloque 2 dégâts!
+[2026-02-05 14:16:12] INFO: gogogozeogz reçoit 15 dégâts! HP: 105
+[2026-02-05 14:16:12] INFO: gogogozeogz attaque pour 13 dégâts!
+[2026-02-05 14:16:12] INFO: Gobelin reçoit 13 dégâts! HP: 48
+[2026-02-05 14:16:12] INFO: 💥 COUP CRITIQUE! Gobelin attaque pour 32 dégâts!
+[2026-02-05 14:16:12] INFO: 🛡️ La défense de gogogozeogz bloque 3 dégâts!
+[2026-02-05 14:16:12] INFO: gogogozeogz reçoit 29 dégâts! HP: 76
+[2026-02-05 14:16:15] INFO: gogogozeogz attaque pour 13 dégâts!
+[2026-02-05 14:16:15] INFO: Gobelin reçoit 13 dégâts! HP: 35
+[2026-02-05 14:16:16] INFO: Gobelin attaque pour 17 dégâts!
+[2026-02-05 14:16:16] INFO: 🛡️ La défense de gogogozeogz bloque 2 dégâts!
+[2026-02-05 14:16:16] INFO: gogogozeogz reçoit 15 dégâts! HP: 61
+[2026-02-05 14:16:18] INFO: 💥 COUP CRITIQUE! gogogozeogz attaque pour 32 dégâts!
+[2026-02-05 14:16:18] INFO: Gobelin reçoit 32 dégâts! HP: 3
+[2026-02-05 14:16:18] INFO: Gobelin attaque pour 13 dégâts!
+[2026-02-05 14:16:18] INFO: 🛡️ La défense de gogogozeogz bloque 2 dégâts!
+[2026-02-05 14:16:18] INFO: gogogozeogz reçoit 11 dégâts! HP: 50
+[2026-02-05 14:16:20] INFO: gogogozeogz attaque pour 14 dégâts!
+[2026-02-05 14:16:20] INFO: Gobelin reçoit 14 dégâts! HP: 0
+[2026-02-05 14:16:20] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-02-05 14:16:20] INFO: ✓ Hache de Guerre ajouté à l'inventaire
+[2026-02-05 14:16:20] INFO: ✨ Hache de Guerre ajouté (chance: 25.0%)
+[2026-02-05 14:16:20] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-02-05 14:16:20] INFO: ✨ Massue Cloutée ajouté (chance: 36.0%)
+[2026-02-05 14:16:20] INFO: gogogozeogz gagne 50 XP (50/25)
+[2026-02-05 14:16:20] INFO: 🎉 gogogozeogz monte au niveau 2! PV: +14, ATK: +5
+[2026-02-05 14:16:20] INFO: gogogozeogz defeated 1 enemies in 5 turns
+[2026-02-05 14:16:20] INFO: 🎁 Butin récupéré de Gobelin: 2 item(s)
+[2026-02-05 14:16:20] INFO:   - Hache de Guerre
+[2026-02-05 14:16:20] INFO:   - Massue Cloutée
+[2026-02-05 14:16:26] INFO: ✓ Hache de Guerre ajouté à l'inventaire
+[2026-02-05 14:16:26] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-02-05 14:16:36] INFO: ⚔️  Hache de Guerre équipée! (+18 ATK)
+[2026-02-05 14:16:49] INFO: ⚔️  Massue Cloutée équipée! (+12 ATK)
+[2026-02-05 14:19:11] INFO: Object saved to: saves/player_save.json
+[2026-02-05 14:19:11] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 14:19:16] INFO: Object saved to: saves/player_save.json
+[2026-02-05 14:19:16] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 14:19:16] INFO: Game engine shut down
+[2026-02-05 14:19:16] INFO: === Application ended ===
+[2026-02-05 14:19:34] INFO: === Application started ===
+[2026-02-05 14:19:43] INFO: Object loaded from: saves/player_save.json
+[2026-02-05 14:19:45] INFO: Game loaded successfully from: saves/player_save.json
+[2026-02-05 14:19:47] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 14:19:47] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 14:19:47] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:19:47] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:19:47] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 14:19:47] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 14:19:47] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 14:19:47] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 14:20:37] INFO: gogogozeogz attaque pour 103 dégâts!
+[2026-02-05 14:20:37] INFO: Gobelin reçoit 103 dégâts! HP: 0
+[2026-02-05 14:20:37] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-02-05 14:20:37] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 14:20:37] INFO: ✨ Cuir de Gobelin ajouté (chance: 50.0%)
+[2026-02-05 14:20:37] INFO: ✓ Veste en Cuir Renforcé ajouté à l'inventaire
+[2026-02-05 14:20:37] INFO: ✨ Veste en Cuir Renforcé ajouté (chance: 32.0%)
+[2026-02-05 14:20:37] INFO: gogogozeogz gagne 50 XP (75/37)
+[2026-02-05 14:20:37] INFO: 🎉 gogogozeogz monte au niveau 11! PV: +32, ATK: +14
+[2026-02-05 14:20:37] INFO: gogogozeogz defeated 1 enemies in 1 turns
+[2026-02-05 14:20:37] INFO: 🎁 Butin récupéré de Gobelin: 2 item(s)
+[2026-02-05 14:20:37] INFO:   - Cuir de Gobelin
+[2026-02-05 14:20:37] INFO:   - Veste en Cuir Renforcé
+[2026-02-05 14:20:54] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 14:20:54] INFO: ✓ Veste en Cuir Renforcé ajouté à l'inventaire
+[2026-02-05 14:21:03] INFO: 🛡️  Veste en Cuir Renforcé équipée! (+12 DEF)
+[2026-02-05 14:21:48] INFO: gogogozeogz attaque pour 127 dégâts!
+[2026-02-05 14:21:48] INFO: Squelette reçoit 127 dégâts! HP: 0
+[2026-02-05 14:21:48] INFO: 😢 Squelette ne laisse aucun butin cette fois...
+[2026-02-05 14:21:48] INFO: Squelette attaque pour 10 dégâts!
+[2026-02-05 14:21:48] INFO: 🛡️ La défense de gogogozeogz bloque 2 dégâts!
+[2026-02-05 14:21:48] INFO: gogogozeogz reçoit 8 dégâts! HP: 158
+[2026-02-05 14:21:50] INFO: gogogozeogz attaque pour 121 dégâts!
+[2026-02-05 14:21:50] INFO: Squelette reçoit 121 dégâts! HP: 0
+[2026-02-05 14:21:50] INFO: 😢 Squelette ne laisse aucun butin cette fois...
+[2026-02-05 14:21:50] INFO: gogogozeogz gagne 20 XP (58/55)
+[2026-02-05 14:21:50] INFO: 🎉 gogogozeogz monte au niveau 12! PV: +34, ATK: +15
+[2026-02-05 14:21:50] INFO: gogogozeogz defeated 2 enemies in 2 turns
+[2026-02-05 14:21:50] INFO: 😢 Squelette ne laisse aucun butin cette fois...
+[2026-02-05 14:21:50] INFO: 😢 Squelette ne laisse aucun butin cette fois...
+[2026-02-05 14:22:11] INFO: gogogozeogz récupère 40 HP! HP : 200
+[2026-02-05 14:22:24] INFO: ✓ Épée Enchantée ajouté à l'inventaire
+[2026-02-05 14:22:24] INFO: ✓ Armure de Plaques ajouté à l'inventaire
+[2026-02-05 14:22:24] INFO: ✓ Potion Majeure ajouté à l'inventaire
+[2026-02-05 14:22:32] INFO: ⚔️  Épée Enchantée équipée! (+25 ATK)
+[2026-02-05 14:22:41] INFO: 🛡️  Armure de Plaques équipée! (+20 DEF)
+[2026-02-05 14:22:55] INFO: gogogozeogz attaque pour 206 dégâts!
+[2026-02-05 14:22:55] INFO: Dragon Ancien reçoit 206 dégâts! HP: 0
+[2026-02-05 14:22:55] INFO: 😢 Dragon Ancien ne laisse aucun butin cette fois...
+[2026-02-05 14:22:55] INFO: gogogozeogz gagne 150 XP (153/82)
+[2026-02-05 14:22:55] INFO: 🎉 gogogozeogz monte au niveau 13! PV: +36, ATK: +16
+[2026-02-05 14:22:55] INFO: gogogozeogz defeated 1 enemies in 1 turns
+[2026-02-05 14:22:55] INFO: 😢 Dragon Ancien ne laisse aucun butin cette fois...
+[2026-02-05 14:23:11] INFO: Object saved to: saves/player_save.json
+[2026-02-05 14:23:11] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 14:23:15] INFO: Object saved to: saves/player_save.json
+[2026-02-05 14:23:15] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 14:23:15] INFO: Game engine shut down
+[2026-02-05 14:23:15] INFO: === Application ended ===
+[2026-02-05 14:23:47] INFO: === Application started ===
+[2026-02-05 14:23:55] ERROR: Error during player initialization - Cannot construct instance of `org.example.model.Material` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #1208] (through reference chain: org.example.model.Player["inventory"]->org.example.inventory.Inventory["items"]->java.util.ArrayList[4])
+tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `org.example.model.Material` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #1208] (through reference chain: org.example.model.Player["inventory"]->org.example.inventory.Inventory["items"]->java.util.ArrayList[4])
+	at tools.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:70)
+	at tools.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1950)
+	at tools.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:448)
+	at tools.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1480)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1432)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeOther(BeanDeserializer.java:235)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:202)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:138)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:103)
+	at tools.jackson.databind.deser.AbstractDeserializer.deserializeWithType(AbstractDeserializer.java:243)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeNoNullChecks(CollectionDeserializer.java:495)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:348)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:238)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:29)
+	at tools.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:561)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:752)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:598)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:120)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._vanillaDeserializeWithUnknown(BeanDeserializer.java:437)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:294)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:624)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-02-05 14:23:55] INFO: === Application ended ===
+[2026-02-05 14:25:37] INFO: === Application started ===
+[2026-02-05 14:25:42] ERROR: Error during player initialization - Could not resolve type id 'Armor' as a subtype of `org.example.model.Item`: known type ids = [material, potion, weapon] (for POJO property 'items')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #1323] (through reference chain: org.example.model.Player["inventory"]->org.example.inventory.Inventory["items"]->java.util.ArrayList[5])
+tools.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'Armor' as a subtype of `org.example.model.Item`: known type ids = [material, potion, weapon] (for POJO property 'items')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #1323] (through reference chain: org.example.model.Player["inventory"]->org.example.inventory.Inventory["items"]->java.util.ArrayList[5])
+	at tools.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:41)
+	at tools.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2098)
+	at tools.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1661)
+	at tools.jackson.databind.jsontype.impl.TypeDeserializerBase._handleUnknownTypeId(TypeDeserializerBase.java:279)
+	at tools.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:160)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:119)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:103)
+	at tools.jackson.databind.deser.AbstractDeserializer.deserializeWithType(AbstractDeserializer.java:243)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeNoNullChecks(CollectionDeserializer.java:495)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:348)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:238)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:29)
+	at tools.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:561)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:752)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:598)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:120)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._vanillaDeserializeWithUnknown(BeanDeserializer.java:437)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:294)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:624)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-02-05 14:25:42] INFO: === Application ended ===
+[2026-02-05 14:28:45] INFO: === Application started ===
+[2026-02-05 14:28:49] ERROR: Error during player initialization - Could not resolve type id 'Armor' as a subtype of `org.example.model.Item`: known type ids = [armor, material, potion, weapon] (for POJO property 'items')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #1323] (through reference chain: org.example.model.Player["inventory"]->org.example.inventory.Inventory["items"]->java.util.ArrayList[5])
+tools.jackson.databind.exc.InvalidTypeIdException: Could not resolve type id 'Armor' as a subtype of `org.example.model.Item`: known type ids = [armor, material, potion, weapon] (for POJO property 'items')
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #1323] (through reference chain: org.example.model.Player["inventory"]->org.example.inventory.Inventory["items"]->java.util.ArrayList[5])
+	at tools.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:41)
+	at tools.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2098)
+	at tools.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1661)
+	at tools.jackson.databind.jsontype.impl.TypeDeserializerBase._handleUnknownTypeId(TypeDeserializerBase.java:279)
+	at tools.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:160)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:119)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:103)
+	at tools.jackson.databind.deser.AbstractDeserializer.deserializeWithType(AbstractDeserializer.java:243)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeNoNullChecks(CollectionDeserializer.java:495)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:348)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:238)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:29)
+	at tools.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:561)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeWithErrorWrapping(BeanDeserializer.java:752)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:598)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:120)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._vanillaDeserializeWithUnknown(BeanDeserializer.java:437)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:294)
+	at tools.jackson.databind.deser.bean.BeanDeserializer._deserializeUsingPropertyBased(BeanDeserializer.java:624)
+	at tools.jackson.databind.deser.bean.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1417)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:480)
+	at tools.jackson.databind.deser.bean.BeanDeserializer.deserialize(BeanDeserializer.java:200)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:265)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2611)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1387)
+	at org.example.util.JsonLoader.loadObject(JsonLoader.java:41)
+	at org.example.engine.SaveManager.loadGame(SaveManager.java:55)
+	at org.example.engine.GameEngine.loadPlayer(GameEngine.java:159)
+	at org.example.engine.GameEngine.initializePlayer(GameEngine.java:90)
+	at org.example.engine.GameEngine.start(GameEngine.java:50)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-02-05 14:28:49] INFO: === Application ended ===
+[2026-02-05 14:32:39] INFO: === Application started ===
+[2026-02-05 14:32:46] INFO: Object loaded from: saves/player_save.json
+[2026-02-05 14:32:46] INFO: Game loaded successfully from: saves/player_save.json
+[2026-02-05 14:32:46] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 14:32:46] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 14:32:46] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:32:46] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:32:46] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 14:32:46] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 14:32:46] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 14:32:46] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 14:33:29] INFO: === Application started ===
+[2026-02-05 14:33:33] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 14:33:33] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 14:33:33] INFO: New player created: fezafd
+[2026-02-05 14:33:33] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 14:33:33] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 14:33:33] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:33:33] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:33:33] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 14:33:33] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 14:33:33] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 14:33:33] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 14:33:35] INFO: fezafd attaque pour 14 dégâts!
+[2026-02-05 14:33:35] INFO: Gobelin reçoit 14 dégâts! HP: 61
+[2026-02-05 14:33:36] INFO: Gobelin attaque pour 13 dégâts!
+[2026-02-05 14:33:36] INFO: 🛡️ La défense de fezafd bloque 2 dégâts!
+[2026-02-05 14:33:36] INFO: fezafd reçoit 11 dégâts! HP: 109
+[2026-02-05 14:33:36] INFO: fezafd attaque pour 14 dégâts!
+[2026-02-05 14:33:36] INFO: Gobelin reçoit 14 dégâts! HP: 47
+[2026-02-05 14:33:36] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 14:33:36] INFO: 🛡️ La défense de fezafd bloque 2 dégâts!
+[2026-02-05 14:33:36] INFO: fezafd reçoit 13 dégâts! HP: 96
+[2026-02-05 14:33:37] INFO: fezafd attaque pour 14 dégâts!
+[2026-02-05 14:33:37] INFO: Gobelin reçoit 14 dégâts! HP: 33
+[2026-02-05 14:33:37] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 14:33:37] INFO: 🛡️ La défense de fezafd bloque 2 dégâts!
+[2026-02-05 14:33:37] INFO: fezafd reçoit 13 dégâts! HP: 83
+[2026-02-05 14:33:38] INFO: fezafd attaque pour 14 dégâts!
+[2026-02-05 14:33:38] INFO: Gobelin reçoit 14 dégâts! HP: 19
+[2026-02-05 14:33:39] INFO: Gobelin attaque pour 17 dégâts!
+[2026-02-05 14:33:39] INFO: 🛡️ La défense de fezafd bloque 2 dégâts!
+[2026-02-05 14:33:39] INFO: fezafd reçoit 15 dégâts! HP: 68
+[2026-02-05 14:33:39] INFO: fezafd attaque pour 15 dégâts!
+[2026-02-05 14:33:39] INFO: Gobelin reçoit 15 dégâts! HP: 4
+[2026-02-05 14:33:40] INFO: Gobelin attaque pour 17 dégâts!
+[2026-02-05 14:33:40] INFO: 🛡️ La défense de fezafd bloque 2 dégâts!
+[2026-02-05 14:33:40] INFO: fezafd reçoit 15 dégâts! HP: 53
+[2026-02-05 14:33:40] INFO: 💥 COUP CRITIQUE! fezafd attaque pour 32 dégâts!
+[2026-02-05 14:33:40] INFO: Gobelin reçoit 32 dégâts! HP: 0
+[2026-02-05 14:33:40] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-02-05 14:33:40] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 14:33:40] INFO: ✨ Cuir de Gobelin ajouté (chance: 50.0%)
+[2026-02-05 14:33:40] INFO: ✓ Dague Empoisonnée ajouté à l'inventaire
+[2026-02-05 14:33:40] INFO: ✨ Dague Empoisonnée ajouté (chance: 40.0%)
+[2026-02-05 14:33:40] INFO: fezafd gagne 50 XP (50/25)
+[2026-02-05 14:33:40] INFO: 🎉 fezafd monte au niveau 2! PV: +14, ATK: +5
+[2026-02-05 14:33:40] INFO: fezafd defeated 1 enemies in 6 turns
+[2026-02-05 14:33:40] INFO: 🎁 Butin récupéré de Gobelin: 2 item(s)
+[2026-02-05 14:33:40] INFO:   - Cuir de Gobelin
+[2026-02-05 14:33:40] INFO:   - Dague Empoisonnée
+[2026-02-05 14:33:44] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 14:33:44] INFO: ✓ Dague Empoisonnée ajouté à l'inventaire
+[2026-02-05 14:34:04] INFO: ⚔️  Dague Empoisonnée équipée! (+15 ATK)
+[2026-02-05 14:34:10] INFO: Object saved to: saves/player_save.json
+[2026-02-05 14:34:10] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 14:34:15] INFO: Object saved to: saves/player_save.json
+[2026-02-05 14:34:15] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 14:34:15] INFO: Game engine shut down
+[2026-02-05 14:34:15] INFO: === Application ended ===
+[2026-02-05 14:34:52] INFO: === Application started ===
+[2026-02-05 14:34:57] INFO: Object loaded from: saves/player_save.json
+[2026-02-05 14:34:57] INFO: Game loaded successfully from: saves/player_save.json
+[2026-02-05 14:34:57] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 14:34:57] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 14:34:57] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:34:57] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:34:57] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 14:34:57] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 14:34:57] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 14:34:57] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 14:35:05] INFO: fezafd attaque pour 62 dégâts!
+[2026-02-05 14:35:05] INFO: Gobelin reçoit 62 dégâts! HP: 13
+[2026-02-05 14:35:05] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 14:35:05] INFO: 🛡️ La défense de fezafd bloque 1 dégâts!
+[2026-02-05 14:35:05] INFO: fezafd reçoit 14 dégâts! HP: 120
+[2026-02-05 14:35:06] INFO: fezafd attaque pour 62 dégâts!
+[2026-02-05 14:35:06] INFO: Gobelin reçoit 62 dégâts! HP: 0
+[2026-02-05 14:35:06] INFO: 😢 Gobelin ne laisse aucun butin cette fois...
+[2026-02-05 14:35:06] INFO: fezafd gagne 50 XP (75/37)
+[2026-02-05 14:35:06] INFO: 🎉 fezafd monte au niveau 11! PV: +32, ATK: +14
+[2026-02-05 14:35:06] INFO: fezafd defeated 1 enemies in 2 turns
+[2026-02-05 14:35:06] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-02-05 14:35:06] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-02-05 14:35:06] INFO: ✨ Massue Cloutée ajouté (chance: 45.0%)
+[2026-02-05 14:35:06] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 14:35:06] INFO: ✨ Cuir de Gobelin ajouté (chance: 40.0%)
+[2026-02-05 14:35:06] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-02-05 14:35:06] INFO: ✨ Potion de Vie ajouté (chance: 27.0%)
+[2026-02-05 14:35:06] INFO: ✓ Hache de Guerre ajouté à l'inventaire
+[2026-02-05 14:35:06] INFO: ✨ Hache de Guerre ajouté (chance: 10.0%)
+[2026-02-05 14:35:06] INFO: 📦 Limite d'items atteinte pour Gobelin
+[2026-02-05 14:35:06] INFO: 🎁 Butin récupéré de Gobelin: 4 item(s)
+[2026-02-05 14:35:06] INFO:   - Massue Cloutée
+[2026-02-05 14:35:06] INFO:   - Cuir de Gobelin
+[2026-02-05 14:35:06] INFO:   - Potion de Vie
+[2026-02-05 14:35:06] INFO:   - Hache de Guerre
+[2026-02-05 14:35:13] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-02-05 14:35:13] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 14:35:13] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-02-05 14:35:13] INFO: ✓ Hache de Guerre ajouté à l'inventaire
+[2026-02-05 14:35:20] INFO: ⚔️  Hache de Guerre équipée! (+18 ATK)
+[2026-02-05 14:35:30] INFO: ⚔️  Massue Cloutée équipée! (+12 ATK)
+[2026-02-05 14:35:37] INFO: fezafd attaque pour 161 dégâts!
+[2026-02-05 14:35:37] INFO: Squelette reçoit 161 dégâts! HP: 0
+[2026-02-05 14:35:37] INFO: 😢 Squelette ne laisse aucun butin cette fois...
+[2026-02-05 14:35:38] INFO: 💥 COUP CRITIQUE! Squelette attaque pour 22 dégâts!
+[2026-02-05 14:35:38] INFO: 💨 fezafd esquive l'attaque!
+[2026-02-05 14:35:38] INFO: fezafd attaque pour 168 dégâts!
+[2026-02-05 14:35:38] INFO: Squelette reçoit 168 dégâts! HP: 0
+[2026-02-05 14:35:38] INFO: 💰 Squelette laisse tomber du butin !
+[2026-02-05 14:35:38] INFO: ✓ Bouclier Ébréché ajouté à l'inventaire
+[2026-02-05 14:35:38] INFO: ✨ Bouclier Ébréché ajouté (chance: 25.0%)
+[2026-02-05 14:35:38] INFO: ✓ Arc Ancien ajouté à l'inventaire
+[2026-02-05 14:35:38] INFO: ✨ Arc Ancien ajouté (chance: 22.5%)
+[2026-02-05 14:35:38] INFO: fezafd gagne 20 XP (58/55)
+[2026-02-05 14:35:38] INFO: 🎉 fezafd monte au niveau 12! PV: +34, ATK: +15
+[2026-02-05 14:35:38] INFO: fezafd defeated 2 enemies in 2 turns
+[2026-02-05 14:35:38] INFO: 😢 Squelette ne laisse aucun butin cette fois...
+[2026-02-05 14:35:38] INFO: 🎁 Butin récupéré de Squelette: 2 item(s)
+[2026-02-05 14:35:38] INFO:   - Bouclier Ébréché
+[2026-02-05 14:35:38] INFO:   - Arc Ancien
+[2026-02-05 14:35:43] INFO: ✓ Bouclier Ébréché ajouté à l'inventaire
+[2026-02-05 14:35:43] INFO: ✓ Arc Ancien ajouté à l'inventaire
+[2026-02-05 14:35:50] INFO: 🛡️  Bouclier Ébréché équipée! (+4 DEF)
+[2026-02-05 14:36:01] INFO: ⚔️  Arc Ancien équipée! (+6 ATK)
+[2026-02-05 14:36:05] INFO: Object saved to: saves/player_save.json
+[2026-02-05 14:36:05] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 14:36:08] INFO: Object saved to: saves/player_save.json
+[2026-02-05 14:36:08] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 14:36:08] INFO: Game engine shut down
+[2026-02-05 14:36:08] INFO: === Application ended ===
+[2026-02-05 14:36:22] INFO: === Application started ===
+[2026-02-05 14:36:29] INFO: Object loaded from: saves/player_save.json
+[2026-02-05 14:36:29] INFO: Game loaded successfully from: saves/player_save.json
+[2026-02-05 14:36:29] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 14:36:29] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 14:36:29] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:36:29] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 14:36:29] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 14:36:29] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 14:36:29] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 14:36:29] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 14:36:35] INFO: 💥 COUP CRITIQUE! fezafd attaque pour 304 dégâts!
+[2026-02-05 14:36:35] INFO: Gobelin reçoit 304 dégâts! HP: 0
+[2026-02-05 14:36:35] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-02-05 14:36:35] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 14:36:35] INFO: ✨ Cuir de Gobelin ajouté (chance: 50.0%)
+[2026-02-05 14:36:35] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-02-05 14:36:35] INFO: ✨ Potion de Vie ajouté (chance: 36.0%)
+[2026-02-05 14:36:35] INFO: fezafd gagne 50 XP (53/82)
+[2026-02-05 14:36:35] INFO: fezafd defeated 1 enemies in 1 turns
+[2026-02-05 14:36:35] INFO: 🎁 Butin récupéré de Gobelin: 2 item(s)
+[2026-02-05 14:36:35] INFO:   - Cuir de Gobelin
+[2026-02-05 14:36:35] INFO:   - Potion de Vie
+[2026-02-05 14:36:44] INFO: ✓ Cuir de Gobelin ajouté à l'inventaire
+[2026-02-05 14:36:44] INFO: ✓ Potion de Vie ajouté à l'inventaire
 [2026-01-30 15:28:57] INFO: === Application started ===
 [2026-01-30 15:29:03] INFO: ✓ Potion de Soin ajouté à l'inventaire
 [2026-01-30 15:29:03] INFO: ✓ Potion de Soin ajouté à l'inventaire
@@ -591,3 +2207,139 @@ tools.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance
 [2026-01-30 15:39:24] INFO: Game saved successfully to: resources/saves/player_save.json
 [2026-01-30 15:45:39] INFO: Game engine shut down
 [2026-01-30 15:45:39] INFO: === Application ended ===
+[2026-02-05 16:11:38] INFO: === Application started ===
+[2026-02-05 16:11:51] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 16:11:51] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 16:11:51] INFO: New player created: clemen,t
+[2026-02-05 16:11:51] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 16:11:51] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 16:11:51] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 16:11:51] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 16:11:51] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 16:11:52] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 16:11:52] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 16:11:52] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 16:12:35] INFO: clemen,t attaque pour 14 dégâts!
+[2026-02-05 16:12:35] INFO: Gobelin reçoit 14 dégâts! HP: 61
+[2026-02-05 16:12:35] INFO: Gobelin attaque pour 14 dégâts!
+[2026-02-05 16:12:35] INFO: 🛡️ La défense de clemen,t bloque 2 dégâts!
+[2026-02-05 16:12:35] INFO: clemen,t reçoit 12 dégâts! HP: 108
+[2026-02-05 16:12:44] INFO: clemen,t attaque pour 13 dégâts!
+[2026-02-05 16:12:44] INFO: Gobelin reçoit 13 dégâts! HP: 48
+[2026-02-05 16:12:45] INFO: Gobelin attaque pour 17 dégâts!
+[2026-02-05 16:12:45] INFO: 🛡️ La défense de clemen,t bloque 2 dégâts!
+[2026-02-05 16:12:45] INFO: clemen,t reçoit 15 dégâts! HP: 93
+[2026-02-05 16:12:46] INFO: clemen,t attaque pour 14 dégâts!
+[2026-02-05 16:12:46] INFO: Gobelin reçoit 14 dégâts! HP: 34
+[2026-02-05 16:12:47] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 16:12:47] INFO: 🛡️ La défense de clemen,t bloque 2 dégâts!
+[2026-02-05 16:12:47] INFO: clemen,t reçoit 13 dégâts! HP: 80
+[2026-02-05 16:12:48] INFO: clemen,t attaque pour 14 dégâts!
+[2026-02-05 16:12:48] INFO: Gobelin reçoit 14 dégâts! HP: 20
+[2026-02-05 16:12:48] INFO: Gobelin attaque pour 15 dégâts!
+[2026-02-05 16:12:48] INFO: 🛡️ La défense de clemen,t bloque 2 dégâts!
+[2026-02-05 16:12:48] INFO: clemen,t reçoit 13 dégâts! HP: 67
+[2026-02-05 16:12:50] INFO: clemen,t attaque pour 13 dégâts!
+[2026-02-05 16:12:50] INFO: Gobelin reçoit 13 dégâts! HP: 7
+[2026-02-05 16:12:51] INFO: Gobelin attaque pour 16 dégâts!
+[2026-02-05 16:12:51] INFO: 🛡️ La défense de clemen,t bloque 2 dégâts!
+[2026-02-05 16:12:51] INFO: clemen,t reçoit 14 dégâts! HP: 53
+[2026-02-05 16:12:52] INFO: clemen,t attaque pour 15 dégâts!
+[2026-02-05 16:12:52] INFO: Gobelin reçoit 15 dégâts! HP: 0
+[2026-02-05 16:12:52] INFO: 💰 Gobelin laisse tomber du butin !
+[2026-02-05 16:12:52] INFO: ✓ Dague Empoisonnée ajouté à l'inventaire
+[2026-02-05 16:12:52] INFO: ✨ Dague Empoisonnée ajouté (chance: 50.0%)
+[2026-02-05 16:12:52] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-02-05 16:12:52] INFO: ✨ Massue Cloutée ajouté (chance: 36.0%)
+[2026-02-05 16:12:52] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-02-05 16:12:52] INFO: ✨ Potion de Vie ajouté (chance: 27.0%)
+[2026-02-05 16:12:52] INFO: clemen,t gagne 50 XP (50/25)
+[2026-02-05 16:12:52] INFO: 🎉 clemen,t monte au niveau 2! PV: +14, ATK: +5
+[2026-02-05 16:12:52] INFO: clemen,t defeated 1 enemies in 6 turns
+[2026-02-05 16:12:52] INFO: 🎁 Butin récupéré de Gobelin: 3 item(s)
+[2026-02-05 16:12:52] INFO:   - Dague Empoisonnée
+[2026-02-05 16:12:52] INFO:   - Massue Cloutée
+[2026-02-05 16:12:52] INFO:   - Potion de Vie
+[2026-02-05 16:13:26] INFO: ✓ Dague Empoisonnée ajouté à l'inventaire
+[2026-02-05 16:13:26] INFO: ✓ Massue Cloutée ajouté à l'inventaire
+[2026-02-05 16:13:26] INFO: ✓ Potion de Vie ajouté à l'inventaire
+[2026-02-05 16:13:44] INFO: ⚔️  Dague Empoisonnée équipée! (+15 ATK)
+[2026-02-05 16:14:12] INFO: clemen,t attaque pour 37 dégâts!
+[2026-02-05 16:14:12] INFO: Squelette reçoit 37 dégâts! HP: 13
+[2026-02-05 16:14:13] INFO: Squelette attaque pour 10 dégâts!
+[2026-02-05 16:14:13] INFO: 🛡️ La défense de clemen,t bloque 1 dégâts!
+[2026-02-05 16:14:13] INFO: clemen,t reçoit 9 dégâts! HP: 125
+[2026-02-05 16:14:13] INFO: Squelette attaque pour 9 dégâts!
+[2026-02-05 16:14:13] INFO: 🛡️ La défense de clemen,t bloque 1 dégâts!
+[2026-02-05 16:14:13] INFO: clemen,t reçoit 8 dégâts! HP: 117
+[2026-02-05 16:14:24] INFO: clemen,t attaque pour 40 dégâts!
+[2026-02-05 16:14:24] INFO: Squelette reçoit 40 dégâts! HP: 0
+[2026-02-05 16:14:24] INFO: 💰 Squelette laisse tomber du butin !
+[2026-02-05 16:14:24] INFO: ✓ Arc Ancien ajouté à l'inventaire
+[2026-02-05 16:14:24] INFO: ✨ Arc Ancien ajouté (chance: 30.0%)
+[2026-02-05 16:14:24] INFO: ✓ Petite Potion de Vie ajouté à l'inventaire
+[2026-02-05 16:14:24] INFO: ✨ Petite Potion de Vie ajouté (chance: 37.5%)
+[2026-02-05 16:14:25] INFO: Squelette attaque pour 10 dégâts!
+[2026-02-05 16:14:25] INFO: 🛡️ La défense de clemen,t bloque 1 dégâts!
+[2026-02-05 16:14:25] INFO: clemen,t reçoit 9 dégâts! HP: 108
+[2026-02-05 16:14:27] INFO: clemen,t attaque pour 37 dégâts!
+[2026-02-05 16:14:27] INFO: Squelette reçoit 37 dégâts! HP: 13
+[2026-02-05 16:14:28] INFO: Squelette attaque pour 10 dégâts!
+[2026-02-05 16:14:28] INFO: 🛡️ La défense de clemen,t bloque 1 dégâts!
+[2026-02-05 16:14:28] INFO: clemen,t reçoit 9 dégâts! HP: 99
+[2026-02-05 16:14:29] INFO: clemen,t attaque pour 34 dégâts!
+[2026-02-05 16:14:29] INFO: Squelette reçoit 34 dégâts! HP: 0
+[2026-02-05 16:14:29] INFO: 💰 Squelette laisse tomber du butin !
+[2026-02-05 16:14:29] INFO: ✓ Petite Potion de Vie ajouté à l'inventaire
+[2026-02-05 16:14:29] INFO: ✨ Petite Potion de Vie ajouté (chance: 50.0%)
+[2026-02-05 16:14:29] INFO: ✓ Épée Rouillée ajouté à l'inventaire
+[2026-02-05 16:14:29] INFO: ✨ Épée Rouillée ajouté (chance: 30.0%)
+[2026-02-05 16:14:29] INFO: clemen,t gagne 20 XP (45/37)
+[2026-02-05 16:14:29] INFO: 🎉 clemen,t monte au niveau 3! PV: +16, ATK: +6
+[2026-02-05 16:14:29] INFO: clemen,t defeated 2 enemies in 4 turns
+[2026-02-05 16:14:29] INFO: 🎁 Butin récupéré de Squelette: 2 item(s)
+[2026-02-05 16:14:29] INFO:   - Petite Potion de Vie
+[2026-02-05 16:14:29] INFO:   - Épée Rouillée
+[2026-02-05 16:14:29] INFO: 🎁 Butin récupéré de Squelette: 2 item(s)
+[2026-02-05 16:14:29] INFO:   - Arc Ancien
+[2026-02-05 16:14:29] INFO:   - Petite Potion de Vie
+[2026-02-05 16:14:34] INFO: Object saved to: saves/player_save.json
+[2026-02-05 16:14:34] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 16:16:06] INFO: Object saved to: saves/player_save.json
+[2026-02-05 16:16:06] INFO: Game saved successfully to: saves/player_save.json
+[2026-02-05 16:16:06] INFO: Game engine shut down
+[2026-02-05 16:16:06] INFO: === Application ended ===
+[2026-02-05 16:16:10] INFO: === Application started ===
+[2026-02-05 16:16:13] INFO: Object loaded from: saves/player_save.json
+[2026-02-05 16:16:13] INFO: Game loaded successfully from: saves/player_save.json
+[2026-02-05 16:16:13] DEBUG: Monster created via reflection: Goblin
+[2026-02-05 16:16:13] INFO: Room populated with 1 Goblin(s)
+[2026-02-05 16:16:13] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 16:16:13] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 16:16:13] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 16:16:13] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 16:16:13] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 16:16:13] INFO: Dungeon initialized with 5 rooms
+[2026-02-05 16:27:29] INFO: === Application started ===
+[2026-02-05 16:27:36] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 16:27:36] INFO: ✓ Potion de Soin ajouté à l'inventaire
+[2026-02-05 16:27:36] INFO: New player created: dza
+[2026-02-05 16:27:36] ERROR: Failed to populate room with Gobline - org.example.model.monsters.Gobline
+java.lang.ClassNotFoundException: org.example.model.monsters.Gobline
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at java.base/java.lang.Class.forName(Class.java:458)
+	at org.example.engine.GameEngine.createMonsterUsingReflection(GameEngine.java:277)
+	at org.example.engine.GameEngine.populateRoom(GameEngine.java:249)
+	at org.example.engine.GameEngine.initializeDungeon(GameEngine.java:215)
+	at org.example.engine.GameEngine.start(GameEngine.java:55)
+	at org.example.App.main(App.java:16)
+----------------------------------------
+[2026-02-05 16:27:36] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 16:27:36] DEBUG: Monster created via reflection: Skeleton
+[2026-02-05 16:27:36] INFO: Room populated with 2 Skeleton(s)
+[2026-02-05 16:27:36] DEBUG: Monster created via reflection: Dragon
+[2026-02-05 16:27:36] INFO: Room populated with 1 Dragon(s)
+[2026-02-05 16:27:36] INFO: Dungeon initialized with 5 rooms
