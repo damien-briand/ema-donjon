@@ -1,6 +1,5 @@
 package org.example.engine;
 
-import org.example.exceptions.InsufficientManaException;
 import org.example.model.*;
 import org.example.util.Logger;
 
@@ -267,7 +266,7 @@ public class CombatSystem {
      * @return true si un objet a été utilisé
      */
     private boolean useItemInCombat(Player player, Scanner scanner) {
-        List<Item> items = player.getInventory().getItems();
+        List<Item> items = player.getInventory().items();
 
         if (items.isEmpty()) {
             System.out.println("❌ Vous n'avez aucun objet!");

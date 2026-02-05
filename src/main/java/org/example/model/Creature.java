@@ -17,6 +17,8 @@ public abstract class Creature implements Attackable, Healable, Lootable {
     protected int defense;
     protected Inventory<Item> inventory; // Inventaire de la créature
 
+    public Creature() {};
+
     public Creature(String name, int maxHealth, int attackPower, int level, int defense) {
         this.name = name;
         this.maxHealth = maxHealth;
@@ -91,7 +93,7 @@ public abstract class Creature implements Attackable, Healable, Lootable {
     // Implémentation de Lootable
     @Override
     public List<Item> getLoot() {
-        return inventory.getItems(); // Retourne les items de l'inventaire
+        return inventory.items(); // Retourne les items de l'inventaire
     }
 
     // Méthodes pour gérer l'inventaire
@@ -114,7 +116,7 @@ public abstract class Creature implements Attackable, Healable, Lootable {
     public void displayInventory() {
         System.out.println("\n📦 Inventaire (" + inventory.size() + "/" + 20 + "):");
 
-        List<Item> items = inventory.getItems();
+        List<Item> items = inventory.items();
         if (items.isEmpty()) {
             System.out.println("   (vide)");
             return;

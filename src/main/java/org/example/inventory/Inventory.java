@@ -1,5 +1,7 @@
 package org.example.inventory;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import org.example.exceptions.InventoryFullException;
 import org.example.model.Item;
 import org.example.util.Logger;
@@ -8,13 +10,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Inventory<T extends Item> {
-    private final List<T> items;
-    private final int maxSize;
+public record Inventory<T extends Item>(@JsonProperty("items") List<T> items,
+                                        @JsonProperty("maxCapacity") int maxSize) {
+    @JsonCreator
+    public Inventory(@JsonProperty("items") List<T> items,
+                     @JsonProperty("maxSize") int maxSize) {
+        this.items = (items != null) ? items : new ArrayList<>();
+        this.maxSize = maxSize;
+    }
 
     public Inventory(int maxSize) {
-        this.items = new ArrayList<>();
-        this.maxSize = maxSize;
+        this(new ArrayList<>(), maxSize);
     }
 
     public void addItem(T item) throws InventoryFullException {
@@ -37,7 +43,8 @@ public class Inventory<T extends Item> {
                 .collect(Collectors.toList());
     }
 
-    public List<T> getItems() {
+    @Override
+    public List<T> items() {
         return new ArrayList<>(items);
     }
 
@@ -68,4 +75,8 @@ public class Inventory<T extends Item> {
         return items.size();
     }
 
+    @Override
+    public int maxSize() {
+        return maxSize;
+    }
 }

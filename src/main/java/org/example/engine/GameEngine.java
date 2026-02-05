@@ -531,7 +531,7 @@ public class GameEngine {
                     .map(enemy -> (Monster) enemy)
                     .forEach(monster -> {
                         // Générer le loot (déjà fait dans takeDamage, mais on peut appeler explicitement)
-                        if (monster.getInventory().getItems().isEmpty()) {
+                        if (monster.getInventory().items().isEmpty()) {
                             monster.generateRandomLoot();
                         }
 
@@ -559,7 +559,7 @@ public class GameEngine {
      * @param itemName le nom ou numéro de l'objet à jeter
      */
     private void dropItem(String itemName) {
-        List<Item> items = player.getInventory().getItems();
+        List<Item> items = player.getInventory().items();
 
         if (items.isEmpty()) {
             System.out.println("❌ Votre inventaire est vide.");
@@ -621,7 +621,7 @@ public class GameEngine {
      * @param itemName le nom de l'objet
      */
     private void useItem(String itemName) {
-        List<Item> items = player.getInventory().getItems();
+        List<Item> items = player.getInventory().items();
 
         Optional<Item> itemOpt = items.stream()
                 .filter(item -> item.getName().toLowerCase().contains(itemName.toLowerCase()))

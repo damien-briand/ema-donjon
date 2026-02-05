@@ -64,7 +64,7 @@ public class Goblin extends Monster {
             }
 
             // Garantir au moins 1 item pour les Goblins
-            if (getInventory().getItems().isEmpty() && !possibleLoot.isEmpty()) {
+            if (getInventory().items().isEmpty() && !possibleLoot.isEmpty()) {
                 List<Item> itemList = new ArrayList<>(possibleLoot.keySet());
                 Item guaranteedItem = itemList.get((int) (Math.random() * itemList.size()));
                 addItemToInventory(guaranteedItem);
@@ -77,7 +77,7 @@ public class Goblin extends Monster {
 
     @Override
     public List<Item> getLoot() {
-        List<Item> droppedLoot = new ArrayList<>(getInventory().getItems());
+        List<Item> droppedLoot = new ArrayList<>(getInventory().items());
 
         if (!droppedLoot.isEmpty()) {
             Logger.logInfo("🎁 Butin récupéré de " + name + ": " + droppedLoot.size() + " item(s)");

@@ -1,5 +1,7 @@
 package org.example.model;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import org.example.util.Logger;
 
 public class Player extends Creature {
@@ -11,6 +13,30 @@ public class Player extends Creature {
     private int experienceToNextLevel;
     private static final int USES_FOR_MAX_MANA_INCREASE = 50; // Très lent: tous les 50 usages
     private static final double MAX_MANA_INCREASE_PERCENTAGE = 0.02; // Augmentation de 2% du mana max actuel
+
+    @JsonCreator
+    public Player(@JsonProperty("name") String name,
+                  @JsonProperty("health") int health,
+                  @JsonProperty("maxHealth") int maxHealth,
+                  @JsonProperty("attackPower") int attackPower,
+                  @JsonProperty("defense") int defense,
+                  @JsonProperty("level") int level,
+                  @JsonProperty("mana") Integer mana,
+                  @JsonProperty("maxMana") Integer maxMana,
+                  @JsonProperty("hasMana") boolean hasMana,
+                  @JsonProperty("experience") int experience,
+                  @JsonProperty("experienceToNextLevel") int experienceToNextLevel,
+                  @JsonProperty("manaUsageCount") int manaUsageCount) {
+        super(name, health, attackPower, defense, level);
+        this.maxHealth = maxHealth;
+        this.mana = mana;
+        this.maxMana = maxMana;
+        this.hasMana = hasMana;
+        this.experience = experience;
+        this.experienceToNextLevel = experienceToNextLevel;
+        this.manaUsageCount = manaUsageCount;
+    }
+
 
     public Player(String name, int health, int attackPower, boolean hasMana) { // GUERRIER
         super(name, health, attackPower, 1 , 10);
@@ -165,5 +191,25 @@ public class Player extends Creature {
         int finalDamage = (int) (baseDamage * variation);
 
         return Math.max(1, finalDamage); // Minimum 1 dégât
+    }
+
+    public void setMana(Integer mana) {
+        this.mana = mana;
+    }
+
+    public void setMaxMana(Integer maxMana) {
+        this.maxMana = maxMana;
+    }
+
+    public boolean isHasMana() {
+        return hasMana;
+    }
+
+    public int getManaUsageCount() {
+        return manaUsageCount;
+    }
+
+    public void setManaUsageCount(int manaUsageCount) {
+        this.manaUsageCount = manaUsageCount;
     }
 }

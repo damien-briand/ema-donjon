@@ -61,7 +61,7 @@ public class Skeleton extends Monster {
                 }
             }
 
-            if (getInventory().getItems().isEmpty()) {
+            if (getInventory().items().isEmpty()) {
                 Logger.logInfo("😢 Le butin s'est désintégré...");
             }
         } else {
@@ -71,7 +71,7 @@ public class Skeleton extends Monster {
 
     @Override
     public List<Item> getLoot() {
-        List<Item> droppedLoot = new ArrayList<>(getInventory().getItems());
+        List<Item> droppedLoot = new ArrayList<>(getInventory().items());
 
         if (!droppedLoot.isEmpty()) {
             Logger.logInfo("🎁 Butin récupéré de " + name + ": " + droppedLoot.size() + " item(s)");

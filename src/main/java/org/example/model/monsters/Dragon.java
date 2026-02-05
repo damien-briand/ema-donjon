@@ -64,7 +64,7 @@ public class Dragon extends Monster {
             }
 
             // Garantir au moins 1 item si aucun n'a été ajouté
-            if (getInventory().getItems().isEmpty() && !possibleLoot.isEmpty()) {
+            if (getInventory().items().isEmpty() && !possibleLoot.isEmpty()) {
                 // Sélectionne un item aléatoire parmi les possibles
                 List<Item> itemList = new ArrayList<>(possibleLoot.keySet());
                 Item guaranteedItem = itemList.get((int) (Math.random() * itemList.size()));
@@ -79,7 +79,7 @@ public class Dragon extends Monster {
     @Override
     public List<Item> getLoot() {
         // Récupère tous les items via la méthode getItems() de Inventory
-        List<Item> droppedLoot = new ArrayList<>(getInventory().getItems());
+        List<Item> droppedLoot = new ArrayList<>(getInventory().items());
 
         if (!droppedLoot.isEmpty()) {
             Logger.logInfo("🎁 Butin récupéré de " + name + ": " + droppedLoot.size() + " item(s)");
